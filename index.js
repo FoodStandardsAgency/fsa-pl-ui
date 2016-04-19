@@ -4,11 +4,8 @@ var metalsmith 	= require('metalsmith'),
 	collections = require('metalsmith-collections'),
 	permalinks  = require('metalsmith-permalinks'),
 	Handlebars 	= require('handlebars'),
-	http 		= require('http'),
-	express		= require('express'),
-	app			= express(),
-	fs         	= require('fs'),
-	path 		= require("path");
+	fs         	= require('fs');
+
 
 
 var deletePartialMarkdownFiles = function(files, metalsmith, done) {
@@ -86,9 +83,3 @@ metalsmith(__dirname)
 	.use(deletePartialMarkdownFiles)
 	.destination('./build')
 	.build(function (err) { if(err) console.log(err) });
-
-app.use(express.static('build'));
-
-app.listen(3000, function() {
-	console.log('listening');
-});
