@@ -1,10 +1,14 @@
-var Metalsmith = require('metalsmith'),
-	markdown   = require('metalsmith-markdown'),
-	templates  = require('metalsmith-templates'),
+var metalsmith 	= require('metalsmith'),
+	markdown   	= require('metalsmith-markdown'),
+	templates  	= require('metalsmith-templates'),
 	collections = require('metalsmith-collections'),
 	permalinks  = require('metalsmith-permalinks'),
-	Handlebars = require('handlebars'),
-	fs         = require('fs');
+	Handlebars 	= require('handlebars'),
+	http 		= require('http'),
+	express		= require('express'),
+	app			= express(),
+	fs         	= require('fs'),
+	path 		= require("path");
 
 
 var deletePartialMarkdownFiles = function(files, metalsmith, done) {
@@ -24,6 +28,8 @@ var parseContentForSnippet = function (files, metalsmith, done) {
 	var cleancontents;
 	var snippet;
 	var snippetclean;
+	
+	console.log("Running...");
 
 	Object.keys(files).forEach(function (file) {
 		var type = files[file].type;
@@ -65,7 +71,7 @@ Handlebars.registerPartial('header', fs.readFileSync(__dirname + '/templates/par
 Handlebars.registerPartial('footer', fs.readFileSync(__dirname + '/templates/partials/footer.html').toString());
 Handlebars.registerPartial('listpagebreadcrumb', fs.readFileSync(__dirname + '/templates/partials/listpagebreadcrumb.html').toString());
 
-Metalsmith(__dirname)
+metalsmith(__dirname)
 	.use(parseContentForSnippet)
 	.use(collections({
 		elements: {
@@ -79,4 +85,10 @@ Metalsmith(__dirname)
 	.use(templates('handlebars'))
 	.use(deletePartialMarkdownFiles)
 	.destination('./build')
-	.build(function (err) { if(err) console.log(err) })
+	.build(function (err) { if(err) console.log(err) });
+
+app.use(express.static('build'));
+
+app.listen(3000, function() {
+	console.log('listening');
+});
