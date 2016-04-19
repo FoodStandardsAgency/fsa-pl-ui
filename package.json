@@ -1,9 +1,8 @@
 {
-  "name": "Food Standards Agency Pattern library app",
+  "name": "fsa_app",
   "version": "0.0.1",
   "engines": {
-    "node": "5.6.0",
-    "npm": "3.6.0"
+    "node": "5.6.0"
   },
   "private": true,
   "devDependencies": {
