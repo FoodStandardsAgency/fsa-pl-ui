@@ -9,5 +9,8 @@
     "metalsmith-permalinks": "^0.4.1",
     "metalsmith-templates": "^0.7.0",
     "express": "4.13.4"
+  },
+  "scripts": {
+    "start": "node server"
   }
 }
