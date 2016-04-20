@@ -1,11 +1,8 @@
-var http 		= require('http'),
-    express		= require('express'),
+var express		= require('express'),
     app			= express(),
-    fs         	= require('fs'),
-    path 		= require("path"),
-    port = process.env.PORT || 3000; // set the port
+    port        = process.env.PORT || 3000; // set the port
 
-app.use(express.static('build'));
+app.use(express.static(__dirname + '/build'));
 
 app.listen(port, function() {
     console.log('listening');
