@@ -2,7 +2,9 @@
 title: test
 template: test.html
 type: partial
----
+order: 3
+show-snippet: true 
+------------------
 
 Just testing how are you?
 

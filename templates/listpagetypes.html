@@ -1,0 +1,46 @@
+{{> header}}
+<div class="page-intro background--gallery">
+    <div class="pl-wrap__inner">
+        {{> listpagebreadcrumb}}
+        <h1 class="page-intro__title">{{ title }}</h1>
+        {{{ contents }}}
+    </div>
+</div>
+<div class="pl-wrap">
+    <div class="pl-wrap__inner">
+        <div class="table-of-contents js-sticky-toc padding-bottom-md--3">
+            <h2 class="table-of-contents__title">Table of contents</h2>
+            <ol id="toc" class="table-of-contents__list">
+                {{#each collections.typography}}
+                <li class="table-of-contents__item">
+                    <a href="#{{ slug this.title }}" class="js-scroll">{{ this.title }}</a>
+                </li>
+                {{/each}}
+            </ol>
+        </div>
+        <div class="page-content__main-content pl-page-content__main-content js-sticky-toc__trigger">
+            {{#each collections.typography}}
+            <div class="pl-item js-sticky-toc__section" id="{{ slug this.title }}">
+                <h2>{{ this.title }}</h2>
+                {{{ this.contents }}}
+                {{#if this.show-snippet}}
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--{{collection}}">
+                        <div class="pl-wrapper">
+                            {{{ this.snippet }}}
+                        </div>
+                        {{#if_ne this.title "Links"}}
+                        <button class="pl-btn pl-btn--show-grid btn btn--primary js-show-grid">Show grid</button>
+                        {{/if_ne}}
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">{{ this.snippet }}</code></pre>
+                    </div>
+                </div>
+                {{/if}}
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
+{{> footer}}

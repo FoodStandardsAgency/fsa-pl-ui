@@ -1,6 +1,6 @@
 var metalsmith 	= require('metalsmith'),
 	markdown   	= require('metalsmith-markdown'),
-	templates  	= require('metalsmith-layouts'),
+	templates  	= require('metalsmith-templates'),
 	collections = require('metalsmith-collections'),
 	permalinks  = require('metalsmith-permalinks'),
 	Handlebars 	= require('handlebars'),
@@ -25,8 +25,6 @@ var parseContentForSnippet = function (files, metalsmith, done) {
 	var cleancontents;
 	var snippet;
 	var snippetclean;
-	
-	console.log("Running...");
 
 	Object.keys(files).forEach(function (file) {
 		var type = files[file].type;
@@ -68,15 +66,74 @@ Handlebars.registerPartial('header', fs.readFileSync(__dirname + '/templates/par
 Handlebars.registerPartial('footer', fs.readFileSync(__dirname + '/templates/partials/footer.html').toString());
 Handlebars.registerPartial('listpagebreadcrumb', fs.readFileSync(__dirname + '/templates/partials/listpagebreadcrumb.html').toString());
 
+// helper to slugify strings
+Handlebars.registerHelper('slug', function(content){
+	var spacesToDashes = content.split(' ').join('-').toLowerCase();
+	var removeChars = spacesToDashes.replace(/[^a-zA-Z0-9\- ]/g, "");
+	return removeChars;
+});
+
+// helper to update date, format: 10 Mar 2014
+Handlebars.registerHelper('date', function(){
+	var date = new Date();
+	var day = date.getDate();
+	var month = [];
+	month[0] = "January";
+	month[1] = "February";
+	month[2] = "March";
+	month[3] = "April";
+	month[4] = "May";
+	month[5] = "June";
+	month[6] = "July";
+	month[7] = "August";
+	month[8] = "September";
+	month[9] = "October";
+	month[10] = "November";
+	month[11] = "December";
+	var year = date.getFullYear();
+	var str = day + ' ' + month[date.getMonth()] + ' ' + year;
+	return str;
+});
+
+// if equals helper
+Handlebars.registerHelper('if_eq', function(a, b, opts) {
+	if(a == b)
+		return opts.fn(this);
+	else
+		return opts.inverse(this);
+});
+
+// if not equals helpers
+Handlebars.registerHelper('if_ne', function(a, b, opts) {
+	if (a != b) {
+		return opts.fn(this);
+	}  else {
+		return opts.inverse(this);
+	}
+});
+
 metalsmith(__dirname)
 	.use(parseContentForSnippet)
 	.use(collections({
+		buttons: {
+			pattern: 'buttons/partials/*.md',
+			sortBy: 'order'
+		},
+		colours: {
+			pattern: 'colours/partials/*.md',
+			sortBy: 'order'
+		},
+		components: {
+			pattern: 'components/partials/*.md',
+			sortBy: 'order'
+		},
 		elements: {
 			pattern: 'elements/partials/*.md'
 		},
-		components: {
-			pattern: 'components/partials/*.md'
-		}
+		layout: {
+			pattern: 'layouts/partials/*.md',
+			sortBy: 'order'
+		}	
 	}))
 	.use(markdown())
 	.use(templates('handlebars'))

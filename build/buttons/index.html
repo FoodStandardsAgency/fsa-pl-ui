@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FSA Pattern Library - Buttons</title>
+		<link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
+		<link href="../assets/css/prism.css" rel="stylesheet" type="text/css" />
+		<link href="../assets/css/prismCustom.css" rel="stylesheet" type="text/css" />
+		<link href="../assets/css/pl/main.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body class="pl-listpage">
+		<div class="pl-wrap">
+			<div class="pl-wrap__inner">
+				<!-- <nav>
+					<div class="header col-wrap">
+						<div class="col col--lg-one-third col--md-one-third">
+							<a href="/">
+								<img class="main-logo" src="https://beta.ons.gov.uk/node_modules/ONS-Pattern-Library/dist/img/ons-logo.png" alt="Office for National Statistics">
+							</a>
+						</div>
+					</div>
+				</nav> --><div class="page-intro background--gallery">
+    <div class="pl-wrap__inner">
+        <ol class="breadcrumb__list">
+        	<li class="breadcrumb__item">
+        		<a class="breadcrumb__link" href="/">Home</a>
+        	</li>
+        	<li class="breadcrumb__item">
+        		Buttons
+        	</li>
+        </ol>        <h1 class="page-intro__title">Buttons</h1>
+        <p class="page-intro__content">Buttons can be modified by size and use.</p>
+    </div>
+</div>
+<div class="pl-wrap">
+    <div class="pl-wrap__inner">
+        <div class="table-of-contents js-sticky-toc padding-bottom-md--3">
+            <h2 class="table-of-contents__title">Table of contents</h2>
+            <ol id="toc" class="table-of-contents__list">
+                <li class="table-of-contents__item">
+                    <a href="#primary" class="js-scroll">Primary</a>
+                </li>
+                <li class="table-of-contents__item">
+                    <a href="#secondary" class="js-scroll">Secondary</a>
+                </li>
+                <li class="table-of-contents__item">
+                    <a href="#sizes" class="js-scroll">Sizes</a>
+                </li>
+                <li class="table-of-contents__item">
+                    <a href="#button-groups" class="js-scroll">Button groups</a>
+                </li>
+            </ol>
+        </div>
+        <div class="page-content__main-content pl-page-content__main-content js-sticky-toc__trigger">
+            <div class="pl-item js-sticky-toc__section" id="primary">
+                <h2>Primary</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--buttons">
+                        <div class="pl-wrapper margin-top-md--2">
+                            
+<!-- Primary button -->
+<button class="btn btn--primary">
+    Primary button
+</button>
+
+<!-- Disabled primary button -->
+<button class="btn btn--primary btn--primary-disabled">
+    Primary button (disabled)
+</button>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;!-- Primary button --&gt;
+&lt;button class&#x3D;&quot;btn btn--primary&quot;&gt;
+    Primary button
+&lt;/button&gt;
+
+&lt;!-- Disabled primary button --&gt;
+&lt;button class&#x3D;&quot;btn btn--primary btn--primary-disabled&quot;&gt;
+    Primary button (disabled)
+&lt;/button&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item js-sticky-toc__section" id="secondary">
+                <h2>Secondary</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--buttons">
+                        <div class="pl-wrapper margin-top-md--2">
+                            
+<!-- Secondary button -->
+<button class="btn btn--secondary">
+    Secondary button
+</button>
+
+<!-- Active secondary button -->
+<button class="btn btn--secondary btn--secondary-active">
+    Active secondary button
+</button>
+
+<!-- Disabled secondary button -->
+<button class="btn btn--secondary btn--secondary-disabled">
+    Disabled secondary button
+</button>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;!-- Secondary button --&gt;
+&lt;button class&#x3D;&quot;btn btn--secondary&quot;&gt;
+    Secondary button
+&lt;/button&gt;
+
+&lt;!-- Active secondary button --&gt;
+&lt;button class&#x3D;&quot;btn btn--secondary btn--secondary-active&quot;&gt;
+    Active secondary button
+&lt;/button&gt;
+
+&lt;!-- Disabled secondary button --&gt;
+&lt;button class&#x3D;&quot;btn btn--secondary btn--secondary-disabled&quot;&gt;
+    Disabled secondary button
+&lt;/button&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item js-sticky-toc__section" id="sizes">
+                <h2>Sizes</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--buttons">
+                        <div class="pl-wrapper margin-top-md--2">
+                            
+<!-- Small -->
+<button class="btn btn--primary btn--small">
+    Small button
+</button>
+
+<!-- Thick -->
+<button class="btn btn--primary btn--thick">
+    Thick button
+</button>
+
+<!-- Thin -->
+<button class="btn btn--primary btn--thin">
+    Thin button
+</button>
+
+<!-- Narrow -->
+<button class="btn btn--primary btn--narrow">
+    Narrow button
+</button>
+
+<!-- Wide -->
+<button class="btn btn--primary btn--wide">
+    Wide button
+</button>
+
+<!--Added for tidying up-->
+</br>
+</br>
+<!--End of tidying up-->
+
+<!-- Custom width using utility width class -->
+<button class="btn btn--primary width--11">
+    Custom width button
+</button>
+
+<!--Added for tidying up-->
+</br>
+</br>
+<!--End of tidying up-->
+
+<!-- Full width -->
+<button class="btn btn--primary btn--full-width">
+    Full width button
+</button>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;!-- Small --&gt;
+&lt;button class&#x3D;&quot;btn btn--primary btn--small&quot;&gt;
+    Small button
+&lt;/button&gt;
+
+&lt;!-- Thick --&gt;
+&lt;button class&#x3D;&quot;btn btn--primary btn--thick&quot;&gt;
+    Thick button
+&lt;/button&gt;
+
+&lt;!-- Thin --&gt;
+&lt;button class&#x3D;&quot;btn btn--primary btn--thin&quot;&gt;
+    Thin button
+&lt;/button&gt;
+
+&lt;!-- Narrow --&gt;
+&lt;button class&#x3D;&quot;btn btn--primary btn--narrow&quot;&gt;
+    Narrow button
+&lt;/button&gt;
+
+&lt;!-- Wide --&gt;
+&lt;button class&#x3D;&quot;btn btn--primary btn--wide&quot;&gt;
+    Wide button
+&lt;/button&gt;
+
+&lt;!--Added for tidying up--&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;!--End of tidying up--&gt;
+
+&lt;!-- Custom width using utility width class --&gt;
+&lt;button class&#x3D;&quot;btn btn--primary width--11&quot;&gt;
+    Custom width button
+&lt;/button&gt;
+
+&lt;!--Added for tidying up--&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;!--End of tidying up--&gt;
+
+&lt;!-- Full width --&gt;
+&lt;button class&#x3D;&quot;btn btn--primary btn--full-width&quot;&gt;
+    Full width button
+&lt;/button&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item js-sticky-toc__section" id="button-groups">
+                <h2>Button groups</h2>
+                <p>Any buttons in a button group will float left and be separated by a 1px border.</p>
+
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--buttons">
+                        <div class="pl-wrapper margin-top-md--2">
+                            
+<!-- Primary buttons -->
+<div class="btn-group">
+    <button class="btn btn--primary">
+        Monthly
+    </button>
+    <button class="btn btn--primary">
+        Quarterly
+    </button>
+    <button class="btn btn--primary">
+        Yearly
+    </button>
+</div>
+
+<!--Added for tidying up-->
+</br>
+<!--End of tidying up-->
+
+<!-- Small thin buttons -->
+<div class="btn-group">
+    <button class="btn btn--primary btn--small btn--thin">
+        5 years
+    </button>
+    <button class="btn btn--primary btn--small btn--thin">
+        10 years
+    </button>
+    <button class="btn btn--primary btn--small btn--thin">
+        15 years
+    </button>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;!-- Primary buttons --&gt;
+&lt;div class&#x3D;&quot;btn-group&quot;&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary&quot;&gt;
+        Monthly
+    &lt;/button&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary&quot;&gt;
+        Quarterly
+    &lt;/button&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary&quot;&gt;
+        Yearly
+    &lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!--Added for tidying up--&gt;
+&lt;/br&gt;
+&lt;!--End of tidying up--&gt;
+
+&lt;!-- Small thin buttons --&gt;
+&lt;div class&#x3D;&quot;btn-group&quot;&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary btn--small btn--thin&quot;&gt;
+        5 years
+    &lt;/button&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary btn--small btn--thin&quot;&gt;
+        10 years
+    &lt;/button&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary btn--small btn--thin&quot;&gt;
+        15 years
+    &lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../assets/js/prism.js"></script>
+		<!--<script type="text/javascript" src="https://beta.ons.gov.uk/node_modules/sixteens/dist/js/main.js"></script>-->
+		<!--<script type="text/javascript" src="../assets/js/jquery.js"></script>-->
+		<script type="text/javascript" src="../assets/js/main.js"></script>
+  </body>
+</html>

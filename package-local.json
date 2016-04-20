@@ -1,0 +1,14 @@
+{
+  "name": "fsa_app",
+  "version": "0.0.1",
+  "engines": {
+    "node": "5.6.0"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "4.13.4"
+  },
+  "scripts": {
+    "start": "npm install express --save --save-exact"
+  }
+}

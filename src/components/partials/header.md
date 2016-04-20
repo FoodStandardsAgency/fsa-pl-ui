@@ -2,7 +2,9 @@
 title: Header
 template: test.html
 type: partial
----
+order: 1
+show-snippet: true
+------------------
 [snippet]
 <nav>
 	<div class="wrapper">
