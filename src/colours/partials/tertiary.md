@@ -40,4 +40,4 @@ order: 3
             <p class="text-center margin-top-sm--1 margin-top-md--1">$light-blue <br/>#8DC8E8</p>
         </div>
     </div>
-</div>>
+</div>
