@@ -9,20 +9,19 @@
 <style>
     body{
         margin: 0;
+        padding-top: 0;
         height: 3400px;
     }
     .container {
         width: 1275px;
         margin-left: auto;
         margin-right: auto;
+
         padding: 0;
     }
 
     .menu-hidden {
         visibility: hidden;
-        /*top: 460px;*/
-        top: -160px;
-        height: 1px;
     }
 
     #first-anchor, #second-anchor, #third-anchor {
@@ -30,7 +29,7 @@
     }
 
     #first-anchor {
-        top: 480px;
+        top: 460px;
     }
 
     #second-anchor {
@@ -76,7 +75,7 @@
     </div>
 </nav>
 
-<main class="container">
+<main class="container" style="margin-top: -180px;">
     <img src="../assets/img/fsa-static-img--campaign--body-cs.png" alt="body" usemap="#body">
     <map name="body">
       <area shape="rect" coords="51,4489,234,4713" href="Static-news.html">
@@ -107,16 +106,16 @@
 </div>
 <script>
     /*! Main */
-    jQuery(document).ready(function ($) {
+    $(window).load(function() {
 
         var navbar = $('#navbar-main'),
                 distance = navbar.offset().top,
                 $window = $(window);
 
         $window.scroll(function () {
-            if ($window.scrollTop() >= distance) {
-                navbar.removeClass('navbar-fixed-top menu-hidden').addClass('navbar-fixed-top');
-                $("body").css("padding-top", "0px");
+            if ($window.scrollTop() > (distance -180)) {
+                navbar.removeClass('menu-hidden').addClass('navbar-fixed-top');
+                $("body").css("padding-top", "160px");
             } else {
                 navbar.removeClass('navbar-fixed-top').addClass('menu-hidden');
                 $("body").css("padding-top", "0px");
