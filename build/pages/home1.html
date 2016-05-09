@@ -7,6 +7,7 @@
     <title>FSA home 1</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://fsa-pl.herokuapp.com/dist/css/main.css">
+    <!--<link rel="stylesheet" href="../assets/css/pl/main.css">-->
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -33,87 +34,82 @@
         border-top: 2px dotted #53565A;
         margin-bottom: 40px;
     }
+
+    .wrapper {
+        max-width: 1275px;
+    }
 </style>
 <!--logo-->
-<nav>
-    <div class="wrapper">
-        <div class="header col-wrap">
-            <div class="col col--lg-5">
-                <a href="#">
-                    <img class="main-logo" src="http://www.food.gov.uk/sites/all/themes/site_frontend/logo.png"
-                         alt="FSA" style="background-color: #3b5219">
-                </a>
-            </div>
-            <nav class="secondary-nav col col--lg-10">
-                <ul class="secondary-nav__list">
-                    <li class="secondary-nav__item">
-                        <a class="secondary-nav__link" href="#">Search (?)</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</nav>
-
-<!--menu-->
 <div class="wrapper">
-    <nav class="primary-nav">
-        <ul class="primary-nav__list">
-            <li class="primary-nav__item col col--lg-3"><a class="primary-nav__link" href="#">News &
-                Updates</a></li>
-            <li class="primary-nav__item col col--lg-3">
-                <a class="primary-nav__link" href="#" aria-haspopup="true">Business &
-                    Industry</a>
-            </li>
-            <li class="primary-nav__item col col--lg-3">
-                <a class="primary-nav__link" href="#" aria-haspopup="true">Enforcement &
-                    Regulation</a>
-            </li>
-            <li class="primary-nav__item col col--lg-3">
-                <a class="primary-nav__link" href="#" aria-haspopup="true">Science & Policy</a>
-            </li>
-            <li class="primary-nav__item col col--lg-3">
-                <a class="primary-nav__link" href="#" aria-haspopup="true">About us</a>
-            </li>
-        </ul>
+    <nav class="header wrapper col-wrap">
+        <div class="col col--fluid-5">
+            <a href="#">
+                <img class="main-logo" src="http://www.food.gov.uk/sites/all/themes/site_frontend/logo.png"
+                     alt="FSA" style="background-color: #3b5219">
+            </a>
+        </div>
+        <nav class="secondary-nav col col--fluid-10">
+            <ul class="secondary-nav__list">
+                <li class="secondary-nav__item">
+                    <a class="secondary-nav__link" href="#">Search (?)</a>
+                </li>
+            </ul>
+        </nav>
     </nav>
+    <div class="wrapper">
+        <nav class="wrapper col-wrap primary-nav">
+            <ul class="primary-nav__list col--fluid-15">
+                <li class="primary-nav__item col col--fluid-3"><a class="primary-nav__link" href="#">News &
+                    Updates</a></li>
+                <li class="primary-nav__item col col--fluid-3">
+                    <a class="primary-nav__link" href="#" aria-haspopup="true">Business &
+                        Industry</a>
+                </li>
+                <li class="primary-nav__item col col--fluid-3">
+                    <a class="primary-nav__link" href="#" aria-haspopup="true">Enforcement &
+                        Regulation</a>
+                </li>
+                <li class="primary-nav__item col col--fluid-3">
+                    <a class="primary-nav__link" href="#" aria-haspopup="true">Science & Policy</a>
+                </li>
+                <li class="primary-nav__item col col--fluid-3">
+                    <a class="primary-nav__link" href="#" aria-haspopup="true">About us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </div>
 
 <!--jumbotron-->
+<div style="max-width: 1275px; margin: 0 auto">
+    <img src="../assets/img/fsa-home-main.png" class="img-responsive">
+</div>
 <div class="wrapper">
-    <div class="col col--lg-15">
-        <img src="../assets/img/fsa-home-main.png" class="img-responsive">
-    </div>
     <hr>
-
-    <!--3 col div-->
+</div>
+<!--3 col div-->
+<div class="wrapper">
     <div class="wrapper padding-top--3">
         <div class="col-wrap">
-            <div class="col col--lg-5 home-campaign-tile home-campaign-tile--img-first">
+            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first">
                 <article>
                     <img src="../assets/img/fsa-home-1of3.jpg" class="img-responsive">
-                    <h2 style="margin-top: 16px;">Allergy</h2>
-                    <footer>
-                        <p>Share me</p>
-                    </footer>
+                    <h2 style="margin-top: 16px;">Allergy<span
+                            style="font-size:14px; padding-left: 60px;">Share me!</span></h2>
                 </article>
             </div>
-            <div class="col col--lg-5 home-campaign-tile home-campaign-tile--img-first">
+            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first">
                 <article>
                     <img src="../assets/img/fsa-home-2of3.jpg" class="img-responsive">
-                    <h2 style="margin-top: 16px;">Our Food Future</h2>
-                    <footer>
-                        <p>Share me</p>
-                    </footer>
+                    <h2 style="margin-top: 16px;">Our Food Future<span style="font-size:14px; padding-left: 60px;">Share me!</span>
+                    </h2>
                 </article>
             </div>
-            <div class="col col--lg-5 home-campaign-tile home-campaign-tile--img-first">
+            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first">
                 <article>
                     <img src="../assets/img/fsa-home-3of3.jpg" class="img-responsive">
-                    <h2 style="margin-top: 16px;">Food hygiene for businesses</h2>
-                    <footer>
-                        <p>Share me</p>
-                    </footer>
+                    <h2 style="margin-top: 16px;">Food hygiene for businesses<span
+                            style="font-size:14px; padding-left: 10px;">Share me!</span></h2>
                 </article>
             </div>
         </div>
@@ -121,12 +117,12 @@
     <hr>
 
     <!--5 col div - News & Alerts-->
-    <div class="wrapper margin-top-lg--3">
+    <div class="wrapper">
         <div class="col-wrap">
-            <div class="col col--lg-3 home-news-tile home-news-tile--img-first">
+            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first">
                 <h1 class="margin-top--0">Latest news & alerts</h1>
             </div>
-            <div class="col col--lg-3 home-news-tile home-news-tile--img-first">
+            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first">
                 <article>
                     <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
                     <h6 style="color: #F15D22">News</h6>
@@ -138,7 +134,7 @@
                     </footer>
                 </article>
             </div>
-            <div class="col col--lg-3 home-news-tile home-news-tile--img-first">
+            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first">
                 <article>
                     <img src="../assets/img/allergyallert.png" alt="" class="img-responsive">
                     <h6 style="color: #F15D22">Allergy Alert</h6>
@@ -150,7 +146,7 @@
                     </footer>
                 </article>
             </div>
-            <div class="col col--lg-3 home-news-tile home-news-tile--img-first">
+            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first">
                 <article>
                     <img src="../assets/img/productrecall.png" alt="" class="img-responsive">
                     <h6 style="color: #F15D22">Product recall</h6>
@@ -162,7 +158,7 @@
                     </footer>
                 </article>
             </div>
-            <div class="col col--lg-3 home-news-tile home-news-tile--img-first">
+            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first">
                 <article>
                     <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
                     <h6 style="color: #F15D22">News</h6>
@@ -170,9 +166,8 @@
                         <h3>Quarter of people with food allergies suffer reactions when eating out</h3>
                     </a>
                     <footer>
-                        <p>28 April 2016</p>
+                        <p>28 April 2016 <span style="padding-left: 60px;">Share me!</span></p>
                     </footer>
-                    <p>Share me!</p>
                 </article>
             </div>
         </div>
@@ -180,9 +175,9 @@
     <hr>
 
     <!--footer menu-->
-    <div class="wrapper background--light-grey margin-top-lg--5">
+    <div class="wrapper background--light-grey">
         <div class="col-wrap">
-            <div class="col col--lg-3 margin-top-lg--4"><h2 style="color: #F15D22">News & Updates</h2>
+            <div class="col col--fluid-3 margin-top-lg--4"><h2 style="color: #F15D22">News & Updates</h2>
                 <ul style="padding-left: 0">
                     <li class="primary-nav__list">Some random text here</li>
                     <li class="primary-nav__list">Some random text here</li>
@@ -190,7 +185,7 @@
                     <li class="primary-nav__list">Some random text here</li>
                 </ul>
             </div>
-            <div class="col col--lg-3 margin-top-lg--4"><h2 style="color: #F15D22">Understanding allergies</h2>
+            <div class="col col--fluid-3 margin-top-lg--4"><h2 style="color: #F15D22">Understanding allergies</h2>
                 <ul style="padding-left: 0">
                     <li class="primary-nav__list">Some random text</li>
                     <li class="primary-nav__list">Some random text</li>
@@ -200,7 +195,7 @@
                     <li class="primary-nav__list">Some random text</li>
                 </ul>
             </div>
-            <div class="col col--lg-3 margin-top-lg--4">
+            <div class="col col--fluid-3 margin-top-lg--4">
                 <h2 style="color: #F15D22">Safer food Better business</h2>
                 <ul style="padding-left: 0">
                     <li class="primary-nav__list">Some random text here</li>
@@ -209,7 +204,7 @@
                     <li class="primary-nav__list">Some random text here</li>
                 </ul>
             </div>
-            <div class="col col--lg-3 margin-top-lg--4">
+            <div class="col col--fluid-3 margin-top-lg--4">
                 <h2 style="color: #F15D22">Safer food Better business</h2>
                 <ul style="padding-left: 0">
                     <li class="primary-nav__list">Some random text here</li>
@@ -219,7 +214,7 @@
                     <li class="primary-nav__list">Some random text here</li>
                 </ul>
             </div>
-            <div class="col col--lg-3 margin-top-lg--4">
+            <div class="col col--fluid-3 margin-top-lg--4">
                 <h2 style="color: #F15D22">Safer food Better business</h2>
                 <ul style="padding-left: 0">
                     <li class="primary-nav__list">Some random text here</li>
@@ -231,7 +226,7 @@
                 </ul>
             </div>
             <!--footer-->
-            <div class="col col--lg-offset-1 col--lg-13 background--white" style="margin-bottom: 0;">
+            <div class="col col--fluid-offset-1 col--fluid-13 background--white" style="margin-bottom: 0;">
                 <button class="btn btn--secondary btn--thick margin-top--double margin-left" style="color: #53565A">
                     Sign up for news and alerts
                 </button>
@@ -242,27 +237,27 @@
                 <div class="margin-top margin-left--2" style="color: #303030; display: inline;">
                     Follow us on social media ( social media logos )
                 </div>
-                <nav class="secondary-nav col col--lg-13">
+                <nav class="secondary-nav">
                     <ul class="primary-nav__list" style="margin: 0 10px;">
-                        <li class="primary-nav__list" style="display: inline; margin: 0 5px"><a>Copyright</a></li>
-                        <li class="primary-nav__list" style="display: inline; margin: 0 5px"><a>Get Alerts</a></li>
-                        <li class="primary-nav__list" style="display: inline; margin: 0 5px"><a>Help</a></li>
-                        <li class="primary-nav__list" style="display: inline; margin: 0 5px"><a>Site Map</a></li>
-                        <li class="primary-nav__list" style="display: inline; margin: 0 5px"><a>Accesibility</a></li>
-                        <li class="primary-nav__list" style="display: inline; margin: 0 5px"><a>Complaints and
+                        <li class="primary-nav__list" style="display: inline; margin: 0 2px"><a>Copyright</a></li>
+                        <li class="primary-nav__list" style="display: inline; margin: 0 2px"><a>Get Alerts</a></li>
+                        <li class="primary-nav__list" style="display: inline; margin: 0 2px"><a>Help</a></li>
+                        <li class="primary-nav__list" style="display: inline; margin: 0 2px"><a>Site Map</a></li>
+                        <li class="primary-nav__list" style="display: inline; margin: 0 2px"><a>Accesibility</a></li>
+                        <li class="primary-nav__list" style="display: inline; margin: 0 2px"><a>Complaints and
                             Comments</a></li>
-                        <li class="primary-nav__list" style="display: inline; margin: 0 5px"><a>Feedback</a></li>
-                        <li class="primary-nav__list" style="display: inline; margin: 0 5px"><a>Freedom of
+                        <li class="primary-nav__list" style="display: inline; margin: 0 2px"><a>Feedback</a></li>
+                        <li class="primary-nav__list" style="display: inline; margin: 0 2px"><a>Freedom of
                             information</a></li>
-                        <li class="primary-nav__list" style="display: inline; margin: 0 5px"><a>Privacy</a></li>
-                        <li class="primary-nav__list" style="display: inline; margin: 0 5px"><a>Cookies</a></li>
-                        <li class="primary-nav__list" style="display: inline; margin: 0 5px"><a>Terms and conditions</a>
+                        <li class="primary-nav__list" style="display: inline; margin: 0 2px"><a>Privacy</a></li>
+                        <li class="primary-nav__list" style="display: inline; margin: 0 2px"><a>Cookies</a></li>
+                        <li class="primary-nav__list" style="display: inline; margin: 0 2px"><a>Terms and conditions</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
     </div>
-
+</div>
 </body>
 </html>
