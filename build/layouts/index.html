@@ -48,6 +48,9 @@
                 <li class="table-of-contents__item">
                     <a href="#column-offset" class="js-scroll">Column offset</a>
                 </li>
+                <li class="table-of-contents__item">
+                    <a href="#fluid-grid" class="js-scroll">Fluid grid</a>
+                </li>
             </ol>
         </div>
         <div class="page-content__main-content pl-page-content__main-content js-sticky-toc__trigger">
@@ -421,6 +424,168 @@
         &lt;/div&gt;
         &lt;div class&#x3D;&quot;col col--lg-offset-1 col--lg-6&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
             &lt;p&gt;1 offset, 6 columns&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item js-sticky-toc__section" id="fluid-grid">
+                <h2>Fluid grid</h2>
+                <p>To make detailed layouts you can use the full 15 columns individually (or 12 columns on tablet). A column is 45px wide and should use a column wrap to group the columns into a row.</p>
+
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--layout">
+                        <div class="pl-wrapper">
+                            
+<div class="wrapper">
+
+    <!-- Complex grid -->
+    <div class="col-wrap">
+        <div class="col col--fluid-8">
+            <p style="background-color: grey">8 columns</p>
+        </div>
+        <div class="col col--fluid-7">
+            <p style="background-color: grey">7 columns</p>
+        </div>
+    </div>
+    <div class="col-wrap">
+        <div class="col col--fluid-9">
+            <p style="background-color: grey">9 columns</p>
+        </div>
+        <div class="col col--fluid-6">
+            <p style="background-color: grey">6 columns</p>
+        </div>
+    </div>
+    <div class="col-wrap">
+        <div class="col col--fluid-10">
+            <p style="background-color: grey">10 columns</p>
+        </div>
+        <div class="col col--fluid-5">
+            <p style="background-color: grey">5 columns</p>
+        </div>
+    </div>
+    <div class="col-wrap">
+        <div class="col col--fluid-11">
+            <p style="background-color: grey">11 columns</p>
+        </div>
+        <div class="col col--fluid-4">
+            <p style="background-color: grey">4 columns</p>
+        </div>
+    </div>
+    <div class="col-wrap">
+        <div class="col col--fluid-12">
+            <p style="background-color: grey">12 columns</p>
+        </div>
+        <div class="col col--fluid-3">
+            <p style="background-color: grey">3 columns</p>
+        </div>
+    </div>
+    <div class="col-wrap">
+        <div class="col col--fluid-13">
+            <p style="background-color: grey">13 columns</p>
+        </div>
+        <div class="col col--fluid-2">
+            <p style="background-color: grey">2 columns</p>
+        </div>
+    </div>
+    <div class="col-wrap">
+        <div class="col col--fluid-14">
+            <p style="background-color: grey">14 columns</p>
+        </div>
+        <div class="col col--fluid-1">
+            <p style="background-color: grey">1 col</p>
+        </div>
+    </div>
+    <div class="col-wrap">
+        <div class="col col--fluid-7">
+            <p style="background-color: grey">7 columns</p>
+        </div>
+        <div class="col col--fluid-1">
+            <p style="background-color: grey">1 col</p>
+        </div>
+        <div class="col col--fluid-7">
+            <p style="background-color: grey">7 columns</p>
+        </div>
+    </div>
+
+</div>
+
+                        </div>
+                        <button class="pl-btn pl-btn--show-grid btn btn--primary js-show-grid">Show grid</button>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;div class&#x3D;&quot;wrapper&quot;&gt;
+
+    &lt;!-- Complex grid --&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-8&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;8 columns&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-7&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;7 columns&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-9&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;9 columns&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-6&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;6 columns&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-10&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;10 columns&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-5&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;5 columns&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-11&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;11 columns&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-4&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;4 columns&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-12&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;12 columns&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-3&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;3 columns&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-13&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;13 columns&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-2&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;2 columns&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-14&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;14 columns&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-1&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;1 col&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-7&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;7 columns&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-1&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;1 col&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-7&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;7 columns&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
