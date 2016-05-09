@@ -6,8 +6,8 @@
 
     <title>FSA home 1</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-    <!--<link rel="stylesheet" href="https://fsa-pl.herokuapp.com/dist/css/main.css">-->
-    <link rel="stylesheet" href="../assets/css/pl/main.css">
+    <link rel="stylesheet" href="https://fsa-pl.herokuapp.com/dist/css/main.css">
+    <!--<link rel="stylesheet" href="../assets/css/pl/main.css">-->
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -37,6 +37,25 @@
 
     .wrapper {
         max-width: 1275px;
+    }
+
+    .footer-tile {
+        height: 272px;
+        margin-bottom: 40px;
+    }
+
+    .footer-tile:before {
+         content: "";
+         position: absolute;
+         top: 40px;
+         bottom: 0;
+         right: 0;
+         border-right: 2px dotted #53565A;
+    }
+
+    .footer-tile:last-of-type:before {
+        content: "";
+        border-right: 0;
     }
 </style>
 <!--logo-->
@@ -89,23 +108,23 @@
 </div>
 <!--3 col div-->
 <div class="wrapper">
-    <div class="wrapper padding-top--3">
+    <div class="wrapper">
         <div class="col-wrap">
-            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first">
+            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-home-1of3.jpg" class="img-responsive">
                     <h2 style="margin-top: 16px;">Allergy<span
                             style="font-size:14px; padding-left: 60px;">Share me!</span></h2>
                 </article>
             </div>
-            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first">
+            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-home-2of3.jpg" class="img-responsive">
                     <h2 style="margin-top: 16px;">Our Food Future<span style="font-size:14px; padding-left: 60px;">Share me!</span>
                     </h2>
                 </article>
             </div>
-            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first">
+            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-home-3of3.jpg" class="img-responsive">
                     <h2 style="margin-top: 16px;">Food hygiene for businesses<span
@@ -122,7 +141,7 @@
             <div class="col col--fluid-3 home-news-tile home-news-tile--img-first">
                 <h1 class="margin-top--0">Latest news & alerts</h1>
             </div>
-            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first">
+            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
                     <h6 style="color: #F15D22">News</h6>
@@ -134,7 +153,7 @@
                     </footer>
                 </article>
             </div>
-            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first">
+            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/allergyallert.png" alt="" class="img-responsive">
                     <h6 style="color: #F15D22">Allergy Alert</h6>
@@ -146,7 +165,7 @@
                     </footer>
                 </article>
             </div>
-            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first">
+            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/productrecall.png" alt="" class="img-responsive">
                     <h6 style="color: #F15D22">Product recall</h6>
@@ -158,7 +177,7 @@
                     </footer>
                 </article>
             </div>
-            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first">
+            <div class="col col--fluid-3 home-news-tile home-news-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
                     <h6 style="color: #F15D22">News</h6>
@@ -177,7 +196,7 @@
     <!--footer menu-->
     <div class="wrapper background--light-grey">
         <div class="col-wrap">
-            <div class="col col--fluid-3 margin-top-lg--4"><h2 style="color: #F15D22">News & Updates</h2>
+            <div class="col col--fluid-3 margin-top-lg--4 footer-tile"><h2 style="color: #F15D22">News & Updates</h2>
                 <ul style="padding-left: 0">
                     <li class="primary-nav__list">Some random text here</li>
                     <li class="primary-nav__list">Some random text here</li>
@@ -185,7 +204,7 @@
                     <li class="primary-nav__list">Some random text here</li>
                 </ul>
             </div>
-            <div class="col col--fluid-3 margin-top-lg--4"><h2 style="color: #F15D22">Understanding allergies</h2>
+            <div class="col col--fluid-3 margin-top-lg--4 footer-tile"><h2 style="color: #F15D22">Understanding allergies</h2>
                 <ul style="padding-left: 0">
                     <li class="primary-nav__list">Some random text</li>
                     <li class="primary-nav__list">Some random text</li>
@@ -195,7 +214,7 @@
                     <li class="primary-nav__list">Some random text</li>
                 </ul>
             </div>
-            <div class="col col--fluid-3 margin-top-lg--4">
+            <div class="col col--fluid-3 margin-top-lg--4 footer-tile">
                 <h2 style="color: #F15D22">Safer food Better business</h2>
                 <ul style="padding-left: 0">
                     <li class="primary-nav__list">Some random text here</li>
@@ -204,7 +223,7 @@
                     <li class="primary-nav__list">Some random text here</li>
                 </ul>
             </div>
-            <div class="col col--fluid-3 margin-top-lg--4">
+            <div class="col col--fluid-3 margin-top-lg--4 footer-tile">
                 <h2 style="color: #F15D22">Safer food Better business</h2>
                 <ul style="padding-left: 0">
                     <li class="primary-nav__list">Some random text here</li>
@@ -214,7 +233,7 @@
                     <li class="primary-nav__list">Some random text here</li>
                 </ul>
             </div>
-            <div class="col col--fluid-3 margin-top-lg--4">
+            <div class="col col--fluid-3 margin-top-lg--4 footer-tile">
                 <h2 style="color: #F15D22">Safer food Better business</h2>
                 <ul style="padding-left: 0">
                     <li class="primary-nav__list">Some random text here</li>
