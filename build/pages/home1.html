@@ -30,6 +30,17 @@
         height: auto;
     }
 
+    .pdf-separator-dotted {
+        border: 4px dotted #97999B;
+        border-image-source: url('../assets/img/dots.svg');
+        border-image-slice: 25% 25%;
+        border-image-repeat: round;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        margin:20px 0;
+    }
+
     hr {
         border-top: 2px dotted #53565A;
         margin:20px 0;
@@ -65,7 +76,9 @@
 <!--horizontal separator-->
 <div class="wrapper" style="background-color: #F2F2F2">
     <div class="col-wrap" style="background-color: white">
-        <hr>
+        <div class="col col--fluid-15">
+            <div class="separator-dotted"></div>
+        </div>
     </div>
 </div>
 <!--3 col div-->
@@ -99,7 +112,9 @@
 <!--horizontal separator-->
 <div class="wrapper" style="background-color: #F2F2F2">
     <div class="col-wrap" style="background-color: white">
-        <hr>
+        <div class="col col--fluid-15">
+            <div class="separator-dotted"></div>
+        </div>
     </div>
 </div>
 
@@ -162,7 +177,9 @@
 <!--horizontal separator-->
 <div class="wrapper" style="background-color: #F2F2F2">
     <div class="col-wrap" style="background-color: white">
-        <hr>
+        <div class="col col--fluid-15">
+            <div class="separator-dotted"></div>
+        </div>
     </div>
 </div>
 </div>

@@ -28,8 +28,14 @@
         height: auto;
     }
 
-    hr {
-        border-top: 2px dotted #53565A;
+    .separator-dotted {
+        border: 4px dotted #97999B;
+        border-image-source: url('../assets/img/dots.svg');
+        border-image-slice: 25% 25%;
+        border-image-repeat: round;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
         margin:20px 0;
     }
 
@@ -159,7 +165,9 @@
 </div>
 <div class="wrapper" style="background-color: #E8E8E8">
     <div class="col-wrap" style="background-color: #F4F4F4">
-        <hr>
+        <div class="col col--fluid-15">
+            <div class="separator-dotted"></div>
+        </div>
     </div>
 </div>
 <div class="wrapper" style="background-color: #F4F4F4">
@@ -182,7 +190,9 @@
 <!--horizontal separator-->
 <div class="wrapper" style="background-color: #F2F2F2">
     <div class="col-wrap" style="background-color: white">
-        <hr>
+        <div class="col col--fluid-15">
+            <div class="separator-dotted"></div>
+        </div>
     </div>
 </div>
 <div class="wrapper" style="background-color: #F4F4F4">

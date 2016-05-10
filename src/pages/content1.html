@@ -31,33 +31,23 @@
         height: auto;
     }
 
-    blockquote:before {
-        content: "..........................................................................................................";
-        letter-spacing: 6px;
-        font-size: 30px;
-        color: #53565A;
-        display: block;
-        vertical-align: 3px;
-        position: relative;
-        top: -14px;
-    }
-
-    blockquote:after {
-        content: "..........................................................................................................";
-        letter-spacing: 6px;
-        font-size: 30px;
-        color: #53565A;
-        display: inline-block;
-        vertical-align: 3px;
-        position: relative;
-        top: 18px;
+    .pdf-separator-dotted {
+        border: 7px dotted #97999B;
+        border-image-source: url('../assets/img/dots.svg');
+        border-image-slice: 30%;
+        border-image-repeat: round;
+        border-left: 0;
+        border-right: 0;
+        height: 86%;
+        margin: 0 0 0 20px;
+        padding-top: 16px;
     }
 
     blockquote.style-pdf {
         padding-left: 70px;
         /*padding-top: 24px;*/
-        padding-bottom: 5px;
-        margin: -8px;
+        /*padding-bottom: 5px;*/
+        margin: 0;
         height: 104px;
         background-image: url(../assets/img/pdf.png);
         background-repeat: no-repeat;
@@ -70,31 +60,40 @@
         display: block;
     }
 </style>
-
-<!--intro-->
-<div class="wrapper" style="background-color: #9e187e">
-    <div class="col-wrap" style="background-color: white">
-        <div class="col col--fluid-3">
-            <a href="#">Home > News and updates > Food allergy and intolerance</a>
-            <p>28/04/2016</p>
-            <p>Share this</p>
-        </div>
-        <div class="col col--fluid-10">
-            <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
+<!--title-->
+<div class="wrapper" style="background-color: #8E1672">
+    <div class="background--white">
+        <div class="col-wrap">
+            <div class="col col--fluid-offset-3 col--fluid-8">
+                <h1>Quarter of people with food allergies suffer reactions when eating out
+                </h1>
+            </div>
         </div>
     </div>
 </div>
-
 <!--explanation-->
 <div class="wrapper" style="background-color: #8E1672">
     <div class="background--light-grey">
         <div class="col-wrap">
-            <div class="col col--fluid-offset-3 col--fluid-8 ">
+            <div class="col col--fluid-offset-3 col--fluid-8">
                 <h3>A survey by the FSA and Allergy UK has shown there have been improvements for those with allergies
                     since
                     new labelling rules came in, but more needs to be done.
                 </h3>
             </div>
+        </div>
+    </div>
+</div>
+<!--intro-->
+<div class="wrapper" style="background-color: #9e187e">
+    <div class="col-wrap" style="background-color: white">
+        <div class="col col--fluid-3" style="margin-top: 40px;">
+            <a href="#">Home > News and updates > Food allergy and intolerance</a>
+            <p>28/04/2016</p>
+            <p>Share this</p>
+        </div>
+        <div class="col col--fluid-10" style="margin-top: 40px;">
+            <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
         </div>
     </div>
 </div>
@@ -149,7 +148,8 @@
 <div class="wrapper" style="background-color: #E1A600">
     <div class="col-wrap" style="background-color: #F2F2F2">
         <div class="col col--fluid-offset-3 col--fluid-8">
-            <h1>'Allergies can be fatal, and this is why it is vital food businesses give their customers information they can'</h1>
+            <h1>'Allergies can be fatal, and this is why it is vital food businesses give their customers information
+                they can'</h1>
         </div>
     </div>
 </div>
@@ -185,10 +185,23 @@
                 be found on menus or in additional leaflets.
             </p>
             <blockquote class="style-pdf">
-                <div><a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating out
-                    with a food allergy </a>(376.58 KB)
+                <div class="pdf-separator-dotted">
+                    <a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating out
+                        with a food allergy </a>(376.58 KB)
                 </div>
+
+
             </blockquote>
+            <p>Last updated: 28 April 2016<span style="padding-left: 80px;">Share this (icons)</span></p>
+            <div style="background-color: #F2F2F2; padding: 16px; margin-bottom: 40px;">
+                <button class="btn btn--secondary btn--thick" style="color: #53565A; background-color: white">
+                    Sign up for news and alerts
+                </button>
+                <button class="btn btn--secondary btn--thick"
+                        style="background-color: #F15D22">
+                    Subscribe now
+                </button>
+            </div>
         </div>
     </div>
 </div>
@@ -227,10 +240,12 @@
             </div>
             <div class="col col--fluid-one-half" style="margin-top: 40px;">
                 <div>
-                    <a href="http://www.nhs.uk/conditions/food-allergy/Pages/Intro1.aspx">NHS Choices: Food allergy introduction</a>
+                    <a href="http://www.nhs.uk/conditions/food-allergy/Pages/Intro1.aspx">NHS Choices: Food allergy
+                        introduction</a>
                 </div>
                 <div>
-                    <a href="https://www.allergyuk.org/food-allergy-or-food-intolerance/food-allergy-or-food-intolerance?gclid=Cj0KEQjwmKG5BRDv4YaE5t6oqf0BEiQAwqDNfO_nh2C5y9U2ZkLz-t-EXOyfIiu93n8BkVpmFDZ946caAr5A8P8HAQ">Allergy UK</a>
+                    <a href="https://www.allergyuk.org/food-allergy-or-food-intolerance/food-allergy-or-food-intolerance?gclid=Cj0KEQjwmKG5BRDv4YaE5t6oqf0BEiQAwqDNfO_nh2C5y9U2ZkLz-t-EXOyfIiu93n8BkVpmFDZ946caAr5A8P8HAQ">Allergy
+                        UK</a>
                 </div>
                 <div>
                     <a href="http://www.anaphylaxis.org.uk/">Anaphylaxis Campaign</a>
