@@ -1,79 +1,11 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-
-    <title>FSA home 1</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://fsa-pl.herokuapp.com/dist/css/main.css">
-    <!--<link rel="stylesheet" href="../assets/css/pl/main.css">-->
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <script src="https://use.typekit.net/ivl6ukw.js"></script>
-    <script>try {
-        Typekit.load({async: true});
-    } catch (e) {
-    }</script>
-</head>
-
-<body>
-<style>
-    h1, h2, h3, h4, h5, h6 {
-        font-family: "oscine", sans-serif;
-    }
-</style>
-<!--jumbotron-->
-<div class="jumbotron">
-    <img src="../assets/img/fsa-home-main.png" class="img-responsive">
-</div>
-<!--horizontal separator-->
-<div class="wrapper" style="background-color: #F2F2F2">
-    <div class="col-wrap" style="background-color: white">
-        <div class="col col--fluid-15">
-            <div class="separator-dotted"></div>
-        </div>
-    </div>
-</div>
-<!--3 col div-->
-<div class="wrapper home--campaign-border">
-    <div class="col-wrap home--campaign-background">
-        <div class="col-wrap">
-            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
-                <article>
-                    <img src="../assets/img/fsa-home-1of3.jpg" class="img-responsive">
-                    <h2 style="margin-top: 16px;">Allergy<span
-                            style="font-size:14px; padding-left: 60px;">Share me!</span></h2>
-                </article>
-            </div>
-            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
-                <article>
-                    <img src="../assets/img/fsa-home-2of3.jpg" class="img-responsive">
-                    <h2 style="margin-top: 16px;">Our Food Future<span style="font-size:14px; padding-left: 60px;">Share me!</span>
-                    </h2>
-                </article>
-            </div>
-            <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
-                <article>
-                    <img src="../assets/img/fsa-home-3of3.jpg" class="img-responsive">
-                    <h2 style="margin-top: 16px;">Food hygiene for businesses<span
-                            style="font-size:14px; padding-left: 10px;">Share me!</span></h2>
-                </article>
-            </div>
-        </div>
-    </div>
-</div>
-<!--horizontal separator-->
-<div class="wrapper" style="background-color: #F2F2F2">
-    <div class="col-wrap" style="background-color: white">
-        <div class="col col--fluid-15">
-            <div class="separator-dotted"></div>
-        </div>
-    </div>
-</div>
-
+---
+title: Five column tiles
+template: test.html
+type: partial
+order: 4
+show-snippet: true
+------------------
+[snippet]
 <!--5 col div - News & Alerts-->
 <div class="wrapper home--news-border">
     <div class="col-wrap home--news-background">
@@ -138,6 +70,6 @@
         </div>
     </div>
 </div>
-</div>
-</body>
-</html>
+[/snippet]
+
+Five columns tiles
