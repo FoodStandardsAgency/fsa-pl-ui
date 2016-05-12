@@ -13,22 +13,22 @@ show-snippet: true
             <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-home-1of3.jpg" class="img-responsive">
-                    <h2 style="margin-top: 16px;">Allergy<span
-                            style="font-size:14px; padding-left: 60px;">Share me!</span></h2>
+                    <h3 style="margin-top: 16px;">Are you allergy aware?<span
+                            style="font-size:14px; padding-left: 60px;">Share me!</span></h3>
                 </article>
             </div>
             <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-home-2of3.jpg" class="img-responsive">
-                    <h2 style="margin-top: 16px;">Our Food Future<span style="font-size:14px; padding-left: 60px;">Share me!</span>
-                    </h2>
+                    <h3 style="margin-top: 16px;">Our Food Future<span style="font-size:14px; padding-left: 60px;">Share me!</span>
+                    </h3>
                 </article>
             </div>
             <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-home-3of3.jpg" class="img-responsive">
-                    <h2 style="margin-top: 16px;">Food hygiene for businesses<span
-                            style="font-size:14px; padding-left: 10px;">Share me!</span></h2>
+                    <h3 style="margin-top: 16px;">Food hygiene for businesses<span
+                            style="font-size:14px; padding-left: 10px;">Share me!</span></h3>
                 </article>
             </div>
         </div>
