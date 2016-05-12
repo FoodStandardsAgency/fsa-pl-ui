@@ -2,7 +2,7 @@
 title: Global footer
 template: test.html
 type: partial
-order: 13
+order: 20
 show-snippet: true
 ------------------
 [snippet]
@@ -20,7 +20,7 @@ show-snippet: true
 <!--footer menu-->
 <div class="wrapper footer--menu-border">
     <div class="col-wrap footer--menu-background">
-        <div class="col col--fluid-3 margin-top-lg--4 footer-tile"><h2 style="color: #F15D22">News and updates</h2>
+        <div class="col col--fluid-3 margin-top-lg--4 footer-tile"><h3 style="color: #F15D22">News and updates</h3>
             <ul style="padding-left: 0">
                 <li class="primary-nav__list">News centre</li>
                 <li class="primary-nav__list">Food alerts news</li>
@@ -30,7 +30,7 @@ show-snippet: true
                 <li class="primary-nav__list">Help shape our policies</li>
             </ul>
         </div>
-        <div class="col col--fluid-3 margin-top-lg--4 footer-tile"><h2 style="color: #F15D22">Business and industry</h2>
+        <div class="col col--fluid-3 margin-top-lg--4 footer-tile"><h3 style="color: #F15D22">Business and industry</h3>
             <ul style="padding-left: 0">
                 <li class="primary-nav__list">Starting a food business</li>
                 <li class="primary-nav__list">Safer food, better business</li>
@@ -49,7 +49,7 @@ show-snippet: true
             </ul>
         </div>
         <div class="col col--fluid-3 margin-top-lg--4 footer-tile">
-            <h2 style="color: #F15D22">Enforcement and regulation</h2>
+            <h3 style="color: #F15D22">Enforcement and regulation</h3>
             <ul style="padding-left: 0">
                 <li class="primary-nav__list">Approved premises and official controls</li>
                 <li class="primary-nav__list">Audit of local authorities</li>
@@ -68,7 +68,7 @@ show-snippet: true
             </ul>
         </div>
         <div class="col col--fluid-3 margin-top-lg--4 footer-tile">
-            <h2 style="color: #F15D22">Science and policy</h2>
+            <h3 style="color: #F15D22">Science and policy</h3>
             <ul style="padding-left: 0">
                 <li class="primary-nav__list">Our approach to science</li>
                 <li class="primary-nav__list">Applying for research funding</li>
@@ -90,7 +90,7 @@ show-snippet: true
             </ul>
         </div>
         <div class="col col--fluid-3 margin-top-lg--4 footer-tile">
-            <h2 style="color: #F15D22">About us</h2>
+            <h3 style="color: #F15D22">About us</h3>
             <ul style="padding-left: 0">
                 <li class="primary-nav__list">Contact us</li>
                 <li class="primary-nav__list">Food we can trust</li>
@@ -107,7 +107,6 @@ show-snippet: true
         </div>
     </div>
 </div>
-<!--horizontal separator-->
 <div class="wrapper footer--menu-border">
     <div class="col-wrap footer--menu-background">
         <div class="col col--fluid-15">
@@ -133,8 +132,8 @@ show-snippet: true
     </div>
 </div>
 <!--horizontal separator-->
-<div class="wrapper footer--border">
-    <div class="col-wrap footer--background">
+<div class="wrapper" style="background-color: #F2F2F2">
+    <div class="col-wrap" style="background-color: white">
         <div class="col col--fluid-15">
             <div class="separator-dotted"></div>
         </div>
@@ -146,19 +145,19 @@ show-snippet: true
         <div class="col col--fluid-15">
             <nav class="secondary-nav">
                 <ul class="primary-nav__list" style="margin: 0 10px;">
-                    <li class="primary-nav__list" style="display: inline; margin: 0 10px"><a>Copyright</a></li>
-                    <li class="primary-nav__list" style="display: inline; margin: 0 10px"><a>Get Alerts</a></li>
-                    <li class="primary-nav__list" style="display: inline; margin: 0 10px"><a>Help</a></li>
-                    <li class="primary-nav__list" style="display: inline; margin: 0 10px"><a>Site Map</a></li>
-                    <li class="primary-nav__list" style="display: inline; margin: 0 10px"><a>Accesibility</a></li>
-                    <li class="primary-nav__list" style="display: inline; margin: 0 10px"><a>Complaints and
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Copyright</a></li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Get Alerts</a></li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Help</a></li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Site Map</a></li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Accesibility</a></li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Complaints and
                         Comments</a></li>
-                    <li class="primary-nav__list" style="display: inline; margin: 0 10px"><a>Feedback</a></li>
-                    <li class="primary-nav__list" style="display: inline; margin: 0 10px"><a>Freedom of
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Feedback</a></li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Freedom of
                         information</a></li>
-                    <li class="primary-nav__list" style="display: inline; margin: 0 10px"><a>Privacy</a></li>
-                    <li class="primary-nav__list" style="display: inline; margin: 0 10px"><a>Cookies</a></li>
-                    <li class="primary-nav__list" style="display: inline; margin: 0 10px"><a>Terms and conditions</a>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Privacy</a></li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Cookies</a></li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Terms and conditions</a>
                     </li>
                 </ul>
             </nav>

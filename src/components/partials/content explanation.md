@@ -10,10 +10,10 @@ show-snippet: true
 <div class="wrapper content--explanation-border">
     <div class="col-wrap content--explanation-background">
         <div class="col col--fluid-offset-3 col--fluid-8">
-            <h3>A survey by the FSA and Allergy UK has shown there have been improvements for those with allergies
+            <p class="font-size--h3">A survey by the FSA and Allergy UK has shown there have been improvements for those with allergies
                 since
                 new labelling rules came in, but more needs to be done.
-            </h3>
+            </p>
         </div>
     </div>
 </div>

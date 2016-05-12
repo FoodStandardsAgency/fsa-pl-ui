@@ -10,18 +10,18 @@ show-snippet: true
 <div class="wrapper content--related-border">
     <div class="col-wrap content--related-background">
         <div class="col col--fluid-3">
-            <h2 style="color: black">Related Pages</h2>
+            <h2 style="color: black">Related Content</h2>
         </div>
         <div class="col col--fluid-8" style="margin-top: 40px;">
             <div>
-                <a href="https://www.food.gov.uk/science/allergy-intolerance">Allergy and intolerance</a>
+                <a href="https://www.food.gov.uk/science/allergy-intolerance" class="font-size--h3">Allergy and intolerance</a>
                 <p>Food allergies and intolerances are life changing. In the UK they affect around 8% of
                     children and 2% of adults. In December 2014, the law on how allergen information is provided
                     by food businesses changed, to make it easier when buying food or eating out with an allergy
                     or intolerance.</p>
             </div>
             <div>
-                <a href="https://www.food.gov.uk/science/allergy-intolerance">Allergy and intolerance: guidance
+                <a href="https://www.food.gov.uk/science/allergy-intolerance" class="font-size--h3">Allergy and intolerance: guidance
                     for businesses</a>
                 <p>This guidance helps food businesses provide information to customers who need to avoid
                     certain ingredients because of a food allergy or intolerance. It includes allergen
