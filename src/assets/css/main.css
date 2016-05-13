@@ -5,6 +5,10 @@ body {
 	padding: 0 10px;
 }
 
+.pl-wrapper h1, h2, h3, h4, h5, h6 {
+	font-family: "oscine", sans-serif;
+}
+
 .pl-wrap {
 	min-width: 1012px;
 }
@@ -30,7 +34,7 @@ body {
 
 @media screen and (max-width: 767px) {
 	.pl-wrap {
-		min-width: auto;
+		/*min-width: auto;*/
 		padding: 0 10px;
 	}
 

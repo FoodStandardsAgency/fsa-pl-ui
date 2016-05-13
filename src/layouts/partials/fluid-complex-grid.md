@@ -1,13 +1,12 @@
 ---
-title: Fluid grid
+title: Fluid complex grid
 template: test.html
 type: partial
-order: 5
+order: 3
 show-snippet: true
 ---
 [snippet]
 <div class="wrapper">
-
     <!-- Complex grid -->
     <div class="col-wrap">
         <div class="col col--fluid-8">
@@ -76,7 +75,6 @@ show-snippet: true
             <p style="background-color: grey">7 columns</p>
         </div>
     </div>
-
 </div>
 [/snippet]
 

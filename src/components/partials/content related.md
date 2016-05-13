@@ -12,7 +12,7 @@ show-snippet: true
         <div class="col col--fluid-3">
             <h2 style="color: black">Related Content</h2>
         </div>
-        <div class="col col--fluid-8" style="margin-top: 40px;">
+        <div class="col col--fluid-8 padding-top-lg--6">
             <div>
                 <a href="https://www.food.gov.uk/science/allergy-intolerance" class="font-size--h3">Allergy and intolerance</a>
                 <p>Food allergies and intolerances are life changing. In the UK they affect around 8% of

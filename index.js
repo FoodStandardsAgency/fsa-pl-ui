@@ -130,10 +130,14 @@ metalsmith(__dirname)
 		elements: {
 			pattern: 'elements/partials/*.md'
 		},
-		layout: {
+        pages: {
+            pattern: 'pages/partials/*.md',
+            sortBy: 'order'
+        },
+        layout: {
 			pattern: 'layouts/partials/*.md',
 			sortBy: 'order'
-		}	
+		}
 	}))
 	.use(markdown())
 	.use(templates('handlebars'))

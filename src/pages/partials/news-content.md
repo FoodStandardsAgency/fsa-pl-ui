@@ -1,28 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Content 1</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-    <!--<link rel="stylesheet" href="https://fsa-pl.herokuapp.com/dist/css/main.css">-->
-    <link rel="stylesheet" href="../assets/css/pl/main.css">
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <script src="https://use.typekit.net/ivl6ukw.js"></script>
-    <script>try {
-        Typekit.load({async: true});
-    } catch (e) {
-    }</script>
-</head>
-<body>
-
-<style>
-    h1, h2, h3, h4, h5, h6 {
-        font-family: "oscine", sans-serif;
-    }
-</style>
+---
+title: News content page
+template: test.html
+type: partial
+order: 3
+show-snippet: true
+------------------
+[snippet]
 <!--title-->
 <div class="wrapper content--title-border">
     <div class="col-wrap content--title-background">
@@ -240,6 +223,6 @@
         </div>
     </div>
 </div>
+[/snippet]
 
-</body>
-</html>
+Home page

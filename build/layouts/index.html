@@ -6,6 +6,11 @@
 		<link href="../assets/css/prism.css" rel="stylesheet" type="text/css" />
 		<link href="../assets/css/prismCustom.css" rel="stylesheet" type="text/css" />
 		<link href="../assets/css/pl/main.css" rel="stylesheet" type="text/css" />
+		<script src="https://use.typekit.net/ivl6ukw.js"></script>
+		<script>try {
+			Typekit.load({async: true});
+		} catch (e) {
+		}</script>
 	</head>
 	<body class="pl-listpage">
 		<div class="pl-wrap">
@@ -40,16 +45,13 @@
                     <a href="#breakpoints-and-screen-widths" class="js-scroll">Breakpoints and screen widths</a>
                 </li>
                 <li class="table-of-contents__item">
-                    <a href="#simple-grid" class="js-scroll">Simple grid</a>
+                    <a href="#fluid-simple-grid" class="js-scroll">Fluid simple grid</a>
                 </li>
                 <li class="table-of-contents__item">
-                    <a href="#complex-grid" class="js-scroll">Complex grid</a>
+                    <a href="#fluid-complex-grid" class="js-scroll">Fluid complex grid</a>
                 </li>
                 <li class="table-of-contents__item">
                     <a href="#column-offset" class="js-scroll">Column offset</a>
-                </li>
-                <li class="table-of-contents__item">
-                    <a href="#fluid-grid" class="js-scroll">Fluid grid</a>
                 </li>
             </ol>
         </div>
@@ -64,8 +66,8 @@
 </ul>
 
             </div>
-            <div class="pl-item js-sticky-toc__section" id="simple-grid">
-                <h2>Simple grid</h2>
+            <div class="pl-item js-sticky-toc__section" id="fluid-simple-grid">
+                <h2>Fluid simple grid</h2>
                 <p>For simpler page structures, you can create elements at thirds or fifths. Each column has a left and right margin of 10px and should use a column wrap to group columns into a row.</p>
 <p>A simple column cannot be nested within another column. Eg putting a half column inside another half column won&#39;t result in a quarter column.</p>
 
@@ -74,70 +76,92 @@
                         <div class="pl-wrapper">
                             
 <div class="wrapper">
-
-     <!-- full column -->
-    <div class="col-wrap">
-        <div class="col col--lg-one" style="background-color: grey">
-            <p>full column</p>
+    <!-- half columns -->
+        <div class="col-wrap">
+            <div class="col col--fluid-one-half">
+                <p style="background-color: grey">one half column</p>
+            </div>
+            <div class="col col--fluid-one-half">
+                <p style="background-color: grey">one half column</p>
+            </div>
         </div>
-    </div>
-
     <!-- third columns -->
     <div class="col-wrap">
-        <div class="col col--lg-one-third" style="background-color: grey">
-            <p>one third column</p>
+        <div class="col col--fluid-one-third">
+            <p style="background-color: grey">one third column</p>
         </div>
-        <div class="col col--lg-one-third" style="background-color: grey">
-            <p>one third column</p>
+        <div class="col col--fluid-one-third">
+            <p style="background-color: grey">one third column</p>
         </div>
-        <div class="col col--lg-one-third" style="background-color: grey">
-            <p>one third column</p>
+        <div class="col col--fluid-one-third">
+            <p style="background-color: grey">one third column</p>
         </div>
     </div>
     <div class="col-wrap">
-        <div class="col col--lg-two-thirds" style="background-color: grey">
-            <p>two thirds column</p>
+        <div class="col col--fluid-two-thirds">
+            <p style="background-color: grey">two thirds column</p>
         </div>
-        <div class="col col--lg-one-third" style="background-color: grey">
-            <p>one third column</p>
+        <div class="col col--fluid-one-third">
+            <p style="background-color: grey">one third column</p>
         </div>
     </div>
-
+    <!-- fourth columns -->
+    <div class="col-wrap">
+        <div class="col col--fluid-one-quarter">
+            <p style="background-color: grey">one quarter column</p>
+        </div>
+        <div class="col col--fluid-one-quarter">
+            <p style="background-color: grey">one quarter column</p>
+        </div>
+        <div class="col col--fluid-one-quarter">
+            <p style="background-color: grey">one quarter column</p>
+        </div>
+        <div class="col col--fluid-one-quarter">
+            <p style="background-color: grey">one quarter column</p>
+        </div>
+    </div>
+    <div class="col-wrap">
+        <div class="col col--fluid-three-quarters">
+            <p style="background-color: grey">three quarters column</p>
+        </div>
+        <div class="col col--fluid-one-quarter">
+            <p style="background-color: grey">one quarter column</p>
+        </div>
+    </div>
     <!-- fifth columns -->
     <div class="col-wrap">
-        <div class="col col--lg-one-fifth" style="background-color: grey">
-            <p>one fifth column</p>
+        <div class="col col--fluid-one-fifth">
+            <p style="background-color: grey">one fifth column</p>
         </div>
-        <div class="col col--lg-one-fifth" style="background-color: grey">
-            <p>one fifth column</p>
+        <div class="col col--fluid-one-fifth">
+            <p style="background-color: grey">one fifth column</p>
         </div>
-        <div class="col col--lg-one-fifth" style="background-color: grey">
-            <p>one fifth column</p>
+        <div class="col col--fluid-one-fifth">
+            <p style="background-color: grey">one fifth column</p>
         </div>
-        <div class="col col--lg-one-fifth" style="background-color: grey">
-            <p>one fifth column</p>
+        <div class="col col--fluid-one-fifth">
+            <p style="background-color: grey">one fifth column</p>
         </div>
-        <div class="col col--lg-one-fifth" style="background-color: grey">
-            <p>one fifth column</p>
-        </div>
-    </div>
-    <div class="col-wrap">
-        <div class="col col--lg-three-fifths" style="background-color: grey">
-            <p>three fifths column</p>
-        </div>
-        <div class="col col--lg-two-fifths" style="background-color: grey">
-            <p>two fifths column</p>
+        <div class="col col--fluid-one-fifth">
+            <p style="background-color: grey">one fifth column</p>
         </div>
     </div>
     <div class="col-wrap">
-        <div class="col col--lg-four-fifths" style="background-color: grey">
-            <p>four fifths column</p>
+        <div class="col col--fluid-three-fifths">
+            <p style="background-color: grey">three fifths column</p>
         </div>
-        <div class="col col--lg-one-fifth" style="background-color: grey">
-            <p>one fifth column</p>
+        <div class="col col--fluid-two-fifths">
+            <p style="background-color: grey">two fifths column</p>
         </div>
     </div>
-
+    <div class="col-wrap">
+        <div class="col col--fluid-four-fifths">
+            <p style="background-color: grey">four fifths column</p>
+        </div>
+        <div class="col col--fluid-one-fifth">
+            <p style="background-color: grey">one fifth column</p>
+        </div>
+    </div>
 </div>
 
                         </div>
@@ -146,77 +170,99 @@
                     <div class="pl-example__code">
                         <pre class="on-grid"><code class="language-html">
 &lt;div class&#x3D;&quot;wrapper&quot;&gt;
-
-     &lt;!-- full column --&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-one&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;full column&lt;/p&gt;
+    &lt;!-- half columns --&gt;
+        &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+            &lt;div class&#x3D;&quot;col col--fluid-one-half&quot;&gt;
+                &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one half column&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;col col--fluid-one-half&quot;&gt;
+                &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one half column&lt;/p&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
-    &lt;/div&gt;
-
     &lt;!-- third columns --&gt;
     &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-one-third&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;one third column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-third&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one third column&lt;/p&gt;
         &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-one-third&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;one third column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-third&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one third column&lt;/p&gt;
         &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-one-third&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;one third column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-third&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one third column&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-two-thirds&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;two thirds column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-two-thirds&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;two thirds column&lt;/p&gt;
         &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-one-third&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;one third column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-third&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one third column&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
-
+    &lt;!-- fourth columns --&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-quarter&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one quarter column&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-quarter&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one quarter column&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-quarter&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one quarter column&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-quarter&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one quarter column&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-three-quarters&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;three quarters column&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-quarter&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one quarter column&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
     &lt;!-- fifth columns --&gt;
     &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-one-fifth&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;one fifth column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-fifth&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one fifth column&lt;/p&gt;
         &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-one-fifth&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;one fifth column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-fifth&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one fifth column&lt;/p&gt;
         &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-one-fifth&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;one fifth column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-fifth&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one fifth column&lt;/p&gt;
         &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-one-fifth&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;one fifth column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-fifth&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one fifth column&lt;/p&gt;
         &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-one-fifth&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;one fifth column&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-three-fifths&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;three fifths column&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-two-fifths&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;two fifths column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-fifth&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one fifth column&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-four-fifths&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;four fifths column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-three-fifths&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;three fifths column&lt;/p&gt;
         &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-one-fifth&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;one fifth column&lt;/p&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-two-fifths&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;two fifths column&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
-
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-four-fifths&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;four fifths column&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-one-fifth&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;one fifth column&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 </code></pre>
                     </div>
                 </div>
             </div>
-            <div class="pl-item js-sticky-toc__section" id="complex-grid">
-                <h2>Complex grid</h2>
+            <div class="pl-item js-sticky-toc__section" id="fluid-complex-grid">
+                <h2>Fluid complex grid</h2>
                 <p>To make detailed layouts you can use the full 15 columns individually (or 12 columns on tablet). A column is 45px wide and should use a column wrap to group the columns into a row.</p>
 
                 <div class="pl-example">
@@ -224,224 +270,6 @@
                         <div class="pl-wrapper">
                             
 <div class="wrapper">
-
-    <!-- Complex grid -->
-    <div class="col-wrap">
-        <div class="col col--lg-8" style="background-color: grey">
-            <p>8 columns</p>
-        </div>
-        <div class="col col--lg-7" style="background-color: grey">
-            <p>7 columns</p>
-        </div>
-    </div>
-    <div class="col-wrap">
-        <div class="col col--lg-9" style="background-color: grey">
-            <p>9 columns</p>
-        </div>
-        <div class="col col--lg-6" style="background-color: grey">
-            <p>6 columns</p>
-        </div>
-    </div>
-    <div class="col-wrap">
-        <div class="col col--lg-10" style="background-color: grey">
-            <p>10 columns</p>
-        </div>
-        <div class="col col--lg-5" style="background-color: grey">
-            <p>5 columns</p>
-        </div>
-    </div>
-    <div class="col-wrap">
-        <div class="col col--lg-11" style="background-color: grey">
-            <p>11 columns</p>
-        </div>
-        <div class="col col--lg-4" style="background-color: grey">
-            <p>4 columns</p>
-        </div>
-    </div>
-    <div class="col-wrap">
-        <div class="col col--lg-12" style="background-color: grey">
-            <p>12 columns</p>
-        </div>
-        <div class="col col--lg-3" style="background-color: grey">
-            <p>3 columns</p>
-        </div>
-    </div>
-    <div class="col-wrap">
-        <div class="col col--lg-13" style="background-color: grey">
-            <p>13 columns</p>
-        </div>
-        <div class="col col--lg-2" style="background-color: grey">
-            <p>2 columns</p>
-        </div>
-    </div>
-    <div class="col-wrap">
-        <div class="col col--lg-14" style="background-color: grey">
-            <p>14 columns</p>
-        </div>
-        <div class="col col--lg-1" style="background-color: grey">
-            <p>1 col</p>
-        </div>
-    </div>
-    <div class="col-wrap">
-        <div class="col col--lg-7" style="background-color: grey">
-            <p>7 columns</p>
-        </div>
-        <div class="col col--lg-1" style="background-color: grey">
-            <p>1 col</p>
-        </div>
-        <div class="col col--lg-7" style="background-color: grey">
-            <p>7 columns</p>
-        </div>
-    </div>
-
-</div>
-
-                        </div>
-                        <button class="pl-btn pl-btn--show-grid btn btn--primary js-show-grid">Show grid</button>
-                    </div>
-                    <div class="pl-example__code">
-                        <pre class="on-grid"><code class="language-html">
-&lt;div class&#x3D;&quot;wrapper&quot;&gt;
-
-    &lt;!-- Complex grid --&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-8&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;8 columns&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-7&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;7 columns&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-9&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;9 columns&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-6&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;6 columns&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-10&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;10 columns&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-5&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;5 columns&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-11&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;11 columns&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-4&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;4 columns&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-12&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;12 columns&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-3&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;3 columns&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-13&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;13 columns&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-2&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;2 columns&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-14&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;14 columns&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-1&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;1 col&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-7&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;7 columns&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-1&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;1 col&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-7&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;7 columns&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-&lt;/div&gt;
-</code></pre>
-                    </div>
-                </div>
-            </div>
-            <div class="pl-item js-sticky-toc__section" id="column-offset">
-                <h2>Column offset</h2>
-                
-                <div class="pl-example">
-                    <div class="pl-example__rendered pl-example__rendered--layout">
-                        <div class="pl-wrapper">
-                            
-<div class="wrapper">
-
-    <!-- offset examples -->
-    <div class="col-wrap">
-        <div class="col col--lg-7" style="background-color: grey">
-            <p>7 columns</p>
-        </div>
-        <div class="col col--lg-offset-1 col--lg-7" style="background-color: grey">
-            <p>1 offset, 7 columns</p>
-        </div>
-        <div class="col col--lg-offset-1 col--lg-6" style="background-color: grey">
-            <p>1 offset, 6 columns</p>
-        </div>
-        <div class="col col--lg-offset-1 col--lg-6" style="background-color: grey">
-            <p>1 offset, 6 columns</p>
-        </div>
-    </div>
-
-</div>
-
-                        </div>
-                        <button class="pl-btn pl-btn--show-grid btn btn--primary js-show-grid">Show grid</button>
-                    </div>
-                    <div class="pl-example__code">
-                        <pre class="on-grid"><code class="language-html">
-&lt;div class&#x3D;&quot;wrapper&quot;&gt;
-
-    &lt;!-- offset examples --&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--lg-7&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;7 columns&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-offset-1 col--lg-7&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;1 offset, 7 columns&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-offset-1 col--lg-6&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;1 offset, 6 columns&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--lg-offset-1 col--lg-6&quot; style&#x3D;&quot;background-color: grey&quot;&gt;
-            &lt;p&gt;1 offset, 6 columns&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-&lt;/div&gt;
-</code></pre>
-                    </div>
-                </div>
-            </div>
-            <div class="pl-item js-sticky-toc__section" id="fluid-grid">
-                <h2>Fluid grid</h2>
-                <p>To make detailed layouts you can use the full 15 columns individually (or 12 columns on tablet). A column is 45px wide and should use a column wrap to group the columns into a row.</p>
-
-                <div class="pl-example">
-                    <div class="pl-example__rendered pl-example__rendered--layout">
-                        <div class="pl-wrapper">
-                            
-<div class="wrapper">
-
     <!-- Complex grid -->
     <div class="col-wrap">
         <div class="col col--fluid-8">
@@ -510,7 +338,6 @@
             <p style="background-color: grey">7 columns</p>
         </div>
     </div>
-
 </div>
 
                         </div>
@@ -519,7 +346,6 @@
                     <div class="pl-example__code">
                         <pre class="on-grid"><code class="language-html">
 &lt;div class&#x3D;&quot;wrapper&quot;&gt;
-
     &lt;!-- Complex grid --&gt;
     &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
         &lt;div class&#x3D;&quot;col col--fluid-8&quot;&gt;
@@ -588,7 +414,57 @@
             &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;7 columns&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item js-sticky-toc__section" id="column-offset">
+                <h2>Column offset</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--layout">
+                        <div class="pl-wrapper">
+                            
+<div class="wrapper">
+    <!-- offset examples -->
+    <div class="col-wrap">
+        <div class="col col--fluid-7">
+            <p style="background-color: grey">7 columns</p>
+        </div>
+        <div class="col col--fluid-offset-1 col--fluid-7">
+            <p style="background-color: grey">1 offset, 7 columns</p>
+        </div>
+        <div class="col col--fluid-offset-1 col--fluid-6">
+            <p style="background-color: grey">1 offset, 6 columns</p>
+        </div>
+        <div class="col col--fluid-offset-1 col--fluid-6">
+            <p style="background-color: grey">1 offset, 6 columns</p>
+        </div>
+    </div>
+</div>
 
+                        </div>
+                        <button class="pl-btn pl-btn--show-grid btn btn--primary js-show-grid">Show grid</button>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;div class&#x3D;&quot;wrapper&quot;&gt;
+    &lt;!-- offset examples --&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-7&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;7 columns&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-offset-1 col--fluid-7&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;1 offset, 7 columns&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-offset-1 col--fluid-6&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;1 offset, 6 columns&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-offset-1 col--fluid-6&quot;&gt;
+            &lt;p style&#x3D;&quot;background-color: grey&quot;&gt;1 offset, 6 columns&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 </code></pre>
                     </div>

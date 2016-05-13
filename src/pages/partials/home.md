@@ -1,30 +1,12 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-
-    <title>FSA home 1</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-    <!--<link rel="stylesheet" href="https://fsa-pl.herokuapp.com/dist/css/main.css">-->
-    <link rel="stylesheet" href="../assets/css/pl/main.css">
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <script src="https://use.typekit.net/ivl6ukw.js"></script>
-    <script>try {
-        Typekit.load({async: true});
-    } catch (e) {
-    }</script>
-</head>
-
-<body>
-<style>
-    h1, h2, h3, h4, h5, h6 {
-        font-family: "oscine", sans-serif;
-    }
-</style>
+---
+title: Home page
+template: test.html
+type: partial
+order: 1
+show-snippet: true
+------------------
+[snippet]
+<!--content-->
 <!--jumbotron-->
 <div class="wrapper jumbotron">
     <div class="col-wrap">
@@ -78,7 +60,6 @@
         </div>
     </div>
 </div>
-
 <!--5 col div - News & Alerts-->
 <div class="wrapper home--news-border">
     <div class="col-wrap home--news-background">
@@ -143,5 +124,6 @@
         </div>
     </div>
 </div>
-</body>
-</html>
+[/snippet]
+
+Home page

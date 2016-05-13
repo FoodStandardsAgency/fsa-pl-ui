@@ -7,22 +7,20 @@ show-snippet: true
 ---
 [snippet]
 <div class="wrapper">
-
     <!-- offset examples -->
     <div class="col-wrap">
-        <div class="col col--lg-7" style="background-color: grey">
-            <p>7 columns</p>
+        <div class="col col--fluid-7">
+            <p style="background-color: grey">7 columns</p>
         </div>
-        <div class="col col--lg-offset-1 col--lg-7" style="background-color: grey">
-            <p>1 offset, 7 columns</p>
+        <div class="col col--fluid-offset-1 col--fluid-7">
+            <p style="background-color: grey">1 offset, 7 columns</p>
         </div>
-        <div class="col col--lg-offset-1 col--lg-6" style="background-color: grey">
-            <p>1 offset, 6 columns</p>
+        <div class="col col--fluid-offset-1 col--fluid-6">
+            <p style="background-color: grey">1 offset, 6 columns</p>
         </div>
-        <div class="col col--lg-offset-1 col--lg-6" style="background-color: grey">
-            <p>1 offset, 6 columns</p>
+        <div class="col col--fluid-offset-1 col--fluid-6">
+            <p style="background-color: grey">1 offset, 6 columns</p>
         </div>
     </div>
-
 </div>
 [/snippet]

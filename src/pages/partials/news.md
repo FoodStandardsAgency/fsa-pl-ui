@@ -1,45 +1,11 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>FSA News 1</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-    <!--<link rel="stylesheet" href="https://fsa-pl.herokuapp.com/dist/css/main.css">-->
-    <link rel="stylesheet" href="../assets/css/pl/main.css">
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <script src="https://use.typekit.net/ivl6ukw.js"></script>
-    <script>try {
-        Typekit.load({async: true});
-    } catch (e) {
-    }</script>
-    <style type="text/css">
-        h1, h2, h3, h4, h5, h6 {
-            font-family: "oscine", sans-serif;
-        }
-
-        .margin-right--lg-0 {
-            margin-right: 0 !important;
-        }
-
-        .margin-left--lg-0 {
-            margin-left: 0 !important;
-        }
-
-        .margin-bottom--lg-0 {
-            margin-bottom: 0 !important;
-        }
-
-        .margin-bottom--0 {
-            margin-bottom: 0 !important;
-        }
-    </style>
-</head>
-<body>
-
+---
+title: News page
+template: test.html
+type: partial
+order: 2
+show-snippet: true
+------------------
+[snippet]
 <div class="wrapper news--border">
     <div class="col-wrap news--background">
         <div class="col col--fluid-15">
@@ -129,8 +95,6 @@
             }(document, "script", "twitter-wjs");</script>
         </div>
     </div>
+[/snippet]
 
-</div>
-
-</body>
-</html>
+Home page
