@@ -67,30 +67,25 @@
 <!--menu-->
 <div class="wrapper"
      style="height: 350px; background-color: #F2F2F2; background-image: url('../assets/img/fsa-campaign-menu.jpg')">
-    <div class="col-wrap" style="margin-top: 6%">
-        <div class="col col--fluid-15 background--light-yellow">
-            <h1>Don't wash raw chicken</h1>
+    <div class="col-wrap" style="margin-top: 8%">
+        <div class="col col--fluid-15 background--light-yellow margin-top--0">
+            <h1 style="color: black; margin: 20px 0">Don't wash raw chicken</h1>
         </div>
     </div>
     <div class="col-wrap">
-        <div class="col col--fluid-2 background--white separator-right-solid" style="height: 90px">
-            <a href="#one"><p class="some">1. What is this all about</p></a>
+        <div id="menu" class="col col--fluid-2 background--white separator-right-solid inactive active" style="height: 108px">
+            <a href="#one"><p>1. What is this all about</p></a>
         </div>
-        <div class="col col--fluid-2 background--white separator-right-solid" style="height: 90px">
-            <a href="#two"><p class="some">2. What should I be doing?</p></a>
+        <div class="col col--fluid-2 background--white separator-right-solid inactive" style="height: 108px">
+            <a href="#two"><p>2. What should I be doing?</p></a>
         </div>
-        <div class="col col--fluid-2 background--white separator-right-solid" style="height: 90px">
-            <a href="#three"><p class="some">3. Add my support</p></a>
+        <div class="col col--fluid-2 background--white separator-right-solid inactive" style="height: 108px">
+            <a href="#three"><p>3. Add my support</p></a>
         </div>
-        <div class="col col--fluid-7 background--white" style="height: 90px"></div>
-        <div class="col col--fluid-2 background--white padding-top-lg--3" style="height: 90px">
-            <button class="btn btn--primary btn--thick">Call to action</button>
+        <div class="col col--fluid-6 background--white inactive" style="height: 108px"></div>
+        <div class="col col--fluid-3 background--white padding-top-lg--3 inactive" style="height: 108px">
+            <button class="btn btn--primary btn--thick padding-left--3 padding-right--3" style="background-color: #9F218B">Call to action</button>
         </div>
-        <!--<div class="col col&#45;&#45;fluid-2 background&#45;&#45;very-light-grey separator-right-solid check" style="height: 10px"></div>-->
-        <!--<div class="col col&#45;&#45;fluid-2 background&#45;&#45;very-light-grey separator-right-solid check" style="height: 10px"></div>-->
-        <!--<div class="col col&#45;&#45;fluid-2 background&#45;&#45;very-light-grey separator-right-solid check" style="height: 10px"></div>-->
-        <!--<div class="col col&#45;&#45;fluid-7 background&#45;&#45;very-light-grey " style="height: 10px"></div>-->
-        <!--<div class="col col&#45;&#45;fluid-2 background&#45;&#45;very-light-grey padding-top-lg&#45;&#45;3" style="height: 10px"></div>-->
     </div>
 </div>
 <!--menu hidden-->
@@ -102,24 +97,19 @@
             </div>
         </div>
         <div class="col-wrap">
-            <div class="col col--fluid-2 background--white separator-right-solid" style="height: 90px">
-                <a href="#one"><p class="some">1. What is this all about</p></a>
+            <div class="col col--fluid-2 background--white separator-right-solid inactive active" style="height: 108px">
+                <a href="#one"><p>1. What is this all about</p></a>
             </div>
-            <div class="col col--fluid-2 background--white separator-right-solid" style="height: 90px">
-                <a href="#two"><p class="some">2. What should I be doing?</p></a>
+            <div class="col col--fluid-2 background--white separator-right-solid inactive" style="height: 108px">
+                <a href="#two"><p>2. What should I be doing?</p></a>
             </div>
-            <div class="col col--fluid-2 background--white separator-right-solid" style="height: 90px">
-                <a href="#three"><p class="some">3. Add my support</p></a>
+            <div class="col col--fluid-2 background--white separator-right-solid inactive" style="height: 108px">
+                <a href="#three"><p>3. Add my support</p></a>
             </div>
-            <div class="col col--fluid-7 background--white" style="height: 90px"></div>
-            <div class="col col--fluid-2 background--white padding-top-lg--3" style="height: 90px">
-                <button class="btn btn--primary btn--thick">Call to action</button>
+            <div class="col col--fluid-6 background--white inactive" style="height: 108px"></div>
+            <div class="col col--fluid-3 background--white padding-top-lg--3 inactive" style="height: 108px">
+                <button class="btn btn--primary btn--thick padding-left--3 padding-right--3" style="background-color: #9F218B">Call to action</button>
             </div>
-            <!--<div class="col col&#45;&#45;fluid-2 background&#45;&#45;dark-grey separator-right-solid" style="height: 10px"></div>-->
-            <!--<div class="col col&#45;&#45;fluid-2 background&#45;&#45;very-light-grey separator-right-solid" style="height: 10px"></div>-->
-            <!--<div class="col col&#45;&#45;fluid-2 background&#45;&#45;very-light-grey separator-right-solid" style="height: 10px"></div>-->
-            <!--<div class="col col&#45;&#45;fluid-7 background&#45;&#45;very-light-grey " style="height: 10px"></div>-->
-            <!--<div class="col col&#45;&#45;fluid-2 background&#45;&#45;very-light-grey padding-top-lg&#45;&#45;3" style="height: 10px"></div>-->
         </div>
     </div>
 </nav>
@@ -331,12 +321,6 @@
         $('a[href^="#"]').on('click', function (e) {
             e.preventDefault();
             $(document).off("scroll");
-
-            $('a p').each(function () {
-                $(this).removeClass('active');
-            });
-            $(this).children().addClass('active');
-
             var target = this.hash,
                     menu = target;
             $target = $(target);
@@ -354,12 +338,14 @@
         $('#navbar-main a').each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-                $('#navbar-main a p').removeClass("active");
-                currLink.addClass("active");
+            if (scrollPos < 350) {
+                $('#menu').addClass("active");
+            }
+            if (refElement.position().top -150 <= scrollPos && refElement.position().top -100 + refElement.height() > scrollPos) {
+                currLink.parent().addClass("active");
             }
             else{
-                currLink.removeClass("active");
+                currLink.parent().removeClass("active");
             }
         });
     }

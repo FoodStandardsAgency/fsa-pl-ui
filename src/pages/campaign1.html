@@ -67,21 +67,24 @@
 <!--menu-->
 <div class="wrapper"
      style="height: 350px; background-color: #F2F2F2; background-image: url('../assets/img/fsa-campaign-menu.jpg')">
-    <div class="col-wrap" style="margin-top: 10%">
-        <div class="col col--fluid-15 background--light-yellow">
-            <h1>Don't wash raw chicken</h1>
-            <a name="one"></a>
+    <div class="col-wrap" style="margin-top: 8%">
+        <div class="col col--fluid-15 background--light-yellow margin-top--0">
+            <h1 style="color: black; margin: 20px 0">Don't wash raw chicken</h1>
         </div>
     </div>
     <div class="col-wrap">
-        <div class="col col--fluid-5 background--white separator-right-solid">
-            <a href="#one"><h3>1. What is this all about</h3></a>
+        <div id="menu" class="col col--fluid-2 background--white separator-right-solid inactive active" style="height: 108px">
+            <a href="#one"><p>1. What is this all about</p></a>
         </div>
-        <div class="col col--fluid-5 background--white separator-right-solid">
-            <a href="#two"><h3>2. What should I be doing?</h3></a>
+        <div class="col col--fluid-2 background--white separator-right-solid inactive" style="height: 108px">
+            <a href="#two"><p>2. What should I be doing?</p></a>
         </div>
-        <div class="col col--fluid-5 background--white">
-            <a href="#three"><h3>3. Add my support</h3></a>
+        <div class="col col--fluid-2 background--white separator-right-solid inactive" style="height: 108px">
+            <a href="#three"><p>3. Add my support</p></a>
+        </div>
+        <div class="col col--fluid-6 background--white inactive" style="height: 108px"></div>
+        <div class="col col--fluid-3 background--white padding-top-lg--3 inactive" style="height: 108px">
+            <button class="btn btn--primary btn--thick padding-left--3 padding-right--3" style="background-color: #9F218B">Call to action</button>
         </div>
     </div>
 </div>
@@ -90,27 +93,28 @@
     <div class="wrapper">
         <div class="col-wrap">
             <div class="col col--fluid-15 background--light-yellow">
-                <h2 style="margin: 0 10px">Don't wash raw chicken</h2>
+                <h2 style="margin: 0 5px">Don't wash raw chicken</h2>
             </div>
         </div>
         <div class="col-wrap">
-            <div class="col col--fluid-5 background--white separator-right-solid">
-                <a href="#one"><h3>1. What is this all about</h3></a>
+            <div class="col col--fluid-2 background--white separator-right-solid inactive active" style="height: 108px">
+                <a href="#one"><p>1. What is this all about</p></a>
             </div>
-            <div class="col col--fluid-5 background--white separator-right-solid">
-                <a href="#two"><h3>2. What should I be doing?</h3></a>
+            <div class="col col--fluid-2 background--white separator-right-solid inactive" style="height: 108px">
+                <a href="#two"><p>2. What should I be doing?</p></a>
             </div>
-            <div class="col col--fluid-5 background--white">
-                <a href="#three"><h3>3. Add my support</h3></a>
+            <div class="col col--fluid-2 background--white separator-right-solid inactive" style="height: 108px">
+                <a href="#three"><p>3. Add my support</p></a>
             </div>
-            <div class="col col--fluid-15 background--light-yellow">
-                <div style="height: 5px; background-color: #F1C400;"></div>
+            <div class="col col--fluid-6 background--white inactive" style="height: 108px"></div>
+            <div class="col col--fluid-3 background--white padding-top-lg--3 inactive" style="height: 108px">
+                <button class="btn btn--primary btn--thick padding-left--3 padding-right--3" style="background-color: #9F218B">Call to action</button>
             </div>
         </div>
     </div>
 </nav>
 <!--section 1-->
-<div class="wrapper content--content-border">
+<div class="wrapper content--content-border" id="one">
     <div class="col-wrap content--content-background padding-top-lg--8">
         <div class="col col--fluid-3">
             <h2>1. What is this all about</h2>
@@ -154,13 +158,12 @@
             <p class="font-size--h3" style="text-align: center;font-weight: 400;">About 4 in 5 cases of campylobacter food poisoning in the UK come from
                 contaminated poultry</p>
             <img src="../assets/img/twitter.png" alt="" style="width: 40px; margin-left: 45%">
-            <a name="two"></a>
         </div>
         <div class="col col--fluid-15 padding-bottom-lg--4"></div>
     </div>
 </div>
 <!--section 2-->
-<div class="wrapper content--content-border">
+<div class="wrapper content--content-border" id="two">
     <div class="col-wrap content--content-background padding-top-lg--8">
         <div class="col col--fluid-3">
             <h2>2. What should I be doing?</h2>
@@ -194,14 +197,13 @@
                         way through before serving. Cut in to the thickest part of the meat and check that it is
                         steaming hot with no pink meat and that the juices run clear.</p>
                 </div>
-                <a name="three"></a>
             </div>
         </div>
         <div class="col col--fluid-15 padding-bottom-lg--4"></div>
     </div>
 </div>
 <!--section 3-->
-<div class="wrapper background--mid-purple">
+<div class="wrapper background--mid-purple" id="three">
     <div class="col-wrap background--light-purple padding-top-lg--8">
         <div class="col col--fluid-3" style="color: white">
             <h2>3. Add my support</h2>
@@ -310,6 +312,43 @@
             }
         });
     });
+</script>
+<script>
+    $(document).ready(function () {
+        $(document).on("scroll", onScroll);
+
+        //smoothscroll
+        $('a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
+            $(document).off("scroll");
+            var target = this.hash,
+                    menu = target;
+            $target = $(target);
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top - 100
+            }, 500, 'swing', function () {
+                window.location.hash = target;
+                $(document).on("scroll", onScroll);
+            });
+        });
+    });
+
+    function onScroll(event){
+        var scrollPos = $(document).scrollTop();
+        $('#navbar-main a').each(function () {
+            var currLink = $(this);
+            var refElement = $(currLink.attr("href"));
+            if (scrollPos < 350) {
+                $('#menu').addClass("active");
+            }
+            if (refElement.position().top -150 <= scrollPos && refElement.position().top -100 + refElement.height() > scrollPos) {
+                currLink.parent().addClass("active");
+            }
+            else{
+                currLink.parent().removeClass("active");
+            }
+        });
+    }
 </script>
 </body>
 </html>
