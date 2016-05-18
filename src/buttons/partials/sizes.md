@@ -3,7 +3,7 @@ title: Sizes
 <!--template: test.html-->
 template:
 type: partial
-order: 3
+order: 5
 show-snippet: true
 ---
 [snippet]

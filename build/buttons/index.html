@@ -42,22 +42,59 @@
             <h2 class="table-of-contents__title">Table of contents</h2>
             <ol id="toc" class="table-of-contents__list">
                 <li class="table-of-contents__item">
-                    <a href="#primary" class="js-scroll">Primary</a>
+                    <a href="#action-button" class="js-scroll">Action button</a>
                 </li>
                 <li class="table-of-contents__item">
-                    <a href="#secondary" class="js-scroll">Secondary</a>
+                    <a href="#success-next-and-forms-button" class="js-scroll">Success, next and forms button</a>
                 </li>
                 <li class="table-of-contents__item">
-                    <a href="#sizes" class="js-scroll">Sizes</a>
+                    <a href="#content-button" class="js-scroll">Content button</a>
                 </li>
                 <li class="table-of-contents__item">
                     <a href="#button-groups" class="js-scroll">Button groups</a>
                 </li>
+                <li class="table-of-contents__item">
+                    <a href="#sizes" class="js-scroll">Sizes</a>
+                </li>
             </ol>
         </div>
         <div class="page-content__main-content pl-page-content__main-content js-sticky-toc__trigger">
-            <div class="pl-item js-sticky-toc__section" id="primary">
-                <h2>Primary</h2>
+            <div class="pl-item js-sticky-toc__section" id="action-button">
+                <h2>Action button</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--buttons">
+                        <div class="pl-wrapper margin-top-md--2">
+                            
+<!-- Secondary button -->
+<button class="btn btn--action">
+    Action button - Max 1 per page
+</button>
+
+<!-- Active secondary button -->
+<button class="btn btn--action-alt btn--secondary-active">
+    Action alternative button - Max 1 per page
+</button>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;!-- Secondary button --&gt;
+&lt;button class&#x3D;&quot;btn btn--action&quot;&gt;
+    Action button - Max 1 per page
+&lt;/button&gt;
+
+&lt;!-- Active secondary button --&gt;
+&lt;button class&#x3D;&quot;btn btn--action-alt btn--secondary-active&quot;&gt;
+    Action alternative button - Max 1 per page
+&lt;/button&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item js-sticky-toc__section" id="success-next-and-forms-button">
+                <h2>Success, next and forms button</h2>
                 
                 <div class="pl-example">
                     <div class="pl-example__rendered pl-example__rendered--buttons">
@@ -65,12 +102,12 @@
                             
 <!-- Primary button -->
 <button class="btn btn--primary">
-    Primary button
+    Success / next / forms
 </button>
 
 <!-- Disabled primary button -->
 <button class="btn btn--primary btn--primary-disabled">
-    Primary button (disabled)
+    Button disabled
 </button>
 
                         </div>
@@ -79,57 +116,112 @@
                         <pre class="on-grid"><code class="language-html">
 &lt;!-- Primary button --&gt;
 &lt;button class&#x3D;&quot;btn btn--primary&quot;&gt;
-    Primary button
+    Success / next / forms
 &lt;/button&gt;
 
 &lt;!-- Disabled primary button --&gt;
 &lt;button class&#x3D;&quot;btn btn--primary btn--primary-disabled&quot;&gt;
-    Primary button (disabled)
+    Button disabled
 &lt;/button&gt;
 </code></pre>
                     </div>
                 </div>
             </div>
-            <div class="pl-item js-sticky-toc__section" id="secondary">
-                <h2>Secondary</h2>
+            <div class="pl-item js-sticky-toc__section" id="content-button">
+                <h2>Content button</h2>
                 
                 <div class="pl-example">
                     <div class="pl-example__rendered pl-example__rendered--buttons">
                         <div class="pl-wrapper margin-top-md--2">
                             
-<!-- Secondary button -->
-<button class="btn btn--secondary">
-    Secondary button
-</button>
-
-<!-- Active secondary button -->
-<button class="btn btn--secondary btn--secondary-active">
-    Active secondary button
-</button>
-
-<!-- Disabled secondary button -->
-<button class="btn btn--secondary btn--secondary-disabled">
-    Disabled secondary button
+<!-- Content button -->
+<button class="btn btn--content">
+    Content button
 </button>
 
                         </div>
                     </div>
                     <div class="pl-example__code">
                         <pre class="on-grid"><code class="language-html">
-&lt;!-- Secondary button --&gt;
-&lt;button class&#x3D;&quot;btn btn--secondary&quot;&gt;
-    Secondary button
+&lt;!-- Content button --&gt;
+&lt;button class&#x3D;&quot;btn btn--content&quot;&gt;
+    Content button
 &lt;/button&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item js-sticky-toc__section" id="button-groups">
+                <h2>Button groups</h2>
+                <p>Any buttons in a button group will float left and be separated by a 1px border.</p>
 
-&lt;!-- Active secondary button --&gt;
-&lt;button class&#x3D;&quot;btn btn--secondary btn--secondary-active&quot;&gt;
-    Active secondary button
-&lt;/button&gt;
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--buttons">
+                        <div class="pl-wrapper margin-top-md--2">
+                            
+<!-- Primary buttons -->
+<div class="btn-group">
+    <button class="btn btn--primary">
+        Monthly
+    </button>
+    <button class="btn btn--primary">
+        Quarterly
+    </button>
+    <button class="btn btn--primary">
+        Yearly
+    </button>
+</div>
 
-&lt;!-- Disabled secondary button --&gt;
-&lt;button class&#x3D;&quot;btn btn--secondary btn--secondary-disabled&quot;&gt;
-    Disabled secondary button
-&lt;/button&gt;
+<!--Added for tidying up-->
+</br>
+<!--End of tidying up-->
+
+<!-- Small thin buttons -->
+<div class="btn-group">
+    <button class="btn btn--primary btn--small btn--thin">
+        5 years
+    </button>
+    <button class="btn btn--primary btn--small btn--thin">
+        10 years
+    </button>
+    <button class="btn btn--primary btn--small btn--thin">
+        15 years
+    </button>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;!-- Primary buttons --&gt;
+&lt;div class&#x3D;&quot;btn-group&quot;&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary&quot;&gt;
+        Monthly
+    &lt;/button&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary&quot;&gt;
+        Quarterly
+    &lt;/button&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary&quot;&gt;
+        Yearly
+    &lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!--Added for tidying up--&gt;
+&lt;/br&gt;
+&lt;!--End of tidying up--&gt;
+
+&lt;!-- Small thin buttons --&gt;
+&lt;div class&#x3D;&quot;btn-group&quot;&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary btn--small btn--thin&quot;&gt;
+        5 years
+    &lt;/button&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary btn--small btn--thin&quot;&gt;
+        10 years
+    &lt;/button&gt;
+    &lt;button class&#x3D;&quot;btn btn--primary btn--small btn--thin&quot;&gt;
+        15 years
+    &lt;/button&gt;
+&lt;/div&gt;
 </code></pre>
                     </div>
                 </div>
@@ -234,81 +326,6 @@
 &lt;button class&#x3D;&quot;btn btn--primary btn--full-width&quot;&gt;
     Full width button
 &lt;/button&gt;
-</code></pre>
-                    </div>
-                </div>
-            </div>
-            <div class="pl-item js-sticky-toc__section" id="button-groups">
-                <h2>Button groups</h2>
-                <p>Any buttons in a button group will float left and be separated by a 1px border.</p>
-
-                <div class="pl-example">
-                    <div class="pl-example__rendered pl-example__rendered--buttons">
-                        <div class="pl-wrapper margin-top-md--2">
-                            
-<!-- Primary buttons -->
-<div class="btn-group">
-    <button class="btn btn--primary">
-        Monthly
-    </button>
-    <button class="btn btn--primary">
-        Quarterly
-    </button>
-    <button class="btn btn--primary">
-        Yearly
-    </button>
-</div>
-
-<!--Added for tidying up-->
-</br>
-<!--End of tidying up-->
-
-<!-- Small thin buttons -->
-<div class="btn-group">
-    <button class="btn btn--primary btn--small btn--thin">
-        5 years
-    </button>
-    <button class="btn btn--primary btn--small btn--thin">
-        10 years
-    </button>
-    <button class="btn btn--primary btn--small btn--thin">
-        15 years
-    </button>
-</div>
-
-                        </div>
-                    </div>
-                    <div class="pl-example__code">
-                        <pre class="on-grid"><code class="language-html">
-&lt;!-- Primary buttons --&gt;
-&lt;div class&#x3D;&quot;btn-group&quot;&gt;
-    &lt;button class&#x3D;&quot;btn btn--primary&quot;&gt;
-        Monthly
-    &lt;/button&gt;
-    &lt;button class&#x3D;&quot;btn btn--primary&quot;&gt;
-        Quarterly
-    &lt;/button&gt;
-    &lt;button class&#x3D;&quot;btn btn--primary&quot;&gt;
-        Yearly
-    &lt;/button&gt;
-&lt;/div&gt;
-
-&lt;!--Added for tidying up--&gt;
-&lt;/br&gt;
-&lt;!--End of tidying up--&gt;
-
-&lt;!-- Small thin buttons --&gt;
-&lt;div class&#x3D;&quot;btn-group&quot;&gt;
-    &lt;button class&#x3D;&quot;btn btn--primary btn--small btn--thin&quot;&gt;
-        5 years
-    &lt;/button&gt;
-    &lt;button class&#x3D;&quot;btn btn--primary btn--small btn--thin&quot;&gt;
-        10 years
-    &lt;/button&gt;
-    &lt;button class&#x3D;&quot;btn btn--primary btn--small btn--thin&quot;&gt;
-        15 years
-    &lt;/button&gt;
-&lt;/div&gt;
 </code></pre>
                     </div>
                 </div>

@@ -1,19 +1,19 @@
 ---
-title: Primary
+title: Success, next and forms button
 <!--template: test.html-->
 template:
 type: partial
-order: 1
+order: 2
 show-snippet: true
 ---
 [snippet]
 <!-- Primary button -->
 <button class="btn btn--primary">
-    Primary button
+    Success / next / forms
 </button>
 
 <!-- Disabled primary button -->
 <button class="btn btn--primary btn--primary-disabled">
-    Primary button (disabled)
+    Button disabled
 </button>
 [/snippet]
