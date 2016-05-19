@@ -21,7 +21,6 @@
 </head>
 
 <style>
-
 </style>
 
 <body>
@@ -48,8 +47,8 @@
             <span class="regional">This is specific for &lt;Nation&gt; (16px Roboto Bold)</span>
         </div>
         <div class="col col--fluid-offset-3 col--fluid-10 padding-bottom-lg--8">
-            <h2>This is an h2 and in the main heading of this page (48px font size and line height, 10 cols wide)
-            </h2>
+            <h1>This is an h1 and in the main heading of this page (48px font size and line height, 10 cols wide)
+            </h1>
         </div>
     </div>
 </div>
@@ -72,7 +71,7 @@
     <div class="col-wrap">
         <div class="wrapper">
             <div class="col col--fluid-3 padding-top-lg--6">
-                <div class="content--tile-signup">
+                <div class="content--tile-signup" data-spy="affix" data-offset-top="550" data-offset-bottom="850" id="sidebar">
                     <p>Last updated:</p>
                     <p class="bold">28/04/2016</p>
                     <div class="share">
@@ -97,10 +96,10 @@
 <div class="wrapper content">
     <div class="col-wrap">
         <div class="col col--fluid-offset-3 col--fluid-8">
-            <h1>Heading 1 (Used in the campaign title. 60px font and line size)</h1>
-            <h2>Heading 2 (48px font and line size)</h2>
-            <h3>Heading 3 (36px font and line size)</h3>
-            <h4>Heading 4 (28px font and line size)</h4>
+            <h1 class="big">Heading 1 (Used in the campaign title. 60px font and line size)</h1>
+            <h2>Heading 2 (36px font and line size)</h2>
+            <h3>Heading 3 (28px font and line size)</h3>
+            <h4>Heading 4 (24px font and line size)</h4>
             <h5>Heading 5 (21px font and line size)</h5>
             <h6>Heading 6 (18px font and line size. Roboto bold)</h6>
 
@@ -144,6 +143,7 @@
         <div class="col col--fluid-offset-3 col--fluid-10">
             <p>'This is a quote, use it anywhere on the page in context. (48px Roboto thin
                 italic, 56px line height, 10 cols wide)'</p>
+            <p class="source">Quote source (16px Roboto regular)</p>
         </div>
     </div>
 </div>
@@ -503,17 +503,17 @@
                     <input type="text">
                 </div>
                 <div class="col col--fluid-4">
-                    <button class="btn btn--content btn--thick">
+                    <button class="btn btn--content ">
                         Content button
                     </button>
                 </div>
             </div>
         </div>
         <div class="col col--fluid-offset-3 col--fluid-8 padding-top-lg--4">
-            <button class="btn btn--action btn--thick">
+            <button class="btn btn--action ">
                 Action button
             </button>
-            <button class="btn btn--action-alt btn--thick">
+            <button class="btn btn--action-alt ">
                 Action alternative button
             </button>
         </div>
@@ -616,5 +616,21 @@
     </div>
 </div>
 
+<script>
+//    $('#sidebar').affix({
+//        offset: {
+//            top: 550,
+//            bottom: 850
+//        }
+//    });
+
+//    var $body = $(document.body);
+//    var navHeight = $('.content--tile-signup').outerHeight(true) + 10;
+//
+//    $body.scrollspy({
+//        target: '#leftCol',
+//        offset: navHeight
+//    });
+</script>
 </body>
 </html>

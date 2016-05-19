@@ -20,45 +20,6 @@
 </head>
 <body>
 <style>
-    @media (min-width: 1275px) {
-        .separator-left-solid:before {
-            content: "";
-            position: absolute;
-            z-index: 1;
-            top: 50px;
-            bottom: 0;
-            left: 0;
-            border-left: 2px solid #D9D9D6
-        }
-    }
-
-    @media (max-width: 767px) {
-        .separator-left-solid:before {
-            content: "";
-            height: 1px;
-            background: #D9D9D6;
-            position: absolute;
-            bottom: -14px
-        }
-    }
-    .navbar {
-        position: relative;
-        margin-bottom: 20px;
-        /*border: 1px solid transparent*/
-    }
-    .menu-hidden {
-        visibility: hidden;
-        height: 1px;
-        padding: 0;
-        margin: 0;
-    }
-    .navbar-fixed-top {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030
-    }
 </style>
 <!--menu-->
 <div class="wrapper"
@@ -69,7 +30,8 @@
         </div>
     </div>
     <div class="col-wrap">
-        <div id="menu" class="col col--fluid-2 background--white separator-right-solid menu-inactive" style="height: 108px">
+        <div id="menu" class="col col--fluid-2 background--white separator-right-solid menu-inactive"
+             style="height: 108px">
             <a href="#one"><p>1. What is this all about</p></a>
         </div>
         <div class="col col--fluid-2 background--white separator-right-solid menu-inactive" style="height: 108px">
@@ -80,19 +42,21 @@
         </div>
         <div class="col col--fluid-6 background--white menu-inactive" style="height: 108px"></div>
         <div class="col col--fluid-3 background--white padding-top-lg--3 menu-inactive" style="height: 108px">
-            <button class="btn btn--primary btn--thick padding-left--3 padding-right--3" style="background-color: #9F218B">Call to action</button>
+            <button class="btn btn--primary  padding-left--3 padding-right--3" style="background-color: #9F218B">Call to
+                action
+            </button>
         </div>
     </div>
 </div>
 <!--menu hidden-->
 <nav id="navbar-main" class="navbar menu-hidden">
     <div class="wrapper">
-        <div class="col-wrap">
+        <div class="col-wrap" style="max-width: 1275px; width: 100%;">
             <div class="col col--fluid-15 background--light-yellow">
                 <h2 style="margin: 0 5px">Don't wash raw chicken</h2>
             </div>
         </div>
-        <div class="col-wrap">
+        <div class="col-wrap" style="max-width: 1275px; width: 100%;">
             <div class="col col--fluid-2 background--white separator-right-solid menu-inactive" style="height: 108px">
                 <a href="#one"><p>1. What is this all about</p></a>
             </div>
@@ -104,58 +68,66 @@
             </div>
             <div class="col col--fluid-6 background--white menu-inactive" style="height: 108px"></div>
             <div class="col col--fluid-3 background--white padding-top-lg--3 menu-inactive" style="height: 108px">
-                <button class="btn btn--primary btn--thick padding-left--3 padding-right--3" style="background-color: #9F218B">Call to action</button>
+                <button class="btn btn--primary  padding-left--3 padding-right--3" style="background-color: #9F218B">
+                    Call to action
+                </button>
             </div>
         </div>
     </div>
 </nav>
 <!--section 1-->
-<div class="wrapper content" id="one">
-    <div class="col-wrap padding-top-lg--8">
-        <div class="col col--fluid-3">
-            <h2>1. What is this all about</h2>
-        </div>
-        <div class="col col--fluid-9 separator-left-solid">
-            <p class="font-size--h3" style="margin-top: 48px;">We want to protect you and your family from food poisoning in your own home, particularly when handling chicken. So we're saying: 'Don’t wash raw chicken'.
-            </p>
-            <p>This is because of a food bug called campylobacter, the most common cause of food poisoning in the UK. It
-                can be fatal.
-            </p>
-            <p>Campylobacter can be spread easily and just a few bacteria could cause illness. This could come from raw
-                or undercooked chicken, or from contamination due to washing raw chicken. The easiest way to protect
-                yourself and your family is to follow our simple food safety tips every time you prepare food.
-            </p>
-            <iframe title="What's going on in your kitchen" width="640px" height="390"
-                    src="http://www.youtube.com/embed/KsX1GWA3eFw?enablejsapi=1" allowfullscreen=""
-                    id="widget2"></iframe>
-        </div>
-        <div class="col col--fluid-15 padding-bottom-lg--4"></div>
-    </div>
-</div>
-<!--Key facts-->
-<div class="wrapper content--quote">
-    <div class="col-wrap">
-        <div class="col col--fluid-15">
-            <p>Key facts</p>
+<div id="one">
+    <div class="wrapper content">
+        <div class="col-wrap padding-top-lg--8">
+            <div class="col col--fluid-3">
+                <h2>1. What is this all about</h2>
+            </div>
+            <div class="col col--fluid-9 separator-left-solid">
+                <p class="font-size--h3" style="margin-top: 48px;">We want to protect you and your family from food
+                    poisoning in your own home, particularly when handling chicken. So we're saying: 'Don’t wash raw
+                    chicken'.
+                </p>
+                <p>This is because of a food bug called campylobacter, the most common cause of food poisoning in the
+                    UK. It
+                    can be fatal.
+                </p>
+                <p>Campylobacter can be spread easily and just a few bacteria could cause illness. This could come from
+                    raw
+                    or undercooked chicken, or from contamination due to washing raw chicken. The easiest way to protect
+                    yourself and your family is to follow our simple food safety tips every time you prepare food.
+                </p>
+                <iframe title="What's going on in your kitchen" width="640px" height="390"
+                        src="http://www.youtube.com/embed/KsX1GWA3eFw?enablejsapi=1" allowfullscreen=""
+                        id="widget2"></iframe>
+            </div>
+            <div class="col col--fluid-15 padding-bottom-lg--4"></div>
         </div>
     </div>
-    <div class="col-wrap content--quote-background">
-        <div class="col col--fluid-5 separator-right-solid">
-            <p>Splashing water from washing chicken can spread campylobacter. Thorough
-                cooking kills it.</p>
-            <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
+    <!--Key facts-->
+    <div class="wrapper key-facts">
+        <div class="col-wrap">
+            <div class="col col--fluid-15">
+                <p class="title">Key facts</p>
+            </div>
         </div>
-        <div class="col col--fluid-5 separator-right-solid">
-            <p>Campylobacter causes more cases of food poisoning than E.coli, listeria and
-                salmonella put together.</p>
-            <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
+        <div class="col-wrap content--quote-background">
+            <div class="col col--fluid-5 separator-right-solid">
+                <p class="share">Splashing water from washing chicken can spread campylobacter. Thorough
+                    cooking kills it.</p>
+                <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
+            </div>
+            <div class="col col--fluid-5 separator-right-solid">
+                <p class="share">Campylobacter causes more cases of food poisoning than E.coli, listeria and
+                    salmonella put together.</p>
+                <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
+            </div>
+            <div class="col col--fluid-5">
+                <p class="share">About 4 in 5 cases of campylobacter food poisoning in the UK come from
+                    contaminated poultry</p>
+                <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
+            </div>
+            <div class="col col--fluid-15 padding-bottom-lg--4"></div>
         </div>
-        <div class="col col--fluid-5">
-            <p>About 4 in 5 cases of campylobacter food poisoning in the UK come from
-                contaminated poultry</p>
-            <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
-        </div>
-        <div class="col col--fluid-15 padding-bottom-lg--4"></div>
     </div>
 </div>
 <!--section 2-->
@@ -214,7 +186,7 @@
                     <p style="font-weight: 100;">Supporters</p>
                 </div>
                 <div class="col col--fluid-one-half" style="margin-top: 50px">
-                    <button class="btn btn--secondary btn--thick margin-left-lg--1"
+                    <button class="btn btn--secondary  margin-left-lg--1"
                             style="color: #49176D; font-size: 30px;font-weight: 700">Add my support
                     </button>
                 </div>
@@ -292,14 +264,14 @@
 
 <script>
     /*! Main */
-    $(window).load(function() {
+    $(window).load(function () {
 
         var navbar = $('#navbar-main'),
                 distance = navbar.offset().top,
                 $window = $(window);
 
         $window.scroll(function () {
-            if ($window.scrollTop() > (distance -114)) {
+            if ($window.scrollTop() > (distance - 114)) {
                 navbar.removeClass('menu-hidden').addClass('navbar-fixed-top');
                 $("body").css("padding-top", "1px");
             } else {
@@ -329,7 +301,7 @@
         });
     });
 
-    function onScroll(event){
+    function onScroll(event) {
         var scrollPos = $(document).scrollTop();
         $('#navbar-main a').each(function () {
             var currLink = $(this);
@@ -337,10 +309,10 @@
             if (scrollPos < 350) {
                 $('#menu').addClass("menu-active");
             }
-            if (refElement.position().top -150 <= scrollPos && refElement.position().top -150 + refElement.height() > scrollPos) {
+            if (refElement.position().top - 150 <= scrollPos && refElement.position().top - 150 + refElement.height() > scrollPos) {
                 currLink.parent().addClass("menu-active");
             }
-            else{
+            else {
                 currLink.parent().removeClass("menu-active");
             }
         });

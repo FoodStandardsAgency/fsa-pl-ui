@@ -12,9 +12,9 @@ show-snippet: true
     Small button
 </button>
 
-<!-- Thick -->
-<button class="btn btn--primary btn--thick">
-    Thick button
+<!-- Thinner -->
+<button class="btn btn--primary btn--thinner">
+    Thinner button
 </button>
 
 <!-- Thin -->

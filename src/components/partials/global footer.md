@@ -11,7 +11,7 @@ show-snippet: true
     <div class="col-wrap footer--background">
         <!--button-->
         <div class="col col--fluid-offset-6 col--fluid-3" style="margin-top: 40px;">
-            <button class="btn btn--secondary btn--thick margin-top--double margin-left" style="color: #53565A">
+            <button class="btn btn--secondary  margin-top--double margin-left" style="color: #53565A">
                 Anything wrong with this page?
             </button>
         </div>
@@ -118,10 +118,10 @@ show-snippet: true
     <div class="col-wrap footer--background">
         <!--footer-->
         <div class="col col--fluid-15" style="margin-top: 20px;">
-            <button class="btn btn--secondary btn--thick" style="color: #53565A">
+            <button class="btn btn--secondary " style="color: #53565A">
                 Sign up for news and alerts
             </button>
-            <button class="btn btn--secondary btn--thick"
+            <button class="btn btn--secondary "
                     style="background-color: #F15D22">
                 Subscribe now
             </button>
