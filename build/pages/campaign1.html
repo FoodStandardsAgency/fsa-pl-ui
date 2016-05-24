@@ -20,59 +20,80 @@
 </head>
 <body>
 <style>
+
+    nav > ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav > ul > li {
+        margin: 0;
+        height: 108px;
+    }
 </style>
 <!--menu-->
-<div class="wrapper"
-     style="height: 350px; background-color: #F2F2F2; background-image: url('../assets/img/fsa-campaign-menu.jpg')">
-    <div class="col-wrap" style="margin-top: 8%">
-        <div class="col col--fluid-15 background--light-yellow margin-top--0">
-            <h1 style="color: black; margin: 20px 0">Don't wash raw chicken</h1>
+<div class="wrapper border-pic--transparent"
+     style="height: 350px; background-color: #F2F2F2; background-image: url('../assets/img/fsa-campaign-menu.jpg'); position: relative">
+    <div class="wrapper" style="position: absolute;bottom: 12px; left: 0;">
+        <div class="col-wrap">
+            <div class="col col--fluid-15 background--light-yellow-transp margin-top--0">
+                <h1 style="color: black; margin: 20px 0;">Don't wash raw chicken</h1>
+            </div>
         </div>
-    </div>
-    <div class="col-wrap">
-        <div id="menu" class="col col--fluid-2 background--white separator-right-solid menu-inactive"
-             style="height: 108px">
-            <a href="#one"><p>1. What is this all about</p></a>
-        </div>
-        <div class="col col--fluid-2 background--white separator-right-solid menu-inactive" style="height: 108px">
-            <a href="#two"><p>2. What should I be doing?</p></a>
-        </div>
-        <div class="col col--fluid-2 background--white separator-right-solid menu-inactive" style="height: 108px">
-            <a href="#three"><p>3. Add my support</p></a>
-        </div>
-        <div class="col col--fluid-6 background--white menu-inactive" style="height: 108px"></div>
-        <div class="col col--fluid-3 background--white padding-top-lg--3 menu-inactive" style="height: 108px">
-            <button class="btn btn--primary  padding-left--3 padding-right--3" style="background-color: #9F218B">Call to
-                action
-            </button>
-        </div>
+        <nav>
+            <ul class="col-wrap">
+                <li id="menu" class="col col--fluid-3 background--white separator-right-solid menu-inactive"
+                >
+                    <a href="#one"><p>1. What is this all about</p></a>
+                </li>
+                <li class="col col--fluid-3 background--white separator-right-solid menu-inactive"
+                >
+                    <a href="#two"><p>2. What should I be doing?</p></a>
+                </li>
+                <li class="col col--fluid-3 background--white separator-right-solid menu-inactive"
+                >
+                    <a href="#three"><p>3. Add my support</p></a>
+                </li>
+                <li class="col col--fluid-3 background--white menu-inactive"></li>
+                <li class="col col--fluid-3 background--white padding-top-lg--3 menu-inactive">
+                    <button class="btn btn--action  padding-left--3 padding-right--3">
+                        Call to
+                        action
+                    </button>
+                </li>
+            </ul>
+        </nav>
     </div>
 </div>
 <!--menu hidden-->
 <nav id="navbar-main" class="navbar menu-hidden">
-    <div class="wrapper">
-        <div class="col-wrap" style="max-width: 1275px; width: 100%;">
+    <div class="wrapper shadow">
+        <div class="col-wrap menu-h">
             <div class="col col--fluid-15 background--light-yellow">
                 <h2 style="margin: 0 5px">Don't wash raw chicken</h2>
             </div>
         </div>
-        <div class="col-wrap" style="max-width: 1275px; width: 100%;">
-            <div class="col col--fluid-2 background--white separator-right-solid menu-inactive" style="height: 108px">
-                <a href="#one"><p>1. What is this all about</p></a>
-            </div>
-            <div class="col col--fluid-2 background--white separator-right-solid menu-inactive" style="height: 108px">
-                <a href="#two"><p>2. What should I be doing?</p></a>
-            </div>
-            <div class="col col--fluid-2 background--white separator-right-solid menu-inactive" style="height: 108px">
-                <a href="#three"><p>3. Add my support</p></a>
-            </div>
-            <div class="col col--fluid-6 background--white menu-inactive" style="height: 108px"></div>
-            <div class="col col--fluid-3 background--white padding-top-lg--3 menu-inactive" style="height: 108px">
-                <button class="btn btn--primary  padding-left--3 padding-right--3" style="background-color: #9F218B">
-                    Call to action
-                </button>
-            </div>
-        </div>
+        <nav>
+            <ul class="col-wrap menu-b" style="border-left: 2px solid #D9D9D6;">
+                <li class="col col--fluid-3 background--white separator-right-solid menu-inactive">
+                    <a href="#one"><p>1. What is this all about</p></a>
+                </li>
+                <li class="col col--fluid-3 background--white separator-right-solid menu-inactive">
+                    <a href="#two"><p>2. What should I be doing?</p></a>
+                </li>
+                <li class="col col--fluid-3 background--white separator-right-solid menu-inactive">
+                    <a href="#three"><p>3. Add my support</p></a>
+                </li>
+                <li class="col col--fluid-2 background--white menu-inactive"></li>
+                <li class="col col--fluid-3 background--white padding-top-lg--3 menu-inactive">
+                    <button class="btn btn--action padding-left--3 padding-right--3">
+                        Call to action
+                    </button>
+                </li>
+                <li class="col col--fluid-1 background--white padding-top-lg--3 separator-right-solid menu-inactive"
+                ></li>
+            </ul>
+        </nav>
     </div>
 </nav>
 <!--section 1-->
@@ -195,34 +216,9 @@
         <div class="col col--fluid-15 padding-bottom-lg--8"></div>
     </div>
 </div>
-<!--empty space separator-->
-<div class="wrapper content">
-    <div class="col-wrap padding-top-lg--20"></div>
-</div>
-<!--strong share-->
-<div class="wrapper background--black">
-    <div class="col-wrap background--dark-grey">
-        <div class="col col--fluid-offset-3 col--fluid-9 padding-top-lg--4 padding-bottom-lg--4">
-            <p style="font-size: 21px; font-weight: 100;">Share this page</p>
-            <div class="col-wrap background--dark-grey">
-                <div class="col col--fluid-offset-3 col--fluid-2 separator-right-solid">
-                    <img src="../assets/img/pinterest.png" alt="" class="img-responsive">
-                </div>
-                <div class="col col--fluid-2 separator-right-solid">
-                    <img src="../assets/img/twitter.png" alt="" class="img-responsive">
-                </div>
-                <div class="col col--fluid-2">
-                    <img src="../assets/img/facebook.png" alt="" class="img-responsive">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--empty space separator-->
-<div class="wrapper content">
-    <div class="col-wrap padding-bottom-lg--12"></div>
-</div>
-<div class="wrapper content">
+
+<!--related content-->
+<div class="wrapper content--related">
     <div class="col-wrap padding-top-lg--8">
         <div class="col col--fluid-3">
             <h2 style="color: black">Related content</h2>
@@ -259,6 +255,26 @@
             </div>
         </div>
         <div class="col col--fluid-15 padding-bottom-lg--8"></div>
+    </div>
+</div>
+
+<!--strong share-->
+<div class="wrapper content">
+    <div class="col-wrap">
+        <div class="col col--fluid-offset-3 col--fluid-9 padding-top-lg--4 padding-bottom-lg--4">
+            <p style="font-size: 24px;">Share this page</p>
+            <div class="col-wrap">
+                <div class="col col--fluid-offset-3 col--fluid-2">
+                    <img src="../assets/img/pinterest-social-logo.svg" alt="" class="img-responsive">
+                </div>
+                <div class="col col--fluid-offset-3 col--fluid-2">
+                    <img src="../assets/img/twitter-logo-silhouette.svg" alt="" class="img-responsive">
+                </div>
+                <div class="col col--fluid-offset-3 col--fluid-2">
+                    <img src="../assets/img/facebook-logo.svg" alt="" class="img-responsive">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
