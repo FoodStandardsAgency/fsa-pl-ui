@@ -20,27 +20,17 @@
 </head>
 <body>
 <style>
-
-    nav > ul {
-        margin: 0;
-        padding: 0;
-    }
-
-    nav > ul > li {
-        margin: 0;
-        height: 108px;
-    }
 </style>
 <!--menu-->
-<div class="wrapper border-pic--transparent"
-     style="height: 350px; background-color: #F2F2F2; background-image: url('../assets/img/fsa-campaign-menu.jpg'); position: relative">
-    <div class="wrapper" style="position: absolute;bottom: 12px; left: 0;">
+<div class="wrapper border-pic--transparent campaign-menu"
+     style="background-image: url('../assets/img/fsa-campaign-menu.jpg');">
+    <div class="wrapper">
         <div class="col-wrap">
             <div class="col col--fluid-15 background--light-yellow-transp margin-top--0">
-                <h1 style="color: black; margin: 20px 0;">Don't wash raw chicken</h1>
+                <h1 class="big">Don't wash raw chicken</h1>
             </div>
         </div>
-        <nav>
+        <nav class="campaign-nav">
             <ul class="col-wrap">
                 <li id="menu" class="col col--fluid-3 background--white separator-right-solid menu-inactive"
                 >
@@ -70,11 +60,11 @@
     <div class="wrapper shadow">
         <div class="col-wrap menu-h">
             <div class="col col--fluid-15 background--light-yellow">
-                <h2 style="margin: 0 5px">Don't wash raw chicken</h2>
+                <h2>Don't wash raw chicken</h2>
             </div>
         </div>
-        <nav>
-            <ul class="col-wrap menu-b" style="border-left: 2px solid #D9D9D6;">
+        <nav class="campaign-nav">
+            <ul class="col-wrap" id="menu-b">
                 <li class="col col--fluid-3 background--white separator-right-solid menu-inactive">
                     <a href="#one"><p>1. What is this all about</p></a>
                 </li>
@@ -104,7 +94,7 @@
                 <h2>1. What is this all about</h2>
             </div>
             <div class="col col--fluid-9 separator-left-solid">
-                <p class="font-size--h3" style="margin-top: 48px;">We want to protect you and your family from food
+                <p class="font-size--h3">We want to protect you and your family from food
                     poisoning in your own home, particularly when handling chicken. So we're saying: 'Don’t wash raw
                     chicken'.
                 </p>
@@ -158,10 +148,10 @@
             <h2>2. What should I be doing?</h2>
         </div>
         <div class="col col--fluid-10 separator-left-solid">
-            <p class="font-size--h3" style="margin-top: 48px;">The easiest way to protect yourself and your family is to
+            <p class="font-size--h3">The easiest way to protect yourself and your family is to
                 follow our simple food safety tips every time you prepare food.
             </p>
-            <div class="col-wrap" style="margin-top: 50px;">
+            <div class="col-wrap">
                 <div class="col col--fluid-one-half" style="height: 470px;">
                     <img src="../assets/img/act-image1.jpg" class="img-responsive" style="margin-bottom:16px;">
                     <p style="text-align: center;">Cover and chill raw chicken. Cover raw chicken and store at the
@@ -194,11 +184,11 @@
 <!--section 3-->
 <div class="wrapper background--mid-purple" id="three">
     <div class="col-wrap background--light-purple padding-top-lg--8">
-        <div class="col col--fluid-3" style="color: white">
+        <div class="col col--fluid-3">
             <h2>3. Add my support</h2>
         </div>
-        <div class="col col--fluid-10 background--light-purple separator-left-solid" style="color: white">
-            <p class="font-size--h3 padding-top-lg--4">We're working with supermarkets to make chicken safer. Show
+        <div class="col col--fluid-10 background--light-purple separator-left-solid">
+            <p class="font-size--h3">We're working with supermarkets to make chicken safer. Show
                 them you care by adding your support.
             </p>
             <div class="col-wrap padding-top-lg--6">
@@ -206,9 +196,9 @@
                     <p style="font-size: 110px; line-height: 120px; font-weight: 700; text-align: center">3781</p>
                     <p style="font-weight: 100;">Supporters</p>
                 </div>
-                <div class="col col--fluid-one-half" style="margin-top: 50px">
-                    <button class="btn btn--secondary  margin-left-lg--1"
-                            style="color: #49176D; font-size: 30px;font-weight: 700">Add my support
+                <div class="col col--fluid-one-half margin-top--6">
+                    <button class="btn btn--support margin-left-lg--1">
+                        Add my support
                     </button>
                 </div>
             </div>
@@ -223,7 +213,7 @@
         <div class="col col--fluid-3">
             <h2 style="color: black">Related content</h2>
         </div>
-        <div class="col col--fluid-12" style="margin-top: 40px;">
+        <div class="col col--fluid-12">
             <div class="col-wrap">
                 <div class="col col--fluid-5 background--light-grey" style="height: 150px">
                     <p class="font-size--h3">Read our guides and factsheets about campylobacter</p>
