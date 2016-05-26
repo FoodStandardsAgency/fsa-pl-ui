@@ -22,7 +22,7 @@
 <style>
 </style>
 <!--menu-->
-<div class="wrapper border-pic--transparent campaign-menu"
+<div class="wrapper border-pic--transparent campaign-menu hide--xs"
      style="background-image: url('../assets/img/fsa-campaign-menu.jpg');">
     <div class="wrapper">
         <div class="col-wrap">
@@ -44,7 +44,7 @@
                 >
                     <a href="#three"><p>3. Add my support</p></a>
                 </li>
-                <li class="col col--fluid-3 background--white menu-inactive hide--xs"></li>
+                <li class="col col--fluid-3 background--white menu-inactive"></li>
                 <li class="col col--fluid-3 background--white padding-top--3 menu-inactive">
                     <button class="btn btn--action  padding-left-lg--3 padding-right-lg--3">
                         Call to
@@ -55,10 +55,44 @@
         </nav>
     </div>
 </div>
-<!--menu hidden-->
-<nav id="navbar-main" class="navbar menu-hidden">
+<!--for mobile-->
+<div class="wrapper campaign-menu hide--not-xs">
+    <img class="img-responsive" src="../assets/img/fsa-campaign-menu.jpg" alt="">
+</div>
+<div class="wrapper hide--not-xs">
+    <div class="col-wrap">
+        <div class="col col--fluid-15 background--light-yellow">
+            <h1 class="big margin-top--0 margin-bottom--0">Don't wash raw chicken</h1>
+        </div>
+    </div>
+    <nav class="campaign-nav">
+        <ul class="col-wrap">
+            <li class="col col--fluid-3 background--white"
+            >
+                <a href="#one"><p>1. What is this all about</p></a>
+            </li>
+            <li class="col col--fluid-3 background--white separator-right-solid"
+            >
+                <a href="#two"><p>2. What should I be doing?</p></a>
+            </li>
+            <li class="col col--fluid-3 background--white separator-right-solid"
+            >
+                <a href="#three"><p>3. Add my support</p></a>
+            </li>
+            <li class="col col--fluid-3 background--white separator-right-solid">
+                <button class="btn btn--action  margin-top--1 padding-left-lg--3 padding-right-lg--3">
+                    Call to
+                    action
+                </button>
+            </li>
+        </ul>
+    </nav>
+</div>
+<!--end for mobile-->
+<!--menu hidden. Not showing on mobile-->
+<nav id="navbar-main" class="navbar menu-hidden hide--xs">
     <div class="wrapper shadow">
-        <div class="col-wrap menu-h hide--xs">
+        <div class="col-wrap menu-h">
             <div class="col col--fluid-15 background--light-yellow">
                 <h2>Don't wash raw chicken</h2>
             </div>
@@ -75,7 +109,7 @@
                     <a href="#three"><p>3. Add my support</p></a>
                 </li>
                 <li class="col col--fluid-2 background--white menu-inactive hide--xs"></li>
-                <li class="col col--fluid-3 background--white padding-top--3 menu-inactive">
+                <li class="col col--fluid-3 background--white padding-top-not-xs--3 menu-inactive">
                     <button class="btn btn--action  padding-left-lg--3 padding-right-lg--3">
                         Call to action
                     </button>
@@ -89,7 +123,7 @@
 <!--section 1-->
 <div id="one">
     <div class="wrapper content">
-        <div class="col-wrap padding-top-lg--8">
+        <div class="col-wrap padding-top-xs--1 padding-top-not-xs--8">
             <div class="col col--fluid-3">
                 <h2>1. What is this all about</h2>
             </div>
@@ -111,7 +145,7 @@
                         src="http://www.youtube.com/embed/KsX1GWA3eFw?enablejsapi=1" allowfullscreen=""
                         id="widget2"></iframe>
             </div>
-            <div class="col col--fluid-15 padding-bottom-lg--4"></div>
+            <div class="col col--fluid-15 padding-bottom--4"></div>
         </div>
     </div>
     <!--Key facts-->
@@ -137,13 +171,13 @@
                     contaminated poultry</p>
                 <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
             </div>
-            <div class="col col--fluid-15 padding-bottom-lg--4"></div>
+            <div class="col col--fluid-15 padding-bottom--4"></div>
         </div>
     </div>
 </div>
 <!--section 2-->
 <div class="wrapper content" id="two">
-    <div class="col-wrap padding-top-lg--8">
+    <div class="col-wrap padding-top-not-xs--8">
         <div class="col col--fluid-3">
             <h2>2. What should I be doing?</h2>
         </div>
@@ -178,12 +212,12 @@
                 </div>
             </div>
         </div>
-        <div class="col col--fluid-15 padding-bottom-lg--4"></div>
+        <div class="col col--fluid-15 padding-bottom--4"></div>
     </div>
 </div>
 <!--section 3-->
 <div class="wrapper background--mid-purple" id="three">
-    <div class="col-wrap background--light-purple padding-top-lg--8">
+    <div class="col-wrap background--light-purple padding-top-not-xs--8">
         <div class="col col--fluid-3">
             <h2>3. Add my support</h2>
         </div>
@@ -191,25 +225,25 @@
             <p class="font-size--h3">We're working with supermarkets to make chicken safer. Show
                 them you care by adding your support.
             </p>
-            <div class="col-wrap padding-top-lg--6">
+            <div class="col-wrap padding-top--6">
                 <div class="col col--fluid-one-half separator-right-solid">
                     <p class="big-number text-center">3781</p>
                     <p style="font-weight: 100;">Supporters</p>
                 </div>
-                <div class="col col--fluid-one-half margin-top-lg--6 margin-top-sm--3">
-                    <button class="btn btn--support margin-left-lg--1">
+                <div class="col col--fluid-one-half margin-top--6 margin-top-sm--3">
+                    <button class="btn btn--support margin-left--1">
                         Add my support
                     </button>
                 </div>
             </div>
         </div>
-        <div class="col col--fluid-15 padding-bottom-lg--8"></div>
+        <div class="col col--fluid-15 padding-bottom--8"></div>
     </div>
 </div>
 
 <!--related content-->
 <div class="wrapper content--related">
-    <div class="col-wrap padding-top-lg--8">
+    <div class="col-wrap padding-top--8">
         <div class="col col--fluid-3">
             <h2>Related content</h2>
         </div>
@@ -219,19 +253,23 @@
                     <p class="font-size--h3">Read our guides and factsheets about campylobacter</p>
                 </div>
                 <!--for mobile-->
-                <div class="col col--fluid-5 background--white padding-top-lg--4 hide--not-xs" style="height: 100%">
+                <div class="col col--fluid-5 background--white padding-top--4 hide--not-xs" style="height: 100%">
                     <div class="style-pdf">
                         <div class="pdf-separator-dotted">
+                            <span>
                             <a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
                                 out
-                                with a food allergy </a>(376.58 KB)
+                                with a food allergy  and a long list of other things like a deep understanding curve and a superficial knowledge of reality</a>(376.58 KB)
+                            </span>
                         </div>
                     </div>
-                    <div class="style-pdf padding-top-lg--2">
+                    <div class="style-pdf padding-top--2">
                         <div class="pdf-separator-dotted">
+                            <span>
                             <a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
                                 out
                                 with a food allergy </a>(376.58 KB)
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -244,35 +282,37 @@
                     <img src="../assets/img/happy-chicken.png" alt="" class="img-responsive">
                 </div>
                 <!--end for mobile-->
-                <div class="col col--fluid-5 background--white padding-top-lg--4 hide--xs" style="height: 350px">
-                    <div class="style-pdf">
-                        <div class="pdf-separator-dotted">
-                            <a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
+                <div class="col col--fluid-5 background--white padding-top--4 hide--xs" style="height: 350px">
+                    <!--<div class="style-pdf">-->
+                    <div class="pdf-separator-dotted">
+                            <span><a
+                                    href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
                                 out
-                                with a food allergy </a>(376.58 KB)
-                        </div>
+                                with a food allergy  and a long list of other things like a deep understanding curve and a superficial knowledge of reality </a>(376.58 KB)</span>
                     </div>
-                    <div class="style-pdf padding-top-lg--2">
-                        <div class="pdf-separator-dotted">
-                            <a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
+                    <!--</div>-->
+                    <!--<div class="style-pdf padding-top&#45;&#45;2">-->
+                    <div class="pdf-separator-dotted">
+                            <span><a
+                                    href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
                                 out
-                                with a food allergy </a>(376.58 KB)
-                        </div>
+                                with a food allergy </a>(376.58 KB)</span>
                     </div>
+                    <!--</div>-->
                 </div>
                 <div class="col col--fluid-offset-1 col--fluid-9 background--white hide--xs" style="height: 350px">
                     <img src="../assets/img/happy-chicken.png" alt="" class="img-responsive">
                 </div>
             </div>
         </div>
-        <div class="col col--fluid-15 padding-bottom-lg--8"></div>
+        <div class="col col--fluid-15 padding-bottom--8"></div>
     </div>
 </div>
 
 <!--strong share-->
 <div class="wrapper content">
     <div class="col-wrap">
-        <div class="col col--fluid-offset-3 col--fluid-9 padding-top-lg--4 padding-bottom-lg--4">
+        <div class="col col--fluid-offset-3 col--fluid-9 padding-top--4 padding-bottom--4">
             <p style="font-size: 24px;">Share this page</p>
             <div class="col-wrap">
                 <div class="col col--fluid-offset-3 col--fluid-2">
