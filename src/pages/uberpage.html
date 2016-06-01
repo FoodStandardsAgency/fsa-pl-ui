@@ -13,6 +13,7 @@
     <![endif]-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://use.typekit.net/ivl6ukw.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pym/0.4.5/pym.min.js"></script>
     <script src="../assets/js/bootstrap.js"></script>
     <script>try {
         Typekit.load({async: true});
@@ -21,10 +22,9 @@
 </head>
 
 <style>
-
 </style>
 
-<body>
+<body id="body">
 <!--new site bar-->
 <div class="wrapper bar--new-site">
     <div class="col-wrap">
@@ -37,14 +37,10 @@
         </div>
     </div>
 </div>
-<!--empty space separator-->
-<div class="wrapper content">
-    <div class="col-wrap padding-bottom--2"></div>
-</div>
 <!--title-->
 <div class="wrapper content--title">
     <div class="col-wrap">
-        <div class="col col--fluid-offset-3 col--fluid-10 padding-bottom--1">
+        <div class="col col--fluid-offset-3 col--fluid-10 padding-top--2 padding-bottom--1">
             <span class="regional">This is specific for &lt;Nation&gt; (16px Roboto Bold)</span>
         </div>
         <div class="col col--fluid-offset-3 col--fluid-10 padding-bottom--8">
@@ -68,11 +64,12 @@
     </div>
 </div>
 <!--intro-->
-<div class="wrapper content--intro">
+<div class="wrapper content--intro" id="sidebar-start">
     <div class="col-wrap">
         <div class="wrapper">
-            <div class="col col--fluid-3 padding-top--6">
-                <div class="content--tile-signup" data-spy="affix" data-offset-top="550" data-offset-bottom="1080" id="sidebar">
+            <div class="col col--fluid-3 padding-top--6" id="sidebar-width">
+                <!--<div class="content&#45;&#45;tile-signup" data-spy="affix" data-offset-top="550" data-offset-bottom="1080" id="sidebar">-->
+                <div class="content--tile-signup" id="sidebar">
                     <p>Last updated:</p>
                     <p class="bold">28/04/2016</p>
                     <div class="share">
@@ -108,7 +105,7 @@
             <!--Table of contents-->
             <div class="table-of-contents js-sticky-toc padding-top--4 padding-bottom-md--3">
                 <h3 class="table-of-contents__title">Table of contents (h3)</h3>
-                <ol id="toc" class="table-of-contents__list">
+                <ul id="toc" class="table-of-contents__list">
                     <li class="table-of-contents__item">
                         <a href="#" class="js-scroll">Anchor links are li's</a>
                     </li>
@@ -118,7 +115,7 @@
                     <li class="table-of-contents__item">
                         <a href="#" class="js-scroll">24px line height per li</a>
                     </li>
-                </ol>
+                </ul>
             </div>
 
             <p>This is a paragraph (18px Roboto regular, 28px line height, 8 cols wide). The copy in the following
@@ -135,6 +132,7 @@
                 such as mustard and celery. Around 2 million people in the UK suffer from allergies, including 2% of
                 adults and 8% of children.
             </p>
+                <iframe width="100%" height="315" title="What's going on in your kitchen" src="http://www.youtube.com/embed/KsX1GWA3eFw" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -544,7 +542,7 @@
     <div class="col-wrap padding-bottom--16"></div>
 </div>
 <!--related content-->
-<div class="wrapper content--related">
+<div class="wrapper content--related" id="sidebar-end">
     <div class="col-wrap">
         <div class="col col--fluid-3">
             <h2 style="color: black">Related Content</h2>
@@ -637,20 +635,22 @@
     </div>
 </div>
 <script>
-//    $('#sidebar').affix({
-//        offset: {
-//            top: 550,
-//            bottom: 850
-//        }
-//    });
+    var bodyHeight = $('#body').height();
+    var sidebarTop = $('#sidebar-start').offset();
+    var sidebarBottom = $('#sidebar-end').offset();
 
-//    var $body = $(document.body);
-//    var navHeight = $('.content--tile-signup').outerHeight(true) + 10;
-//
-//    $body.scrollspy({
-//        target: '#leftCol',
-//        offset: navHeight
-//    });
+    $('#sidebar').affix({
+        offset: {
+            top: sidebarTop.top - 100,
+            bottom: bodyHeight - sidebarBottom.top + 40
+        }
+    });
+
+
+$(document).ready(function () {
+    var menuWidth = $('#sidebar-width').width();
+    $('#sidebar').css({width:menuWidth});
+});
 </script>
 </body>
 </html>
