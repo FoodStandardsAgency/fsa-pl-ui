@@ -16,6 +16,47 @@
         Typekit.load({async: true});
     } catch (e) {
     }</script>
+
+    <style type="text/css">
+    .primary-nav {
+        background-color: #000000;
+    }
+
+    .primary-nav__item {
+        
+    }
+
+    .primary-nav__item--home {
+        
+    }
+
+    .primary-nav__item--fhr {
+        /*float: right;*/
+    }
+
+    .primary-nav__link {
+        float: left;
+        display: block;
+        padding: 0 1.529412%;
+    }
+    .primary-nav__link:hover, .primary-nav__link:focus {
+        border-bottom: 0;
+        background: #F2F2F2;
+        color: #333333;
+    }
+
+    .primary-nav__link--home {
+        
+    }
+
+    .primary-nav__link--fhr {
+        float: right;
+        background: #006444;
+    }
+
+
+
+</style>
 </head>
 <body>
 <!--logo-->
@@ -36,24 +77,30 @@
         </nav>
     </nav>
     <div class="wrapper">
-        <nav class="wrapper col-wrap primary-nav">
+        <nav class="primary-nav">
             <ul class="primary-nav__list col--fluid-15">
-                <li class="primary-nav__item col col--fluid-3"><a class="primary-nav__link" href="#">News &
-                    Updates</a></li>
-                <li class="primary-nav__item col col--fluid-3">
-                    <a class="primary-nav__link" href="#" aria-haspopup="true">Business &
-                        Industry</a>
+                <li class="primary-nav__item">
+                    <a class="primary-nav__link primary-nav__link--home" href="#">Home</a>
                 </li>
-                <li class="primary-nav__item col col--fluid-3">
-                    <a class="primary-nav__link" href="#" aria-haspopup="true">Enforcement &
-                        Regulation</a>
+                <li class="primary-nav__item">
+                    <a class="primary-nav__link" href="#">News & Updates</a>
                 </li>
-                <li class="primary-nav__item col col--fluid-3">
+                <li class="primary-nav__item">
+                    <a class="primary-nav__link" href="#" aria-haspopup="true">Business & Industry</a>
+                </li>
+                <li class="primary-nav__item">
+                    <a class="primary-nav__link" href="#" aria-haspopup="true">Enforcement & Regulation</a>
+                </li>
+                <li class="primary-nav__item">
                     <a class="primary-nav__link" href="#" aria-haspopup="true">Science & Policy</a>
                 </li>
-                <li class="primary-nav__item col col--fluid-3">
+                <li class="primary-nav__item">
                     <a class="primary-nav__link" href="#" aria-haspopup="true">About us</a>
                 </li>
+                <li class="primary-nav__item">
+                    <a class="primary-nav__link primary-nav__link--fhr" href="#" aria-haspopup="true">Food Hygiene Ratings</a>
+                </li>
+
             </ul>
         </nav>
     </div>
