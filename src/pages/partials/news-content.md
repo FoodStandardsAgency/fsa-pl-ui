@@ -7,17 +7,17 @@ show-snippet: true
 ------------------
 [snippet]
 <!--title-->
-<div class="wrapper content--title-border">
-    <div class="col-wrap content--title-background">
-        <div class="col col--fluid-offset-3 col--fluid-8 padding-bottom-lg--8">
+<div class="wrapper content--title">
+    <div class="col-wrap">
+        <div class="col col--fluid-offset-3 col--fluid-8 padding-bottom--8">
             <h2>Quarter of people with food allergies suffer reactions when eating out
             </h2>
         </div>
     </div>
 </div>
 <!--explanation-->
-<div class="wrapper content--explanation-border">
-    <div class="col-wrap content--explanation-background">
+<div class="wrapper content--explanation">
+    <div class="col-wrap">
         <div class="col col--fluid-offset-3 col--fluid-8">
             <p class="font-size--h3">A survey by the FSA and Allergy UK has shown there have been improvements for those with allergies
                 since
@@ -27,21 +27,30 @@ show-snippet: true
     </div>
 </div>
 <!--intro-->
-<div class="wrapper content--intro-border">
-    <div class="col-wrap content--intro-background">
-        <div class="col col--fluid-3 padding-top-lg--6">
-            <a href="#" class="font-size--h5">Home > News and updates > Food allergy and intolerance</a>
-            <p class="font-size--h5">Last updated: 28/04/2016</p>
-            <p class="font-size--h5">Share this</p>
+<div class="wrapper content--intro" id="sidebar-start">
+    <div class="col-wrap">
+        <div class="col col--fluid-3 padding-top--6" id="sidebar-width">
+            <div class="content--tile-signup" id="sidebar">
+                <p>Last updated:</p>
+                <p class="bold">28/04/2016</p>
+                <div class="share">
+                    <p>Share</p>
+                    <p>Share icons</p></div>
+                <div class="font-size--small">
+                    <button class="btn btn--content">Sign up for
+                        news and alerts
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="col col--fluid-10 padding-top-lg--6">
+        <div class="col col--fluid-10 padding-top--6">
             <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
         </div>
     </div>
 </div>
 <!--content-->
-<div class="wrapper content--content-border">
-    <div class="col-wrap content--content-background">
+<div class="wrapper content">
+    <div class="col-wrap">
         <div class="col col--fluid-offset-3 col--fluid-8">
             <p>The survey found one in four has suffered a reaction while eating out in a restaurant or cafe since
                 new
@@ -89,8 +98,8 @@ show-snippet: true
     </div>
 </div>
 <!--quote-->
-<div class="wrapper content--quote-border">
-    <div class="col-wrap content--quote-background">
+<div class="wrapper content--quote">
+    <div class="col-wrap">
         <div class="col col--fluid-offset-3 col--fluid-8">
             <p class="font-size--h2" style="font-weight:100; font-style: italic;">'Allergies can be fatal, and this is why it is vital food businesses give their customers information
                 they can'</p>
@@ -98,8 +107,8 @@ show-snippet: true
     </div>
 </div>
 <!--content-->
-<div class="wrapper content--content-border">
-    <div class="col-wrap content--content-background">
+<div class="wrapper content">
+    <div class="col-wrap">
         <div class="col col--fluid-offset-3 col--fluid-8">
             <p>Dr Chun-Han Chan, Food Allergy Expert at the FSA, commented: 'It’s been more than a year since the
                 introduction of this legislation and we’re pleased to see real progress in how food businesses
@@ -136,23 +145,14 @@ show-snippet: true
                 </div>
             </div>
             <p class="font-size--h5">Last updated: 28 April 2016</p>
-            <div class="padding-bottom-lg--4"></div>
-            <!--<div style="background-color: #F2F2F2; padding: 16px; margin-bottom: 40px;">-->
-                <!--<button class="btn btn&#45;&#45;secondary btn&#45;&#45;thick" style="color: #53565A; background-color: white">-->
-                    <!--Sign up for news and alerts-->
-                <!--</button>-->
-                <!--<button class="btn btn&#45;&#45;secondary btn&#45;&#45;thick"-->
-                        <!--style="background-color: #F15D22">-->
-                    <!--Subscribe now-->
-                <!--</button>-->
-            <!--</div>-->
+            <div class="padding-bottom--4"></div>
         </div>
     </div>
 </div>
 <!--strong share-->
 <div class="wrapper background--black">
     <div class="col-wrap background--dark-grey">
-        <div class="col col--fluid-offset-3 col--fluid-9 padding-top-lg--4 padding-bottom-lg--4">
+        <div class="col col--fluid-offset-3 col--fluid-9 padding-top--4 padding-bottom--4">
             <p style="font-size: 21px; font-weight: 100;">Share this page</p>
             <div class="col-wrap background--dark-grey">
                 <div class="col col--fluid-offset-3 col--fluid-2 separator-right-solid">
@@ -169,16 +169,16 @@ show-snippet: true
     </div>
 </div>
 <!--empty space separator-->
-<div class="wrapper content--content-border">
-    <div class="col-wrap content--content-background padding-bottom-lg--16"></div>
+<div class="wrapper content" id="sidebar-end">
+    <div class="col-wrap padding-bottom--16"></div>
 </div>
 <!--related content-->
-<div class="wrapper content--related-border">
-    <div class="col-wrap content--related-background">
+<div class="wrapper content--related">
+    <div class="col-wrap">
         <div class="col col--fluid-3">
             <h2 style="color: black">Related Content</h2>
         </div>
-        <div class="col col--fluid-8 padding-top-lg--6">
+        <div class="col col--fluid-8 padding-top--6">
             <div>
                 <a href="https://www.food.gov.uk/science/allergy-intolerance" class="font-size--h3">Allergy and intolerance</a>
                 <p>Food allergies and intolerances are life changing. In the UK they affect around 8% of
@@ -199,25 +199,25 @@ show-snippet: true
     </div>
 </div>
 <!--empty space separator-->
-<div class="wrapper content--content-border">
-    <div class="col-wrap content--content-background padding-bottom-lg--2"></div>
+<div class="wrapper content">
+    <div class="col-wrap padding-bottom--2"></div>
 </div>
 <!--other related-->
-<div class="wrapper content-- content--other-related-border">
-    <div class="col-wrap content--other-related-background">
+<div class="wrapper content--other-related">
+    <div class="col-wrap">
         <div class="col col--fluid-3">
             <h2 style="color: black">See also</h2>
         </div>
-        <div class="col col--fluid-one-half padding-top-lg--6">
-            <div class="padding-bottom-lg--4">
+        <div class="col col--fluid-one-half padding-top--6">
+            <div class="padding-bottom--4">
                 <a href="http://www.nhs.uk/conditions/food-allergy/Pages/Intro1.aspx" class="font-size--h3">NHS Choices: Food allergy
                     introduction</a>
             </div>
-            <div class="padding-bottom-lg--4">
+            <div class="padding-bottom--4">
                 <a href="https://www.allergyuk.org/food-allergy-or-food-intolerance/food-allergy-or-food-intolerance?gclid=Cj0KEQjwmKG5BRDv4YaE5t6oqf0BEiQAwqDNfO_nh2C5y9U2ZkLz-t-EXOyfIiu93n8BkVpmFDZ946caAr5A8P8HAQ" class="font-size--h3">Allergy
                     UK</a>
             </div>
-            <div class="padding-bottom-lg--4">
+            <div class="padding-bottom--4">
                 <a href="http://www.anaphylaxis.org.uk/" class="font-size--h3">Anaphylaxis Campaign</a>
             </div>
         </div>
@@ -225,4 +225,4 @@ show-snippet: true
 </div>
 [/snippet]
 
-Home page
+Content page

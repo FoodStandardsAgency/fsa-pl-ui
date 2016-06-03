@@ -6,12 +6,15 @@
 
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
     <!--<link rel="stylesheet" href="https://fsa-pl.herokuapp.com/dist/css/main.css">-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="../assets/css/pl/old-ie.css"/>
+    <![endif]-->
     <link rel="stylesheet" href="../assets/css/pl/main.css">
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://use.typekit.net/ivl6ukw.js"></script>
     <script>try {
         Typekit.load({async: true});
@@ -375,7 +378,7 @@
     });
 
     function onScroll(event) {
-        var scrollPos = $(document).scrollTop();
+        var scrollPos = $(document).scrollT op();
         $('#navbar-main a').each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));

@@ -1,29 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>FSA Campaign</title>
-
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-    <!--<link rel="stylesheet" href="https://fsa-pl.herokuapp.com/dist/css/main.css">-->
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="../assets/css/pl/old-ie.css"/>
-    <![endif]-->
-    <link rel="stylesheet" href="../assets/css/pl/main.css">
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://use.typekit.net/ivl6ukw.js"></script>
-    <script>try {
-        Typekit.load({async: true});
-    } catch (e) {
-    }</script>
-</head>
-<body>
-<style>
-</style>
+---
+title: Campaign page
+template: test.html
+type: partial
+order: 4
+show-snippet: true
+------------------
+[snippet]
 <!--menu-->
 <div class="wrapper border-pic--transparent campaign-menu hide--xs"
      style="background-image: url('../assets/img/fsa-campaign-menu.jpg');">
@@ -241,7 +223,6 @@
         <div class="col col--fluid-15 padding-bottom--8"></div>
     </div>
 </div>
-
 <!--related content-->
 <div class="wrapper content--related hide--xs">
     <div class="col-wrap padding-top--8">
@@ -278,7 +259,6 @@
         <div class="col col--fluid-15 padding-bottom--8"></div>
     </div>
 </div>
-
 <!--related content for mobile-->
 <div class="wrapper content--related hide--not-xs">
     <div class="col-wrap padding-top--8">
@@ -288,7 +268,6 @@
         <div class="col col--fluid-15 background--light-grey">
             <p class="font-size--h3">Read our guides and factsheets about campylobacter</p>
         </div>
-
         <div class="col col--fluid-15 background--white padding-top--4 js-equal-height">
             <div>
                 <div class="pdf-separator-dotted">
@@ -318,7 +297,6 @@
 
     </div>
 </div>
-
 <!--strong share-->
 <div class="wrapper content">
     <div class="col-wrap">
@@ -338,15 +316,12 @@
         </div>
     </div>
 </div>
-
 <script>
 //   Main navbar
     $(window).load(function () {
-
         var navbar = $('#navbar-main'),
                 distance = navbar.offset().top,
                 $window = $(window);
-
         $window.scroll(function () {
             if ($window.scrollTop() > (distance - 114)) {
                 navbar.removeClass('menu-hidden').addClass('navbar-fixed-top');
@@ -357,10 +332,8 @@
             }
         });
     });
-
     $(document).ready(function () {
         $(document).on("scroll", onScroll);
-
         //smoothscrolling and positioning
         $('a[href^="#"]').on('click', function (e) {
             e.preventDefault();
@@ -376,9 +349,8 @@
             });
         });
     });
-
     function onScroll(event) {
-        var scrollPos = $(document).scrollT op();
+        var scrollPos = $(document).scrollTop();
         $('#navbar-main a').each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));
@@ -394,6 +366,6 @@
         });
     }
 </script>
-<script src="../assets/js/helpers.js"></script>
-</body>
-</html>
+[/snippet]
+
+Campaign page
