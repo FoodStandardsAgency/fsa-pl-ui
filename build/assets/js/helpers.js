@@ -920,12 +920,14 @@ function fixSidebar() {
     var sidebarBottom = $('#sidebar-end').offset();
     var menuHeight = $('#sidebar').height();
 
-    $('#sidebar').affix({
-        offset: {
-            top: sidebarTop.top,
-            bottom: bodyHeight - sidebarBottom.top + (menuHeight / 4)
-        }
-    });
+    if (menuHeight > 1) {
+        $('#sidebar').affix({
+            offset: {
+                top: sidebarTop.top,
+                bottom: bodyHeight - sidebarBottom.top + (menuHeight / 4)
+            }
+        });
+    }
 };
 
 $(document).ready(function () {
