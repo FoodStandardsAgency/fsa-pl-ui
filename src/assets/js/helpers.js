@@ -804,72 +804,140 @@ if (typeof jQuery === 'undefined') {
 
 // Set elements to the same height (uses height of tallest element)
 // taken from https://codepen.io/micahgodbolt/pen/FgqLc
-equalheight = function(container){
+equalheight = function (container) {
 
     var currentTallest = 0,
         currentRowStart = 0,
         rowDivs = new Array(),
         $el,
         topPosition = 0;
-    $(container).each(function() {
+    $(container).each(function () {
 
         $el = $(this);
         $($el).height('auto');
-        topPostion = $el.position().top;
+        topPosition = $el.position().top;
 
-        if (currentRowStart != topPostion) {
-            for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+        if (currentRowStart != topPosition) {
+            for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
                 rowDivs[currentDiv].height(currentTallest);
             }
             rowDivs.length = 0; // empty the array
-            currentRowStart = topPostion;
+            currentRowStart = topPosition;
             currentTallest = $el.height();
             rowDivs.push($el);
         } else {
             rowDivs.push($el);
             currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
         }
-        for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+        for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
             rowDivs[currentDiv].height(currentTallest);
         }
     });
 };
 
-$(window).load(function() {
+$(window).load(function () {
     equalheight('.js-equal-height');
 });
 
-
-$(window).resize(function(){
+$(window).resize(function () {
     equalheight('.js-equal-height');
 });
 
+//responsive tables
+$(document).ready(function () {
+    var switched = false;
+    var updateTables = function () {
+        if (($(window).width() < 767) && !switched) {
+            switched = true;
+            $("table.responsive").each(function (i, element) {
+                splitTable($(element));
+            });
+            return true;
+        }
+        else if (switched && ($(window).width() > 767)) {
+            switched = false;
+            $("table.responsive").each(function (i, element) {
+                unsplitTable($(element));
+            });
+        }
+    };
 
-//helper to set js size
-$(function() {
-    $("#footer").append("<div id='viewport-sm' class='js-viewport-size'></div>" +
-        "<div id='viewport-md' class='js-viewport-size'></div>" +
-        "<div id='viewport-lg' class='js-viewport-size'></div>");
+    $(window).load(updateTables);
+    $(window).on("redraw", function () {
+        switched = false;
+        updateTables();
+    }); // An event to listen for
+    $(window).on("resize", updateTables);
 
-    jsEnhanceViewportSize();
+
+    function splitTable(original) {
+        original.wrap("<div class='table-wrapper' />");
+
+        var copy = original.clone();
+        copy.find("td:not(:first-child), th:not(:first-child)").css("display", "none");
+        copy.removeClass("responsive");
+
+        original.closest(".table-wrapper").append(copy);
+        copy.wrap("<div class='pinned' />");
+        original.wrap("<div class='scrollable' />");
+
+        setCellHeights(original, copy);
+    }
+
+    function unsplitTable(original) {
+        original.closest(".table-wrapper").find(".pinned").remove();
+        original.unwrap();
+        original.unwrap();
+    }
+
+    function setCellHeights(original, copy) {
+        var tr = original.find('tr'),
+            tr_copy = copy.find('tr'),
+            heights = [];
+
+        tr.each(function (index) {
+            var self = $(this),
+                tx = self.find('th, td');
+
+            tx.each(function () {
+                var height = $(this).outerHeight(true);
+                heights[index] = heights[index] || 0;
+                if (height > heights[index]) heights[index] = height;
+            });
+
+        });
+
+        tr_copy.each(function (index) {
+            $(this).height(heights[index]);
+        });
+    }
 });
 
-$(window).on('resize', function() {
-    jsEnhanceViewportSize();
-});
+//calculate fixed sidebar width and height
+function fixSidebar() {
+    var bodyHeight = $('body').height();
+    var sidebarTop = $('#sidebar-start').offset();
+    var sidebarBottom = $('#sidebar-end').offset();
+    var menuHeight = $('#sidebar').height();
 
-function clearViewportSizes() {
-    $('body').removeClass('viewport-sm viewport-md viewport-lg');
-}
-
-function jsEnhanceViewportSize() {
-
-    $.each($(".js-viewport-size"), function() {
-
-        if ($(this).is(':visible')) {
-            clearViewportSizes();
-            var idName = $(this).attr('id');
-            $('body').addClass(idName);
+    $('#sidebar').affix({
+        offset: {
+            top: sidebarTop.top,
+            bottom: bodyHeight - sidebarBottom.top + (menuHeight / 4)
         }
     });
-}
+};
+
+$(document).ready(function () {
+    fixSidebar();
+    var menuWidth = $('#sidebar-width').width();
+    $('#sidebar').css({width: menuWidth});
+});
+
+$(window).on('resize', function () {
+    fixSidebar();
+    var menuWidth = $('#sidebar-width').width();
+    $('#sidebar').css({width: menuWidth});
+});
+
+

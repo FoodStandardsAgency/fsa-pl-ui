@@ -67,19 +67,19 @@
     </div>
     <nav class="campaign-nav">
         <ul class="col-wrap">
-            <li class="col col--fluid-3 background--white"
+            <li class="col col--fluid-15 background--white separator-right-solid"
             >
                 <a href="#one"><p>1. What is this all about</p></a>
             </li>
-            <li class="col col--fluid-3 background--white separator-right-solid"
+            <li class="col col--fluid-15 background--white separator-right-solid"
             >
                 <a href="#two"><p>2. What should I be doing?</p></a>
             </li>
-            <li class="col col--fluid-3 background--white separator-right-solid"
+            <li class="col col--fluid-15 background--white separator-right-solid"
             >
                 <a href="#three"><p>3. Add my support</p></a>
             </li>
-            <li class="col col--fluid-3 background--white separator-right-solid">
+            <li class="col col--fluid-15 background--white separator-right-solid">
                 <button class="btn btn--action  margin-top--1 padding-left-lg--3 padding-right-lg--3">
                     Call to
                     action
@@ -127,7 +127,7 @@
             <div class="col col--fluid-3">
                 <h2>1. What is this all about</h2>
             </div>
-            <div class="col col--fluid-9 separator-left-solid">
+            <div class="col col--fluid-sm-12 col--fluid-9 separator-left-solid">
                 <p class="font-size--h3">We want to protect you and your family from food
                     poisoning in your own home, particularly when handling chicken. So we're saying: 'Don’t wash raw
                     chicken'.
@@ -155,17 +155,17 @@
         </div>
         <div class="col-wrap content--quote-background">
             <div class="col col--fluid-5 separator-right-solid">
-                <p class="share">Splashing water from washing chicken can spread campylobacter. Thorough
+                <p class="share js-equal-height">Splashing water from washing chicken can spread campylobacter. Thorough
                     cooking kills it.</p>
                 <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
             </div>
             <div class="col col--fluid-5 separator-right-solid">
-                <p class="share">Campylobacter causes more cases of food poisoning than E.coli, listeria and
+                <p class="share js-equal-height">Campylobacter causes more cases of food poisoning than E.coli, listeria and
                     salmonella put together.</p>
                 <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
             </div>
             <div class="col col--fluid-5">
-                <p class="share">About 4 in 5 cases of campylobacter food poisoning in the UK come from
+                <p class="share js-equal-height">About 4 in 5 cases of campylobacter food poisoning in the UK come from
                     contaminated poultry</p>
                 <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
             </div>
@@ -179,7 +179,7 @@
         <div class="col col--fluid-3">
             <h2>2. What should I be doing?</h2>
         </div>
-        <div class="col col--fluid-10 separator-left-solid">
+        <div class="col col--fluid-sm-12 col--fluid-10 separator-left-solid">
             <p class="font-size--h3">The easiest way to protect yourself and your family is to
                 follow our simple food safety tips every time you prepare food.
             </p>
@@ -219,7 +219,7 @@
         <div class="col col--fluid-3">
             <h2>3. Add my support</h2>
         </div>
-        <div class="col col--fluid-10 background--light-purple separator-left-solid">
+        <div class="col col--fluid-sm-12 col--fluid-10 background--light-purple separator-left-solid">
             <p class="font-size--h3">We're working with supermarkets to make chicken safer. Show
                 them you care by adding your support.
             </p>
@@ -319,7 +319,7 @@
 <!--strong share-->
 <div class="wrapper content">
     <div class="col-wrap">
-        <div class="col col--fluid-offset-3 col--fluid-9 padding-top--4 padding-bottom--4">
+        <div class="col col--fluid-offset-3 col--fluid-sm-12 col--fluid-9 padding-top--4 padding-bottom--4">
             <p style="font-size: 24px;">Share this page</p>
             <div class="col-wrap">
                 <div class="col col--fluid-offset-3 col--fluid-2">
@@ -337,7 +337,7 @@
 </div>
 
 <script>
-    /*! Main */
+//   Main navbar
     $(window).load(function () {
 
         var navbar = $('#navbar-main'),
@@ -354,12 +354,11 @@
             }
         });
     });
-</script>
-<script>
+
     $(document).ready(function () {
         $(document).on("scroll", onScroll);
 
-        //smoothscroll
+        //smoothscrolling and positioning
         $('a[href^="#"]').on('click', function (e) {
             e.preventDefault();
             $(document).off("scroll");
@@ -392,6 +391,6 @@
         });
     }
 </script>
-<script src="../assets/js/bootstrap.js"></script>
+<script src="../assets/js/helpers.js"></script>
 </body>
 </html>

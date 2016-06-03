@@ -13,8 +13,7 @@
     <![endif]-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://use.typekit.net/ivl6ukw.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pym/0.4.5/pym.min.js"></script>
-    <script src="../assets/js/bootstrap.js"></script>
+    <script src="../assets/js/helpers.js"></script>
     <script>try {
         Typekit.load({async: true});
     } catch (e) {
@@ -67,8 +66,8 @@
 <div class="wrapper content--intro" id="sidebar-start">
     <div class="col-wrap">
         <div class="wrapper">
+            <!--fixed sidebar menu-->
             <div class="col col--fluid-3 padding-top--6" id="sidebar-width">
-                <!--<div class="content&#45;&#45;tile-signup" data-spy="affix" data-offset-top="550" data-offset-bottom="1080" id="sidebar">-->
                 <div class="content--tile-signup" id="sidebar">
                     <p>Last updated:</p>
                     <p class="bold">28/04/2016</p>
@@ -82,8 +81,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col col--fluid-10 padding-top--6">
+            <div class="col col--fluid-sm-12 col--fluid-10 padding-top--6">
                 <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
             </div>
         </div>
@@ -93,7 +91,7 @@
 <!--content-->
 <div class="wrapper content">
     <div class="col-wrap">
-        <div class="col col--fluid-offset-3 col--fluid-8">
+        <div class="col col--fluid-offset-3 col--fluid-sm-12 col--fluid-8">
             <h1 class="big">Heading 1 (Used in the campaign title. 60px font and line size)</h1>
             <h2>Heading 2 (36px font and line size)</h2>
             <h3>Heading 3 (28px font and line size)</h3>
@@ -103,7 +101,7 @@
 
 
             <!--Table of contents-->
-            <div class="table-of-contents js-sticky-toc padding-top--4 padding-bottom-md--3">
+            <div class="table-of-contents padding-top--4 padding-bottom-md--3">
                 <h3 class="table-of-contents__title">Table of contents (h3)</h3>
                 <ul id="toc" class="table-of-contents__list">
                     <li class="table-of-contents__item">
@@ -132,14 +130,15 @@
                 such as mustard and celery. Around 2 million people in the UK suffer from allergies, including 2% of
                 adults and 8% of children.
             </p>
-                <iframe width="100%" height="315" title="What's going on in your kitchen" src="http://www.youtube.com/embed/KsX1GWA3eFw" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="315" title="What's going on in your kitchen"
+                    src="http://www.youtube.com/embed/KsX1GWA3eFw" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </div>
 <!--quote-->
 <div class="wrapper content--quote">
     <div class="col-wrap">
-        <div class="col col--fluid-offset-3 col--fluid-10">
+        <div class="col col--fluid-offset-3 col--fluid-sm-12 col--fluid-10">
             <p>'This is a quote, use it anywhere on the page in context. (48px Roboto thin
                 italic, 56px line height, 10 cols wide)'</p>
             <p class="source">Quote source (16px Roboto regular)</p>
@@ -149,7 +148,7 @@
 <!--content-->
 <div class="wrapper content">
     <div class="col-wrap">
-        <div class="col col--fluid-offset-3 col--fluid-8">
+        <div class="col col--fluid-offset-3 col--fluid-sm-12 col--fluid-8">
             <p>Dr Chun-Han Chan, Food Allergy Expert at the FSA, commented: 'It’s been more than a year since the
                 introduction of this legislation and we’re pleased to see real progress in how food businesses
                 provide
@@ -231,8 +230,8 @@
             </p>
 
             <!--table-->
-            <table class="table table-striped table-responsive">
-                <caption><h5>This is the table caption (same as h5)</h5></caption>
+            <caption><h5>This is the table caption (same as h5)</h5></caption>
+            <table class="table table-striped responsive">
                 <thead>
                 <tr>
                     <th>Code</th>
@@ -403,14 +402,14 @@
     </div>
     <div class="col-wrap">
         <!--forms-->
-        <div id="content" class="col col--fluid-offset-3 col--fluid-10">
+        <div id="content" class="col col--fluid-offset-3 col--fluid-sm-12 col--fluid-10">
             <div class="alert" role="alert">
                 <h5>There were some errors:</h5>
                 <p>Please enter some <a href="#txt1">text</a></p>
                 <p>Please select one <a href="#txt2">option</a></p>
             </div>
         </div>
-        <div class="col col--fluid-offset-3 col--fluid-6">
+        <div class="col col--fluid-offset-3 col--fluid-sm-10 col--fluid-6">
             <form role="form">
                 <div class="form-group">
                     <label class="control-label" for="txt">Text input &lt;label&gt;</label>
@@ -495,7 +494,7 @@
             </form>
         </div>
         <!--sign up and subscribe-->
-        <div class="col col--fluid-offset-3 col--fluid-8 padding-top--4">
+        <div class="col col--fluid-offset-3 col--fluid-sm-12 col--fluid-8 padding-top--4">
             <div class="col-wrap sign-and-subscribe">
                 <h5>Sign up for news and alerts</h5>
                 <div class="col col--fluid-11">
@@ -508,7 +507,7 @@
                 </div>
             </div>
         </div>
-        <div class="col col--fluid-offset-3 col--fluid-8 padding-top--4">
+        <div class="col col--fluid-offset-3 col--fluid-sm-12 col--fluid-8 padding-top--4">
             <button class="btn btn--action ">
                 Action button
             </button>
@@ -519,8 +518,8 @@
     </div>
 
     <!--strong share-->
-    <div class="col-wrap">
-        <div class="col col--fluid-offset-3 col--fluid-9 padding-top--4 padding-bottom--4">
+    <div class="col-wrap padding-bottom--16">
+        <div class="col col--fluid-offset-3 col--fluid-sm-12 col--fluid-9 padding-top--4 padding-bottom--4">
             <div></div>
             <p style="font-size: 21px; font-weight: 100;">Share this page</p>
             <div class="col-wrap">
@@ -537,17 +536,13 @@
         </div>
     </div>
 </div>
-<!--empty space separator-->
-<div class="wrapper content">
-    <div class="col-wrap padding-bottom--16"></div>
-</div>
 <!--related content-->
 <div class="wrapper content--related" id="sidebar-end">
-    <div class="col-wrap">
+    <div class="col-wrap padding-bottom--2">
         <div class="col col--fluid-3">
             <h2 style="color: black">Related Content</h2>
         </div>
-        <div class="col col--fluid-8 padding-top--6">
+        <div class="col col--fluid-sm-12 col--fluid-8 padding-top--6">
             <div>
                 <a href="https://www.food.gov.uk/science/allergy-intolerance" class="font-size--h3">Allergy and
                     intolerance</a>
@@ -571,7 +566,7 @@
 </div>
 <!--empty space separator-->
 <div class="wrapper content">
-    <div class="col-wrap padding-bottom--2"></div>
+    <div class="col-wrap "></div>
 </div>
 
 <!--other related-->
@@ -601,7 +596,7 @@
 <!--empty space separator-->
 <div class="wrapper content">
     <div class="col-wrap">
-        <div class="col col--fluid-offset-3 col--fluid-8 padding-top--4">
+        <div class="col col--fluid-offset-3 col--fluid-sm-12 col--fluid-8 padding-top--4">
             <ul class="paginate">
                 <li><a class="nude" href="#">previous</a></li>
                 <li><a href="#">1</a></li>
@@ -634,23 +629,5 @@
         </div>
     </div>
 </div>
-<script>
-    var bodyHeight = $('#body').height();
-    var sidebarTop = $('#sidebar-start').offset();
-    var sidebarBottom = $('#sidebar-end').offset();
-
-    $('#sidebar').affix({
-        offset: {
-            top: sidebarTop.top - 100,
-            bottom: bodyHeight - sidebarBottom.top + 40
-        }
-    });
-
-
-$(document).ready(function () {
-    var menuWidth = $('#sidebar-width').width();
-    $('#sidebar').css({width:menuWidth});
-});
-</script>
 </body>
 </html>
