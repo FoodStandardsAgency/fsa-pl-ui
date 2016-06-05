@@ -18,12 +18,23 @@
     }</script>
 
     <style type="text/css">
-    .primary-nav {
-        background-color: #000000;
+    .primary-nav-wrap {
+        overflow: visible !important;
+        padding: 0 1.529412%;
     }
 
-    .primary-nav__item {
-        
+    .primary-nav {
+        background-color: #000000;
+        margin: 0 1.529412%;
+    }
+
+    .primary-nav {
+        /*position: relative;*/
+    }
+
+    .primary-nav__list {
+        /*position: absolute;*/
+        z-index: 10;
     }
 
     .primary-nav__item--home {
@@ -37,13 +48,28 @@
     .primary-nav__link {
         float: left;
         display: block;
-        padding: 0 1.529412%;
-    }
-    .primary-nav__link:hover, .primary-nav__link:focus {
+        padding: 4px 1.529412%;
         border-bottom: 0;
-        background: #F2F2F2;
-        color: #333333;
+        height: 36px;
+        overflow: hidden;
+        font-size: 16px;
     }
+    .primary-nav__link:hover, .primary-nav__link:focus, .primary-nav__item:hover .primary-nav__link {
+        border-bottom: 0;
+        background: #F2F2F2 !important;
+        color: #333333 !important;
+    }
+
+    /*.primary-nav__item:hover:before, .primary-nav__item:hover:before {
+        content: "";
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+    }*/
 
     .primary-nav__link--home {
         
@@ -52,6 +78,29 @@
     .primary-nav__link--fhr {
         float: right;
         background: #006444;
+    }
+
+    /*.primary-nav__item:hover .primary-nav__ {
+        display: block;
+    }*/
+
+    .primary-nav__item:hover .primary-nav__item-content-block {
+        display: block;
+        cursor: default;
+    }
+
+    .primary-nav__item-content-block {
+        display: none;
+        width: 100%;
+        min-height: 480px;
+        background: #f2f2f2;
+        position: absolute;
+        top: 36px;
+    }
+
+    .primary-nav__item-content-block li {
+        font-size: 14px;
+        line-height: 17px;
     }
 
 
@@ -76,34 +125,64 @@
             </ul>
         </nav>
     </nav>
-    <div class="wrapper">
-        <nav class="primary-nav">
-            <ul class="primary-nav__list col--fluid-15">
-                <li class="primary-nav__item">
-                    <a class="primary-nav__link primary-nav__link--home" href="#">Home</a>
-                </li>
-                <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#">News & Updates</a>
-                </li>
-                <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#" aria-haspopup="true">Business & Industry</a>
-                </li>
-                <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#" aria-haspopup="true">Enforcement & Regulation</a>
-                </li>
-                <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#" aria-haspopup="true">Science & Policy</a>
-                </li>
-                <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#" aria-haspopup="true">About us</a>
-                </li>
-                <li class="primary-nav__item">
-                    <a class="primary-nav__link primary-nav__link--fhr" href="#" aria-haspopup="true">Food Hygiene Ratings</a>
-                </li>
-
-            </ul>
-        </nav>
-    </div>
 </div>
+<div class="wrapper primary-nav-wrap">
+    <nav class="primary-nav">
+        <ul class="primary-nav__list">
+            <li class="primary-nav__item">
+                <a class="primary-nav__link primary-nav__link--home" href="#">Home</a>
+            </li>
+            <li class="primary-nav__item">
+                <a class="primary-nav__link" href="#">News & Updates</a>
+                <div class="primary-nav__item-content-block">
+                    <div class="col-wrap">
+                        <div class="col col--fluid-4">
+                            <section>
+                                <h1 class="font-size--h3">Popular</h1>
+                            </section>
+                        </div>
+                        <div class="col col--fluid-11">
+                            <section>
+                                <div class="col-wrap">
+                                    <div class="col col--fluid-10">
+                                        <h1>News & updates</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci, bibendum at ullamcorper et, ultricies ac quam.</p>
+                                    </div>
+                                </div>
+                                <div class="col-wrap">
+                                    <div class="col col--fluid-2">
+                                        <h2 class="font-size--h6">Section</h2>
+                                        <ul>
+                                            <li><a href="#">Link</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="primary-nav__item">
+                <a class="primary-nav__link" href="#" aria-haspopup="true">Business & Industry</a>
+            </li>
+            <li class="primary-nav__item">
+                <a class="primary-nav__link" href="#" aria-haspopup="true">Enforcement & Regulation</a>
+            </li>
+            <li class="primary-nav__item">
+                <a class="primary-nav__link" href="#" aria-haspopup="true">Science & Policy</a>
+            </li>
+            <li class="primary-nav__item">
+                <a class="primary-nav__link" href="#" aria-haspopup="true">About us</a>
+            </li>
+            <li class="primary-nav__item">
+                <a class="primary-nav__link primary-nav__link--fhr" href="#" aria-haspopup="true">Food Hygiene Ratings</a>
+            </li>
+
+        </ul>
+    </nav>
+</div>
+<script type="text/javascript">
+    
+</script>
 </body>
 </html>
