@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-
     <title>FSA home 1</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://fsa-pl.herokuapp.com/dist/css/main.css">
-    <!--<link rel="stylesheet" href="../assets/css/pl/main.css">-->
-
+    <!--<link rel="stylesheet" href="https://fsa-pl.herokuapp.com/dist/css/main.css">-->
+    <link rel="stylesheet" href="../assets/css/pl/main.css">
+    <!---->
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -16,200 +15,8 @@
     <script>try {
         Typekit.load({async: true});
     } catch (e) {
-    }</script>
-
-    <style type="text/css">
-
-    .wrapper--header {
-        background: #E6E5E5;
     }
-
-    .header {
-        padding: 0 0 24px 0;
-        background: #F2F2F2;
-    }
-
-    .main-logo {
-        padding-top: 16px;
-    }
-
-    .language-nav__list {
-        list-style: none;
-        margin: 0;
-        overflow: hidden;
-        padding: 0;
-        background: #fff;
-        float: right;
-    }
-
-    .language-nav__item {
-        float: left;
-        padding: 8px 16px;
-        margin: 0;
-    }
-
-        
-
-    hr {
-        display: block;
-        height: 1px;
-        border: 0;
-        border-top: 1px solid #B3B3B3;
-        margin: 0;
-        padding: 0; 
-        /*background: #B3B3B3;*/
-    }
-
-    .mega-menu-active-bg {
-        /*content: "";*/
-        position: fixed;
-        z-index: 5;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(0, 0, 0, 0.7);
-    }
-
-    .mega-menu-wrap {
-        overflow: visible !important;
-        padding: 0 1.529412%;
-        position: relative;
-        z-index: 10;
-    }
-
-    
-
-    .primary-nav {
-        background-color: #000000;
-        margin: 0 1.529412%;
-    }
-
-    .primary-nav {
-        /*position: relative;*/
-    }
-
-    .primary-nav__list {
-        /*position: absolute;*/
-        z-index: 10;
-    }
-
-    .primary-nav__item--home {
-        
-    }
-
-    .primary-nav__item--fhr {
-        /*float: right;*/
-    }
-
-    .primary-nav__link {
-        float: left;
-        display: block;
-        padding: 4px 1.529412%;
-        border-bottom: 0;
-        height: 36px;
-        overflow: hidden;
-        font-size: 16px;
-    }
-    .primary-nav__link:hover, .primary-nav__link:focus, .primary-nav__item:hover .primary-nav__link {
-        border-bottom: 0;
-        background: #F2F2F2 !important;
-        color: #333333 !important;
-    }
-
-    /*.primary-nav__item:hover:before, .primary-nav__item:hover:before {
-        content: "";
-        position: fixed;
-        z-index: 5;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(0, 0, 0, 0.7);
-    }*/
-
-    .primary-nav__link--home {
-        
-    }
-
-    .primary-nav__link--fhr {
-        float: right;
-        background: #006444;
-    }
-
-    /*.primary-nav__item:hover .primary-nav__ {
-        display: block;
-    }*/
-
-    .primary-nav__item:hover .mega-menu {
-        display: block;
-        cursor: default;
-    }
-
-    .mega-menu {
-        display: none;
-        width: 100%;
-        min-height: 480px;
-        padding: 40px 0;
-        background: #f2f2f2;
-        position: absolute;
-        top: 36px;
-        margin-bottom: 40px;
-    }
-
-    .mega-menu__popular {
-        padding-right: 3.058824%;
-        /*border-right: 1px solid #B3B3B3;*/
-    }
-
-    .mega-menu__popular:before {
-        content: "";
-        position: absolute;
-        right: 5.5%;
-        background: #B3B3B3;
-        height: 100%;
-        width: 1px;
-    }
-
-    .mega-menu h1 {
-        margin-top: 0;
-    }
-
-    .mega-menu h2:first-of-type {
-        border-top: 0;
-        padding-top: 0;
-    }
-
-    .mega-menu h2 {
-        border-top: 1px solid #B3B3B3;
-        border-bottom: 1px solid #B3B3B3;
-        padding-bottom: 12px;
-        padding-top: 12px;
-    }
-
-    .mega-menu li {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .no-list-style__list {
-        list-style: none;
-        margin: 0;
-        overflow: hidden;
-        padding: 0;
-    }
-
-    .no-list-style__list li {
-        padding-left: 0;
-    }
-
-    .padding-left--0 {
-        padding-left: 0 !important;
-    }
-
-
-
-</style>
+    </script>
 </head>
 <body>
 <!--logo-->
@@ -221,7 +28,19 @@
                      alt="Food Standards Agency">
             </a>
         </div>
-        <nav class="language-nav col col--fluid-10">
+        <div class="col col--fluid-7">
+            <div class="col-wrap">
+                <div class="col col--fluid-11 col--xs-3 search">
+                    <input type="text">
+                </div>
+                <div class="col col--fluid-4 col--xs-1">
+                    <button class="btn btn--search">
+                        S
+                    </button>
+                </div>
+            </div>
+        </div>
+        <nav class="language-nav col col--fluid-3">
             <ul class="language-nav__list">
                 <li class="language-nav__item">English</li>
                 <li class="language-nav__item">
@@ -259,7 +78,9 @@
                                 <div class="col-wrap">
                                     <div class="col col--fluid-10">
                                         <h1>News & updates</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci, bibendum at ullamcorper et, ultricies ac quam.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum
+                                            ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci,
+                                            bibendum at ullamcorper et, ultricies ac quam.</p>
                                     </div>
                                 </div>
                                 <div class="col">
@@ -269,7 +90,8 @@
                                     <div class="col col--fluid-3">
                                         <h2 class="font-size--h6">Lorem ipsum</h2>
                                         <ul class="no-list-style__list">
-                                            <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></li>
+                                            <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                                            </li>
                                             <li><a href="#">Vestibulum commodo elit mi</a></li>
                                             <li><a href="#">Aliquam in luctus </a></li>
                                             <li><a href="#">Pellentesque</a></li>
@@ -282,7 +104,7 @@
                                             <li><a href="#">Nunc laoreet diam felis</a></li>
                                         </ul>
                                     </div>
-                                     <div class="col col--fluid-3">
+                                    <div class="col col--fluid-3">
                                         <h2 class="font-size--h6">Morbi quam</h2>
                                         <ul class="no-list-style__list">
                                             <li><a href="#">Consectetur adipiscing elit</a></li>
@@ -324,13 +146,15 @@
                                 <div class="col-wrap">
                                     <div class="col col--fluid-10">
                                         <h1>Business & Industry</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci, bibendum at ullamcorper et, ultricies ac quam.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum
+                                            ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci,
+                                            bibendum at ullamcorper et, ultricies ac quam.</p>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <hr>
                                 </div>
-                                
+
                             </section>
                         </div>
                     </div>
@@ -358,13 +182,15 @@
                                 <div class="col-wrap">
                                     <div class="col col--fluid-10">
                                         <h1>Enforcement & Regulation</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci, bibendum at ullamcorper et, ultricies ac quam.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum
+                                            ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci,
+                                            bibendum at ullamcorper et, ultricies ac quam.</p>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <hr>
                                 </div>
-                                
+
                             </section>
                         </div>
                     </div>
@@ -392,13 +218,15 @@
                                 <div class="col-wrap">
                                     <div class="col col--fluid-10">
                                         <h1>Science & Policy</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci, bibendum at ullamcorper et, ultricies ac quam.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum
+                                            ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci,
+                                            bibendum at ullamcorper et, ultricies ac quam.</p>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <hr>
                                 </div>
-                                
+
                             </section>
                         </div>
                     </div>
@@ -426,20 +254,23 @@
                                 <div class="col-wrap">
                                     <div class="col col--fluid-10">
                                         <h1>About us</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci, bibendum at ullamcorper et, ultricies ac quam.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum
+                                            ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci,
+                                            bibendum at ullamcorper et, ultricies ac quam.</p>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <hr>
                                 </div>
-                                
+
                             </section>
                         </div>
                     </div>
                 </div>
             </li>
             <li class="primary-nav__item mega-menu__l1">
-                <a class="primary-nav__link primary-nav__link--fhr" href="#" aria-haspopup="true">Food Hygiene Ratings</a>
+                <a class="primary-nav__link primary-nav__link--fhr" href="#" aria-haspopup="true">Food Hygiene
+                    Ratings</a>
                 <div class="mega-menu">
                     <div class="col-wrap">
                         <div class="col col--fluid-4 mega-menu__popular">
@@ -460,13 +291,15 @@
                                 <div class="col-wrap">
                                     <div class="col col--fluid-10">
                                         <h1>Food Hygiene Ratings</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci, bibendum at ullamcorper et, ultricies ac quam.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum
+                                            ullamcorper sem, vitae molestie est luctus a. Pellentesque erat orci,
+                                            bibendum at ullamcorper et, ultricies ac quam.</p>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <hr>
                                 </div>
-                                
+
                             </section>
                         </div>
                     </div>
@@ -479,27 +312,19 @@
 <script type="text/javascript">
     initMegamenu();
 
-    function initMegamenu(){
+    function initMegamenu() {
         // console.log("hello there!");
-        $( ".mega-menu__l1" ).hover(
-            function() {
-                $( this ).addClass( "primary-nav__item--hover" );
-                $( ".mega-menu", this ).first().addClass( "mega-menu--hover" );
-                $( "<div class=\"mega-menu-active-bg\"></div>" ).insertAfter( "body" );
-            }, function() {
-                $( this ).removeClass( "primary-nav__item--hover" );
-                $( ".mega-menu", this ).first().removeClass( "mega-menu--hover" );
-                $( ".mega-menu-active-bg" ).remove();
-            }
+        $(".mega-menu__l1").hover(
+                function () {
+                    $(this).addClass("primary-nav__item--hover");
+                    $(".mega-menu", this).first().addClass("mega-menu--hover");
+                    $("<div class=\"mega-menu-active-bg\"></div>").insertAfter("body");
+                }, function () {
+                    $(this).removeClass("primary-nav__item--hover");
+                    $(".mega-menu", this).first().removeClass("mega-menu--hover");
+                    $(".mega-menu-active-bg").remove();
+                }
         );
-
-
-
-        // $(".primary-nav_item").hover(function(){
-        //     console.log("testing");
-        //     $(this).addClass("this");
-        //     $(this + ".mega-menu:first-child").addClass("hello");
-        // })
     }
 </script>
 </body>
