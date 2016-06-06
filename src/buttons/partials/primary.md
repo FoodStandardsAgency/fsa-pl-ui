@@ -6,6 +6,7 @@ type: partial
 order: 2
 show-snippet: true
 ---
+
 [snippet]
 <!-- Primary button -->
 <button class="btn btn--primary">
