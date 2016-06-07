@@ -7,16 +7,14 @@ show-snippet: true
 ------------------
 [snippet]
 <!--explanation-->
-<div class="wrapper content--explanation-border">
-    <div class="col-wrap content--explanation-background">
-        <div class="col col--fluid-offset-3 col--fluid-8">
-            <p class="font-size--h3">A survey by the FSA and Allergy UK has shown there have been improvements for those with allergies
-                since
-                new labelling rules came in, but more needs to be done.
+<div class="wrapper content--explanation">
+    <div class="col-wrap">
+        <div class="col col--fluid-offset-3 col--fluid-10">
+            <p>This is the introductory paragraph of the page. We do not recommend a big paragraph but rather a short introduction to enable the user to quickly ascertain that they are in the correct place. This design pattern can also be used elsewhere for stand out copy (24px Roboto regular, 32px line height, 10 cols wide)
             </p>
         </div>
     </div>
 </div>
 [/snippet]
 
-Important text with borders
+Important text with background color

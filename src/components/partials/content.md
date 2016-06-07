@@ -7,8 +7,8 @@ show-snippet: true
 ------------------
 [snippet]
 <!--content-->
-<div class="wrapper content--content-border">
-    <div class="col-wrap content--content-background">
+<div class="wrapper content">
+    <div class="col-wrap">
         <div class="col col--fluid-offset-3 col--fluid-8">
             <p>The survey found one in four has suffered a reaction while eating out in a restaurant or cafe since
                 new

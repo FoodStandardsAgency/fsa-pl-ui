@@ -1,6 +1,5 @@
 ---
 title: Success, next and forms button
-<!--template: test.html-->
 template:
 type: partial
 order: 2

@@ -7,15 +7,27 @@ show-snippet: true
 ------------------
 [snippet]
 <!--intro-->
-<div class="wrapper content--intro-border">
-    <div class="col-wrap content--intro-background">
-        <div class="col col--fluid-3" style="margin-top: 40px;">
-            <a href="#" class="font-size--h5">Home > News and updates > Food allergy and intolerance</a>
-            <p class="font-size--h5">Last updated: 28/04/2016</p>
-            <p class="font-size--h5">Share this</p>
-        </div>
-        <div class="col col--fluid-10" style="margin-top: 40px;">
-            <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
+<div class="wrapper content--intro">
+    <div class="col-wrap">
+        <div class="wrapper">
+            <!--fixed sidebar menu-->
+            <div class="col col--fluid-3 padding-top--6" id="sidebar-width">
+                <div class="content--tile-signup" id="sidebar">
+                    <p>Last updated:</p>
+                    <p class="bold">28/04/2016</p>
+                    <div class="share">
+                        <p>Share</p>
+                        <p>Share icons</p></div>
+                    <div class="font-size--small">
+                        <button class="btn btn--content">Sign up for
+                            news and alerts
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col col--fluid-sm-12 col--fluid-10 padding-top--6">
+                <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
+            </div>
         </div>
     </div>
 </div>

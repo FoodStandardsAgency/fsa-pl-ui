@@ -1,6 +1,5 @@
 ---
 title: Content button
-<!--template: test.html-->
 template:
 type: partial
 order: 3

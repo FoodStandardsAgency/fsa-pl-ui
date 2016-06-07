@@ -8,19 +8,19 @@
 </div>
 <div class="pl-wrap">
     <div class="pl-wrap__inner">
-        <div class="table-of-contents js-sticky-toc padding-bottom-md--3">
+        <div class="table-of-contents padding-bottom-md--3">
             <h2 class="table-of-contents__title">Table of contents</h2>
             <ol id="toc" class="table-of-contents__list">
                 {{#each collections.utilities}}
                 <li class="table-of-contents__item">
-                    <a href="#{{ slug this.title }}" class="js-scroll">{{ this.title }}</a>
+                    <a href="#{{ slug this.title }}">{{ this.title }}</a>
                 </li>
                 {{/each}}
             </ol>
         </div>
-        <div class="page-content__main-content pl-page-content__main-content js-sticky-toc__trigger">
+        <div class="page-content__main-content pl-page-content__main-content">
             {{#each collections.utilities}}
-            <div class="pl-item js-sticky-toc__section" id="{{ slug this.title }}">
+            <div class="pl-item" id="{{ slug this.title }}">
                 <h2>{{ this.title }}</h2> {{#if js}}JS{{/if}}
                 {{{ this.contents }}}
                 {{#if this.show-snippet}}

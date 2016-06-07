@@ -1,6 +1,5 @@
 ---
 title: Action button
-<!--template: test.html-->
 template:
 type: partial
 order: 1

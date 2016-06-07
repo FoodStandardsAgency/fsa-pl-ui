@@ -7,14 +7,14 @@ show-snippet: true
 ------------------
 [snippet]
 <!--jumbotron-->
-<div class="wrapper jumbotron">
-    <div class="col-wrap">
-        <div class="col col--fluid-5 background--white padding-bottom-lg--4">
+<div class="wrapper border-pic--transparent jumbotron">
+    <div class="col-wrap border--white-transparent hide--xs">
+        <div class="col col--fluid-5 background--white-transp padding-bottom--3 margin-bottom--2">
             <h2 class="campaign-separator-dotted">DON'T WASH RAW CHICKEN</h2>
-            <button class="btn background--dark-purple">Read more</button>
+            <button class="btn btn--action-alt">Read more</button>
         </div>
     </div>
 </div>
 [/snippet]
 
-Picture takes the whole width. No borders
+Picture takes the whole width.

@@ -40,7 +40,7 @@
 <!--logo-->
 <div class="wrapper wrapper--header">
     <nav class="header wrapper col-wrap">
-        <div class="col col--fluid-5">
+        <div class="col col--fluid-4">
             <a href="#">
                 <img class="main-logo" src="../assets/img/logo.png"
                      alt="Food Standards Agency">
@@ -48,17 +48,19 @@
         </div>
         <div class="col col--fluid-7">
             <div class="col-wrap">
-                <div class="col col--fluid-11 col--xs-3 search">
-                    <input type="text">
-                </div>
-                <div class="col col--fluid-4 col--xs-1">
-                    <button class="btn btn--search">
-                        S
-                    </button>
-                </div>
+                <form action="" class="search">
+                    <div class="col col--fluid-2"></div>
+                    <div class="col col--fluid-11 col--xs-3">
+                        <input class="input-text" type="text">
+                    </div>
+                    <div class="col col--fluid-2 col--xs-1">
+                        <input class="btn btn--search" type="submit" value="">
+                        </input>
+                    </div>
+                </form>
             </div>
         </div>
-        <nav class="language-nav col col--fluid-3">
+        <nav class="language-nav col col--fluid-4 margin-top-xs--4">
             <ul class="language-nav__list">
                 <li class="language-nav__item">English</li>
                 <li class="language-nav__item">
@@ -617,8 +619,8 @@
                 can
                 be found on menus or in additional leaflets.
             </p>
-            <div class="style-pdf">
-                <div class="pdf-separator-dotted" style="margin-bottom: 0">
+            <div class="style-download">
+                <div class="separator-download pdf" style="margin-bottom: 0">
                     <span><a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
                         out
                         with a food allergy </a>(376.58 KB)</span>
@@ -832,8 +834,8 @@
 <!--related content-->
 <div class="wrapper content--related" id="sidebar-end">
     <div class="col-wrap padding-bottom--2">
-        <div class="col col--fluid-3">
-            <h2 style="color: black">Related Content</h2>
+        <div class="col col--fluid-3 padding-top--3">
+            <h2>Related Content</h2>
         </div>
         <div class="col col--fluid-sm-12 col--fluid-8 padding-top--6">
             <div>
@@ -865,8 +867,8 @@
 <!--other related-->
 <div class="wrapper content--other-related">
     <div class="col-wrap">
-        <div class="col col--fluid-3">
-            <h2 style="color: black">See also</h2>
+        <div class="col col--fluid-3 padding-top--3">
+            <h2>See also</h2>
         </div>
         <div class="col col--fluid-one-half padding-top--6">
             <div class="padding-bottom--4">
@@ -925,8 +927,7 @@
 <!--anything wrong with this page button-->
 <div class="wrapper footer">
     <div class="col-wrap">
-        <!--button-->
-        <div class="col col--fluid-offset-6 col--fluid-3" style="margin-top: 40px;">
+        <div class="col col--fluid-offset-5 col--fluid-5 margin-top--5">
             <button class="btn btn--secondary margin-top--double margin-left" style="color: #53565A">
                 Anything wrong with this page?
             </button>
@@ -1104,7 +1105,6 @@
     initMegamenu();
 
     function initMegamenu() {
-        // console.log("hello there!");
         $(".mega-menu__l1").hover(
                 function () {
                     $(this).addClass("primary-nav__item--hover");

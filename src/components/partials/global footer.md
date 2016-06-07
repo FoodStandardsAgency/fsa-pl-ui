@@ -7,129 +7,137 @@ show-snippet: true
 ------------------
 [snippet]
 <!--anything wrong with this page button-->
-<div class="wrapper footer--border">
-    <div class="col-wrap footer--background">
+<div class="wrapper footer">
+    <div class="col-wrap">
         <!--button-->
-        <div class="col col--fluid-offset-6 col--fluid-3" style="margin-top: 40px;">
-            <button class="btn btn--secondary  margin-top--double margin-left" style="color: #53565A">
+        <div class="col col--fluid-offset-5 col--fluid-5">
+            <button class="btn btn--secondary margin-top--double margin-left" style="color: #53565A">
                 Anything wrong with this page?
             </button>
         </div>
     </div>
 </div>
 <!--footer menu-->
-<div class="wrapper footer--menu-border">
-    <div class="col-wrap footer--menu-background">
-        <div class="col col--fluid-3 margin-top-lg--4 footer-tile"><h3 style="color: #F15D22">News and updates</h3>
-            <ul style="padding-left: 0">
-                <li class="primary-nav__list">News centre</li>
-                <li class="primary-nav__list">Food alerts news</li>
-                <li class="primary-nav__list">Allergy allert news</li>
-                <li class="primary-nav__list">Consultations</li>
-                <li class="primary-nav__list">Campaigns</li>
-                <li class="primary-nav__list">Help shape our policies</li>
+<div class="wrapper footer--menu">
+    <div class="col-wrap">
+        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height"><h5><a href="">News and updates</a></h5>
+            <ul>
+                <li class="primary-nav__list"><a href="" class="text-colour">News centre</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Food alerts news</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Allergy allert news</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Consultations</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Campaigns</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Help shape our policies</a></li>
             </ul>
         </div>
-        <div class="col col--fluid-3 margin-top-lg--4 footer-tile"><h3 style="color: #F15D22">Business and industry</h3>
-            <ul style="padding-left: 0">
-                <li class="primary-nav__list">Starting a food business</li>
-                <li class="primary-nav__list">Safer food, better business</li>
-                <li class="primary-nav__list">Food hygiene rating schemes</li>
-                <li class="primary-nav__list">Food hygiene for businesses</li>
-                <li class="primary-nav__list">Farming</li>
-                <li class="primary-nav__list">Food allergy and intolerance</li>
-                <li class="primary-nav__list">Meat</li>
-                <li class="primary-nav__list">Fish and shellfish</li>
-                <li class="primary-nav__list">Guidance notes</li>
-                <li class="primary-nav__list">Imports</li>
-                <li class="primary-nav__list">Exports</li>
-                <li class="primary-nav__list">Wine</li>
-                <li class="primary-nav__list">Food incidents</li>
-                <li class="primary-nav__list">How to make an appeal</li>
+        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height"><h5><a href="">Business and industry</a></h5>
+            <ul>
+                <li class="primary-nav__list"><a href="" class="text-colour">Starting a food business</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Safer food, better business</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Food hygiene rating schemes</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Food hygiene for businesses</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Farming</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Food allergy and intolerance</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Meat</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Fish and shellfish</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Guidance notes</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Imports</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Exports</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Wine</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Food incidents</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">How to make an appeal</a></li>
             </ul>
         </div>
-        <div class="col col--fluid-3 margin-top-lg--4 footer-tile">
-            <h3 style="color: #F15D22">Enforcement and regulation</h3>
-            <ul style="padding-left: 0">
-                <li class="primary-nav__list">Approved premises and official controls</li>
-                <li class="primary-nav__list">Audit of local authorities</li>
-                <li class="primary-nav__list">Codes of practice</li>
-                <li class="primary-nav__list">Report a food problem</li>
-                <li class="primary-nav__list">Find a food safety team</li>
-                <li class="primary-nav__list">Local authority tools</li>
-                <li class="primary-nav__list">Training for enforcement officers</li>
-                <li class="primary-nav__list">Food alerts</li>
-                <li class="primary-nav__list">Monitoring</li>
-                <li class="primary-nav__list">Regulation and legislation</li>
-                <li class="primary-nav__list">Sampling</li>
-                <li class="primary-nav__list">Enforcement committees</li>
-                <li class="primary-nav__list">Food law prosecutions</li>
-                <li class="primary-nav__list">The National Food Crime Unit</li>
+        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height">
+            <h5><a href="">Enforcement and regulation</a></h5>
+            <ul>
+                <li class="primary-nav__list"><a href="" class="text-colour">Approved premises and official controls</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Audit of local authorities</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Codes of practice</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Report a food problem</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Find a food safety team</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Local authority tools</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Training for enforcement officers</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Food alerts</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Monitoring</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Regulation and legislation</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Sampling</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Enforcement committees</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Food law prosecutions</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">The National Food Crime Unit</a></li>
             </ul>
         </div>
-        <div class="col col--fluid-3 margin-top-lg--4 footer-tile">
-            <h3 style="color: #F15D22">Science and policy</h3>
-            <ul style="padding-left: 0">
-                <li class="primary-nav__list">Our approach to science</li>
-                <li class="primary-nav__list">Applying for research funding</li>
-                <li class="primary-nav__list">Management and policy</li>
-                <li class="primary-nav__list">Research reports</li>
-                <li class="primary-nav__list">Acrylamide</li>
-                <li class="primary-nav__list">Additives or E numbers</li>
-                <li class="primary-nav__list">Allergy and intolerance</li>
-                <li class="primary-nav__list">Arsenic in rice</li>
-                <li class="primary-nav__list">Bisphenol-A (BPA)</li>
-                <li class="primary-nav__list">BSE</li>
-                <li class="primary-nav__list">Food poisoning</li>
-                <li class="primary-nav__list">Irradiated food</li>
-                <li class="primary-nav__list">Lead shot game</li>
-                <li class="primary-nav__list">Novel foods</li>
-                <li class="primary-nav__list">Radioactivity in food</li>
-                <li class="primary-nav__list">Raw drinking milk and cream</li>
-                <li class="primary-nav__list">Scientific committees</li>
+        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height">
+            <h5><a href="">Science and policy</a></h5>
+            <ul>
+                <li class="primary-nav__list"><a href="" class="text-colour">Our approach to science</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Applying for research funding</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Management and policy</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Research reports</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Acrylamide</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Additives or E numbers</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Allergy and intolerance</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Arsenic in rice</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Bisphenol-A (BPA)</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">BSE</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Food poisoning</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Irradiated food</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Lead shot game</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Novel foods</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Radioactivity in food</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Raw drinking milk and cream</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Scientific committees</a></li>
             </ul>
         </div>
-        <div class="col col--fluid-3 margin-top-lg--4 footer-tile">
-            <h3 style="color: #F15D22">About us</h3>
-            <ul style="padding-left: 0">
-                <li class="primary-nav__list">Contact us</li>
-                <li class="primary-nav__list">Food we can trust</li>
-                <li class="primary-nav__list">Jobs at the FSA</li>
-                <li class="primary-nav__list">Chief executive and Directors</li>
-                <li class="primary-nav__list">FSA Board</li>
-                <li class="primary-nav__list">Complains and comments</li>
-                <li class="primary-nav__list">Freedom of information</li>
-                <li class="primary-nav__list">FSA reports, transparency data and accounts</li>
-                <li class="primary-nav__list">All committees</li>
-                <li class="primary-nav__list">Publications</li>
-                <li class="primary-nav__list">The FSA in Europe</li>
+        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height">
+            <h5><a href="">About us</a></h5>
+            <ul>
+                <li class="primary-nav__list"><a href="" class="text-colour">Contact us</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Food we can trust</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Jobs at the FSA</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Chief executive and Directors</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">FSA Board</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Complains and comments</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Freedom of information</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">FSA reports, transparency data and accounts</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">All committees</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Publications</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">The FSA in Europe</a></li>
             </ul>
         </div>
     </div>
 </div>
-<div class="wrapper footer--menu-border">
-    <div class="col-wrap footer--menu-background">
+<div class="wrapper footer--menu">
+    <div class="col-wrap">
         <div class="col col--fluid-15">
             <div class="separator-dotted"></div>
         </div>
     </div>
 </div>
-<div class="wrapper footer--border">
-    <div class="col-wrap footer--background">
+<div class="wrapper footer">
+    <div class="col-wrap">
         <!--footer-->
-        <div class="col col--fluid-15" style="margin-top: 20px;">
-            <button class="btn btn--secondary " style="color: #53565A">
-                Sign up for news and alerts
-            </button>
-            <button class="btn btn--secondary "
-                    style="background-color: #F15D22">
-                Subscribe now
-            </button>
+        <!--sign up and subscribe-->
+        <div class="col col--fluid-10 padding-top-lg--4">
+            <div class="col-wrap sign-and-subscribe">
+                <h5>Sign up for news and alerts</h5>
+                <div class="col col--fluid-11">
+                    <input type="text">
+                </div>
+                <div class="col col--fluid-4">
+                    <button class="btn btn--content">
+                        Content button
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col col--fluid-5 padding-top-lg--8">
             <div class="margin-top margin-left--2" style="color: #303030; display: inline;">
                 Follow us on social media ( social media logos )
             </div>
         </div>
     </div>
+</div>
 </div>
 <!--horizontal separator-->
 <div class="wrapper" style="background-color: #F2F2F2">
@@ -139,25 +147,33 @@ show-snippet: true
         </div>
     </div>
 </div>
-<div class="wrapper footer--border">
-    <div class="col-wrap footer--background">
+<div class="wrapper footer">
+    <div class="col-wrap">
         <!--footer-->
         <div class="col col--fluid-15">
             <nav class="secondary-nav">
                 <ul class="primary-nav__list" style="margin: 0 10px;">
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Copyright</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Get Alerts</a></li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Copyright</a>
+                    </li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Get Alerts</a>
+                    </li>
                     <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Help</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Site Map</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Accesibility</a></li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Site Map</a>
+                    </li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px">
+                        <a>Accesibility</a></li>
                     <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Complaints and
                         Comments</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Feedback</a></li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Feedback</a>
+                    </li>
                     <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Freedom of
                         information</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Privacy</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Cookies</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Terms and conditions</a>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Privacy</a>
+                    </li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Cookies</a>
+                    </li>
+                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Terms and
+                        conditions</a>
                     </li>
                 </ul>
             </nav>
@@ -165,5 +181,3 @@ show-snippet: true
     </div>
 </div>
 [/snippet]
-
-Description about the footer file...

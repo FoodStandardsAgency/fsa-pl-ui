@@ -40,17 +40,18 @@ article>h4 {
         </div>
         <div class="col col--fluid-7">
             <div class="col-wrap">
-                <div class="col col--fluid-11 col--xs-3 search">
-                    <input type="text">
-                </div>
-                <div class="col col--fluid-4 col--xs-1">
-                    <button class="btn btn--search">
-                        S
-                    </button>
-                </div>
+                <form action="" class="search">
+                    <div class="col col--fluid-11 col--xs-3">
+                        <input class="input-text" type="text">
+                    </div>
+                    <div class="col col--fluid-4 col--xs-1">
+                        <input class="btn btn--search" type="submit" value="">
+                        </input>
+                    </div>
+                </form>
             </div>
         </div>
-        <nav class="language-nav col col--fluid-3">
+        <nav class="language-nav col col--fluid-3 margin-top-xs--4">
             <ul class="language-nav__list">
                 <li class="language-nav__item">English</li>
                 <li class="language-nav__item">
@@ -320,11 +321,11 @@ article>h4 {
     </nav>
 </div>
 <!--jumbotron-->
-<div class="wrapper border-pic--transparent jumbotron" style="padding-left: 0">
+<div class="wrapper border-pic--transparent jumbotron">
     <div class="col-wrap border--white-transparent hide--xs">
-        <div class="col col--fluid-5 background--white-transp padding-bottom-lg--4" style="opacity: .95; margin-bottom: 12px">
+        <div class="col col--fluid-5 background--white-transp padding-bottom--3 margin-bottom--2">
             <h2 class="campaign-separator-dotted">DON'T WASH RAW CHICKEN</h2>
-            <button class="btn background--dark-purple">Read more</button>
+            <button class="btn btn--action-alt">Read more</button>
         </div>
     </div>
 </div>
@@ -333,7 +334,7 @@ article>h4 {
     <div class="col-wrap hide--not-xs">
         <div class="col col--fluid-1 background--white margin-bottom--1">
             <h2 class="campaign-separator-dotted">DON'T WASH RAW CHICKEN</h2>
-            <button class="btn background--dark-purple">Read more</button>
+            <button class="btn btn--action-alt">Read more</button>
         </div>
     </div>
 </div>
@@ -353,21 +354,21 @@ article>h4 {
             <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-home-1of3.jpg" class="img-responsive">
-                    <h4 class="js-equal-height" style="margin-top: 16px;"><a class="text-colour" href="">Are you allergy aware?</a><span
+                    <h4 class="js-equal-height"><a class="text-colour" href="">Are you allergy aware?</a><span
                             style="font-size:14px; padding-left: 60px;">Share me!</span></h4>
                 </article>
             </div>
             <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-home-2of3.jpg" class="img-responsive">
-                    <h4 class="js-equal-height" style="margin-top: 16px;"><a class="text-colour" href="">Our Food Future</a><span style="font-size:14px; padding-left: 50px;">Share me!</span>
+                    <h4 class="js-equal-height"><a class="text-colour" href="">Our Food Future</a><span style="font-size:14px; padding-left: 50px;">Share me!</span>
                     </h4>
                 </article>
             </div>
             <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first">
                 <article>
                     <img src="../assets/img/fsa-home-3of3.jpg" class="img-responsive">
-                    <h4 class="js-equal-height" style="margin-top: 16px;"><a class="text-colour" href="">Food hygiene for businesses</a><span
+                    <h4 class="js-equal-height"><a class="text-colour" href="">Food hygiene for businesses</a><span
                             style="font-size:14px; padding-left: 10px;">Share me!</span></h4>
                 </article>
             </div>
@@ -621,7 +622,6 @@ article>h4 {
     initMegamenu();
 
     function initMegamenu() {
-        // console.log("hello there!");
         $(".mega-menu__l1").hover(
                 function () {
                     $(this).addClass("primary-nav__item--hover");
