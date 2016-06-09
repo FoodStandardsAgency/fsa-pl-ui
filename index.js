@@ -128,15 +128,31 @@ metalsmith(__dirname)
 			sortBy: 'order'
 		},
 		elements: {
-			pattern: 'elements/partials/*.md'
+			pattern: 'elements/partials/*.md',
+			sortBy: 'order'
 		},
-        pages: {
+		forms: {
+			pattern: 'forms/partials/*.md',
+			sortBy: 'order'
+		},
+        icons: {
+            pattern: 'icons/partials/*.md',
+            sortBy: 'order'
+        }, 
+		pages: {
             pattern: 'pages/partials/*.md',
             sortBy: 'order'
         },
         layout: {
 			pattern: 'layouts/partials/*.md',
 			sortBy: 'order'
+		},
+		tables: {
+			pattern: 'tables/partials/*.md',
+			sortBy: 'order'
+		},
+		typography: {
+			pattern: 'typography/partials/*.md'
 		}
 	}))
 	.use(markdown())

@@ -9,9 +9,9 @@ show-snippet: true
 <!--logo-->
 <div class="wrapper wrapper--header">
     <nav class="header wrapper col-wrap">
-        <div class="col col--fluid-4">
+        <div class="col col--fluid-4 main-logo" >
             <a href="#">
-                <img class="main-logo" src="../assets/img/logo.png"
+                <img src="../assets/img/logo.png"
                      alt="Food Standards Agency">
             </a>
         </div>
@@ -43,7 +43,7 @@ show-snippet: true
     <nav class="primary-nav">
         <ul class="primary-nav__list">
             <li class="primary-nav__item">
-                <a class="primary-nav__link primary-nav__link--home" href="#">Home</a>
+                <a class="primary-nav__link primary-nav__link--home" href="#"><span class="icon icon-home--white-small"></span></a>
             </li>
             <li class="primary-nav__item mega-menu__l1">
                 <a class="primary-nav__link" href="#">News & Updates</a>

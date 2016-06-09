@@ -10,6 +10,7 @@ show-snippet: false
 
 There are three breakpoints for different screen widths:
 
-- Desktop (992px and up) there are 15 x 45px columns
-- Tablet (768px to 991px) there are 12 x 45px columns
-- Mobile (up to 767px) are 100% wide
+- Large screens (more than 1200px) there are 15 columns
+- Desktop (992px to 1199px) there are 15 columns
+- Tablet (768px to 991px) there are 15 columns
+- Mobile (up to 767px) there are 4 columns

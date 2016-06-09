@@ -15,7 +15,7 @@ This guide shown how to make all FSA web sites look consistent with the food.gov
         </li>
         <li class="col col--fluid-3 height-sm--20 height-md--20 height-lg--20">
             <h3>
-                <a href="#"></a>Typography
+                <a href="/typography/"></a>Typography
             </h3>
         </li>
         <li class="col col--fluid-3 height-sm--20 height-md--20 height-lg--20">
@@ -25,7 +25,7 @@ This guide shown how to make all FSA web sites look consistent with the food.gov
         </li>
         <li class="col col--fluid-3 height-sm--20 height-md--20 height-lg--20">
             <h3>
-                <a href="#"></a>Icons and images
+                <a href="/icons/"></a>Icons and images
             </h3>
         </li>
         <li class="col col--fluid-3 height-sm--20 height-md--20 height-lg--20">
@@ -35,12 +35,12 @@ This guide shown how to make all FSA web sites look consistent with the food.gov
         </li>
         <li class="col col--fluid-3 height-sm--20 height-md--20 height-lg--20">
             <h3>
-                <a href="#"></a>Tables and data
+                <a href="/tables/"></a>Tables and data
             </h3>
         </li>
         <li class="col col--fluid-3 height-sm--20 height-md--20 height-lg--20">
             <h3>
-                <a href="#"></a>Forms
+                <a href="/forms/"></a>Forms
             </h3>
         </li>
         <li class="col col--fluid-3 height-sm--20 height-md--20 height-lg--20">

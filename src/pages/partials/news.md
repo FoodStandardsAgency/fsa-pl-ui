@@ -11,11 +11,12 @@ show-snippet: true
         <div class="col col--fluid-12 separator-right-solid">
             <div class="col col--fluid-15 news-tile horizontal-separator">
                 <article>
-                    <div class="col col--fluid-5 margin-bottom--0">
+                    <div class="col col--fluid-5 margin-bottom--0 news-title">
                         <h2 class="margin-top-lg--1"><a class="text-colour" href="">Quarter of people with food allergies suffer reactions when eating out</a></h2>
                         <footer>
-                            <p class="font-size--small-bold">28 April 2016</p>
+                            <p class="font-size--small font-size--bold">28 April 2016</p>
                         </footer>
+                        <a href="#"><span class="icon icon-share--black-small"></span></a>
                     </div>
                     <div class="col col--fluid-10 margin-right--lg-0 margin-bottom--4">
                         <img src="../assets/img/fsa-news-hero1.png" class="img-responsive">
@@ -30,8 +31,9 @@ show-snippet: true
                             recalls its Chocolate Coated Honeycomb</a>
                     </h5>
                     <footer>
-                        <p class="font-size--small-bold">25 April 2016</p>
+                        <p class="font-size--small font-size--bold">25 April 2016</p>
                     </footer>
+                    <a href="#"><span class="icon icon-share--black-small"></span></a>
                 </article>
             </div>
             <div class="col col--fluid-one-quarter news-tile news-tile--img-first separator-right-solid margin-top--2">
@@ -42,8 +44,9 @@ show-snippet: true
                             Poultry recalls Whole Cooked Chickens</a>
                     </h5>
                     <footer>
-                        <p class="font-size--small-bold">20 April 2016</p>
+                        <p class="font-size--small font-size--bold">20 April 2016</p>
                     </footer>
+                    <a href="#"><span class="icon icon-share--black-small"></span></a>
                 </article>
             </div>
             <div class="col col--fluid-one-quarter news-tile news-tile--img-first separator-right-solid margin-top--2">
@@ -54,8 +57,9 @@ show-snippet: true
                             on FSA campylobacter retail survey</a>
                     </h5>
                     <footer>
-                        <p class="font-size--small-bold">19 April 2016</p>
+                        <p class="font-size--small font-size--bold">19 April 2016</p>
                     </footer>
+                    <a href="#"><span class="icon icon-share--black-small"></span></a>
                 </article>
             </div>
             <div class="col col--fluid-one-quarter margin-right--lg-0 news-tile news-tile--img-first margin-top--2">
@@ -66,8 +70,9 @@ show-snippet: true
                             Labelling of Country of Origin</a>
                     </h5>
                     <footer>
-                        <p class="font-size--small-bold">25 March 2016</p>
+                        <p class="font-size--small font-size--bold">25 March 2016</p>
                     </footer>
+                    <a href="#"><span class="icon icon-share--black-small"></span></a>
                 </article>
             </div>
         </div>

@@ -13,6 +13,7 @@ show-snippet: true
         <div class="col-wrap">
             <div class="col col--fluid-15 background--light-yellow-transp margin-top--0">
                 <h1 class="big">Don't wash raw chicken</h1>
+                <a href="#"><span class="icon icon-share--black" style="position: absolute;bottom: 24px;right: 24px;"></span></a>
             </div>
         </div>
         <nav class="campaign-nav">
@@ -48,6 +49,7 @@ show-snippet: true
     <div class="col-wrap">
         <div class="col col--fluid-15 background--light-yellow">
             <h1 class="big margin-top--0 margin-bottom--0">Don't wash raw chicken</h1>
+            <a href="#"><span class="icon icon-share--black" style="position: absolute;bottom: 20px;right: 12px;"></span></a>
         </div>
     </div>
     <nav class="campaign-nav">
@@ -66,8 +68,7 @@ show-snippet: true
             </li>
             <li class="col col--fluid-15 background--white separator-right-solid">
                 <button class="btn btn--action  margin-top--1 padding-left-lg--3 padding-right-lg--3">
-                    Call to
-                    action
+                    Call to action
                 </button>
             </li>
         </ul>
@@ -80,6 +81,7 @@ show-snippet: true
         <div class="col-wrap menu-h">
             <div class="col col--fluid-15 background--light-yellow">
                 <h2>Don't wash raw chicken</h2>
+                <a href="#"><span class="icon icon-share--black" style="position: absolute;bottom: 8px;right: 66px;"></span></a>
             </div>
         </div>
         <nav class="campaign-nav">
@@ -142,17 +144,17 @@ show-snippet: true
             <div class="col col--fluid-5 separator-right-solid">
                 <p class="share js-equal-height">Splashing water from washing chicken can spread campylobacter. Thorough
                     cooking kills it.</p>
-                <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
+                <div class="twitter-share"><span class="icon icon-twitter--white"></span></div>
             </div>
             <div class="col col--fluid-5 separator-right-solid">
                 <p class="share js-equal-height">Campylobacter causes more cases of food poisoning than E.coli, listeria and
                     salmonella put together.</p>
-                <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
+                <div class="twitter-share"><span class="icon icon-twitter--white"></span></div>
             </div>
             <div class="col col--fluid-5">
                 <p class="share js-equal-height">About 4 in 5 cases of campylobacter food poisoning in the UK come from
                     contaminated poultry</p>
-                <img src="../assets/img/twitter-logo-silhouette%20(1).svg" alt="" style="width: 40px; margin-left: 45%">
+                <div class="twitter-share"><span class="icon icon-twitter--white"></span></div>
             </div>
             <div class="col col--fluid-15 padding-bottom--4"></div>
         </div>
@@ -174,11 +176,13 @@ show-snippet: true
                     <p class="text-center">Cover and chill raw chicken. Cover raw chicken and store at the
                         bottom of the fridge so juices cannot drip on to other foods and contaminate them with food
                         poisoning bacteria such as campylobacter.</p>
+                    <a href="#"><span class="icon icon-share--black" style="position: absolute;bottom:0;right:0;"></span></a>
                 </div>
                 <div class="col col--fluid-one-half js-equal-height">
                     <img src="../assets/img/act-image2.jpg" class="img-responsive" style="margin-bottom:16px;">
                     <p class="text-center">Don't wash raw chicken. Cooking will kill any bacteria present,
                         including campylobacter, while washing chicken can spread germs by splashing.</p>
+                    <a href="#"><span class="icon icon-share--black" style="position: absolute;bottom:0;right:0;"></span></a>
                 </div>
                 <div class="col col--fluid-one-half js-equal-height">
                     <img src="../assets/img/act-image3.jpg" class="img-responsive" style="margin-bottom:16px;">
@@ -186,12 +190,14 @@ show-snippet: true
                         boards and surfaces used to prepare raw chicken. Wash hands thoroughly with soap and warm water,
                         after handling raw chicken. This helps stop the spread of campylobacter by avoiding cross
                         contamination.</p>
+                    <a href="#"><span class="icon icon-share--black" style="position: absolute;bottom:0;right:0;"></span></a>
                 </div>
                 <div class="col col--fluid-one-half js-equal-height">
                     <img src="../assets/img/act-image4.jpg" class="img-responsive" style="margin-bottom:16px;">
                     <p class="text-center">Cook chicken thoroughly Make sure chicken is steaming hot all the
                         way through before serving. Cut in to the thickest part of the meat and check that it is
                         steaming hot with no pink meat and that the juices run clear.</p>
+                    <a href="#"><span class="icon icon-share--black" style="position: absolute;bottom:0;right:0;"></span></a>
                 </div>
             </div>
         </div>
@@ -238,13 +244,13 @@ show-snippet: true
                     <p class="font-size--h3">Share this page</p>
                 </div>
                 <div class="col col--fluid-5 background--white padding-top--4 js-equal-height">
-                    <div class="pdf-separator-dotted">
+                    <div class="separator-download pdf">
                             <span><a
                                     href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
                                 out
                                 with a food allergy  and a long list of other things like a deep understanding curve and a superficial knowledge of reality </a>(376.58 KB)</span>
                     </div>
-                    <div class="pdf-separator-dotted">
+                    <div class="separator-download doc">
                             <span><a
                                     href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
                                 out
@@ -270,7 +276,7 @@ show-snippet: true
         </div>
         <div class="col col--fluid-15 background--white padding-top--4 js-equal-height">
             <div>
-                <div class="pdf-separator-dotted">
+                <div class="separator-download pdf">
                             <span>
                             <a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
                                 out
@@ -279,7 +285,7 @@ show-snippet: true
                 </div>
             </div>
             <div class="style-pdf padding-top--2">
-                <div class="pdf-separator-dotted">
+                <div class="separator-download pdf">
                             <span>
                             <a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
                                 out
@@ -301,16 +307,16 @@ show-snippet: true
 <div class="wrapper content">
     <div class="col-wrap">
         <div class="col col--fluid-offset-3 col--fluid-9 col--fluid-sm-12 padding-top--4 padding-bottom--4">
-            <p style="font-size: 24px;">Share this page</p>
+            <p class="font-size--h5 font-size--thin">Share this page</p>
             <div class="col-wrap">
-                <div class="col col--fluid-offset-3 col--fluid-2">
-                    <img src="../assets/img/pinterest-social-logo.svg" alt="" class="img-responsive">
+                <div class="col col--fluid-1">
+                    <span class="icon icon-linkedin--black"></span>
                 </div>
-                <div class="col col--fluid-offset-3 col--fluid-2">
-                    <img src="../assets/img/twitter-logo-silhouette.svg" alt="" class="img-responsive">
+                <div class="col col--fluid-offset-5 col--fluid-1">
+                    <span class="icon icon-twitter--black"></span>
                 </div>
-                <div class="col col--fluid-offset-3 col--fluid-2">
-                    <img src="../assets/img/facebook-logo.svg" alt="" class="img-responsive">
+                <div class="col col--fluid-offset-5 col--fluid-1">
+                    <span class="icon icon-facebook--black"></span>
                 </div>
             </div>
         </div>

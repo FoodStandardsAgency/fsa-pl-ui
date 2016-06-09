@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FSA Pattern Library - Forms</title>
+		<link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
+		<link href="../assets/css/prism.css" rel="stylesheet" type="text/css" />
+		<link href="../assets/css/prismCustom.css" rel="stylesheet" type="text/css" />
+		<link href="../assets/css/pl/main.css" rel="stylesheet" type="text/css" />
+		<script src="https://use.typekit.net/ivl6ukw.js"></script>
+		<script>try {
+			Typekit.load({async: true});
+		} catch (e) {
+		}</script>
+	</head>
+	<body class="pl-listpage">
+		<div class="pl-wrap">
+			<div class="pl-wrap__inner"><div class="page-intro background--gallery">
+    <div class="pl-wrap__inner">
+        <ol class="breadcrumb__list">
+        	<li class="breadcrumb__item">
+        		<a class="breadcrumb__link" href="/">Home</a>
+        	</li>
+        	<li class="breadcrumb__item">
+        		Forms
+        	</li>
+        </ol>        <h1 class="page-intro__title">Forms</h1>
+        <p class="page-intro__content">Forms</p>
+    </div>
+</div>
+<div class="pl-wrap">
+    <div class="pl-wrap__inner">
+        <div class="table-of-contents padding-bottom-md--3">
+            <h2 class="table-of-contents__title">Table of contents</h2>
+            <ol id="toc" class="table-of-contents__list">
+                <li class="table-of-contents__item">
+                    <a href="#input">Input</a>
+                </li>
+                <li class="table-of-contents__item">
+                    <a href="#input-with-error">Input with error</a>
+                </li>
+                <li class="table-of-contents__item">
+                    <a href="#textarea">Textarea</a>
+                </li>
+                <li class="table-of-contents__item">
+                    <a href="#date-group">Date group</a>
+                </li>
+                <li class="table-of-contents__item">
+                    <a href="#checkbox">Checkbox</a>
+                </li>
+                <li class="table-of-contents__item">
+                    <a href="#radio-button">Radio button</a>
+                </li>
+                <li class="table-of-contents__item">
+                    <a href="#select-list">Select list</a>
+                </li>
+                <li class="table-of-contents__item">
+                    <a href="#text-alert">Text alert</a>
+                </li>
+            </ol>
+        </div>
+        <div class="page-content__main-content pl-page-content__main-content">
+            <div class="pl-item" id="input">
+                <h2>Input</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--forms">
+                        <div class="pl-wrapper">
+                            
+<div class="col-wrap">
+     <div class="col col--fluid-offset-3 col--fluid-8">
+        <form role="form">
+            <div class="form-group">
+                <label class="control-label" for="txt">Text input &lt;label&gt;</label>
+                <input type="text" class="form-control" id="txt">
+            </div>
+        </form>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+     &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-8&quot;&gt;
+        &lt;form role&#x3D;&quot;form&quot;&gt;
+            &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                &lt;label class&#x3D;&quot;control-label&quot; for&#x3D;&quot;txt&quot;&gt;Text input &amp;lt;label&amp;gt;&lt;/label&gt;
+                &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;txt&quot;&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item" id="input-with-error">
+                <h2>Input with error</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--forms">
+                        <div class="pl-wrapper">
+                            
+<div class="col-wrap">
+    <div class="col col--fluid-offset-3 col--fluid-8">
+        <form role="form">
+            <div class="form-group has-error">
+                <label class="control-label" for="txt1">Text input with error</label>
+                <input type="text" class="form-control" id="txt1">
+            </div>
+        </form>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+    &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-8&quot;&gt;
+        &lt;form role&#x3D;&quot;form&quot;&gt;
+            &lt;div class&#x3D;&quot;form-group has-error&quot;&gt;
+                &lt;label class&#x3D;&quot;control-label&quot; for&#x3D;&quot;txt1&quot;&gt;Text input with error&lt;/label&gt;
+                &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;txt1&quot;&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item" id="textarea">
+                <h2>Textarea</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--forms">
+                        <div class="pl-wrapper">
+                            
+<div class="col-wrap">
+     <div class="col col--fluid-offset-3 col--fluid-8">
+        <form role="form">
+            <div class="form-group">
+                <label class="control-label" for="txtarea">Text area</label>
+                <textarea class="form-control" rows="5" id="txtarea"></textarea>
+            </div>
+        </form>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+     &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-8&quot;&gt;
+        &lt;form role&#x3D;&quot;form&quot;&gt;
+            &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                &lt;label class&#x3D;&quot;control-label&quot; for&#x3D;&quot;txtarea&quot;&gt;Text area&lt;/label&gt;
+                &lt;textarea class&#x3D;&quot;form-control&quot; rows&#x3D;&quot;5&quot; id&#x3D;&quot;txtarea&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item" id="date-group">
+                <h2>Date group</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--forms">
+                        <div class="pl-wrapper">
+                            
+<div class="col-wrap">
+     <div class="col col--fluid-offset-3 col--fluid-8">
+        <form role="form">
+            <div class="form-group">
+                <fieldset>
+                    <legend>Date of birth (same as h6)</legend>
+                    <div class="col-wrap">
+                        <div class="col col--fluid-3">
+                            <label class="control-label" for="dd">Day</label>
+                            <input type="text" class="form-control" id="dd" maxlength="2"
+                                   placeholder="DD">
+                        </div>
+                        <div class="col col--fluid-3">
+                            <label class="control-label" for="mm">Month</label>
+                            <input type="text" class="form-control" id="mm" maxlength="2"
+                                   placeholder="MM">
+                        </div>
+                        <div class="col col--fluid-3">
+                            <label class="control-label" for="yyyy">Year</label>
+                            <input type="text" class="form-control" id="yyyy" maxlength="4"
+                                   placeholder="YYYY">
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+     &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-8&quot;&gt;
+        &lt;form role&#x3D;&quot;form&quot;&gt;
+            &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                &lt;fieldset&gt;
+                    &lt;legend&gt;Date of birth (same as h6)&lt;/legend&gt;
+                    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+                        &lt;div class&#x3D;&quot;col col--fluid-3&quot;&gt;
+                            &lt;label class&#x3D;&quot;control-label&quot; for&#x3D;&quot;dd&quot;&gt;Day&lt;/label&gt;
+                            &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;dd&quot; maxlength&#x3D;&quot;2&quot;
+                                   placeholder&#x3D;&quot;DD&quot;&gt;
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;col col--fluid-3&quot;&gt;
+                            &lt;label class&#x3D;&quot;control-label&quot; for&#x3D;&quot;mm&quot;&gt;Month&lt;/label&gt;
+                            &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;mm&quot; maxlength&#x3D;&quot;2&quot;
+                                   placeholder&#x3D;&quot;MM&quot;&gt;
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;col col--fluid-3&quot;&gt;
+                            &lt;label class&#x3D;&quot;control-label&quot; for&#x3D;&quot;yyyy&quot;&gt;Year&lt;/label&gt;
+                            &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;yyyy&quot; maxlength&#x3D;&quot;4&quot;
+                                   placeholder&#x3D;&quot;YYYY&quot;&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/fieldset&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item" id="checkbox">
+                <h2>Checkbox</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--forms">
+                        <div class="pl-wrapper">
+                            
+<div class="col-wrap">
+     <div class="col col--fluid-offset-3 col--fluid-8">
+        <form role="form">
+            <div class="form-group">
+                <fieldset>
+                    <legend>Check boxes</legend>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Option 1</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Option 2</label>
+                    </div>
+                    <div class="checkbox has-error">
+                        <label><input id="txt2" type="checkbox" value="">Option 3 with error</label>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+     &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-8&quot;&gt;
+        &lt;form role&#x3D;&quot;form&quot;&gt;
+            &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                &lt;fieldset&gt;
+                    &lt;legend&gt;Check boxes&lt;/legend&gt;
+                    &lt;div class&#x3D;&quot;checkbox&quot;&gt;
+                        &lt;label&gt;&lt;input type&#x3D;&quot;checkbox&quot; value&#x3D;&quot;&quot;&gt;Option 1&lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;checkbox&quot;&gt;
+                        &lt;label&gt;&lt;input type&#x3D;&quot;checkbox&quot; value&#x3D;&quot;&quot;&gt;Option 2&lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;checkbox has-error&quot;&gt;
+                        &lt;label&gt;&lt;input id&#x3D;&quot;txt2&quot; type&#x3D;&quot;checkbox&quot; value&#x3D;&quot;&quot;&gt;Option 3 with error&lt;/label&gt;
+                    &lt;/div&gt;
+                &lt;/fieldset&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item" id="radio-button">
+                <h2>Radio button</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--forms">
+                        <div class="pl-wrapper">
+                            
+<div class="col-wrap">
+     <div class="col col--fluid-offset-3 col--fluid-8">
+        <form role="form">
+            <div class="form-group">
+                <fieldset>
+                    <legend>Check boxes</legend>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio">Option 1</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio">Option 2</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio">Option 3</label>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+     &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-8&quot;&gt;
+        &lt;form role&#x3D;&quot;form&quot;&gt;
+            &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                &lt;fieldset&gt;
+                    &lt;legend&gt;Check boxes&lt;/legend&gt;
+                    &lt;div class&#x3D;&quot;radio&quot;&gt;
+                        &lt;label&gt;&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;optradio&quot;&gt;Option 1&lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;radio&quot;&gt;
+                        &lt;label&gt;&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;optradio&quot;&gt;Option 2&lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;radio&quot;&gt;
+                        &lt;label&gt;&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;optradio&quot;&gt;Option 3&lt;/label&gt;
+                    &lt;/div&gt;
+                &lt;/fieldset&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item" id="select-list">
+                <h2>Select list</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--forms">
+                        <div class="pl-wrapper">
+                            
+<div class="col-wrap">
+     <div class="col col--fluid-offset-3 col--fluid-8">
+        <div class="form-group">
+            <label class="control-label" for="sel1">Select list</label>
+            <select class="form-control" id="sel1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+     &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-8&quot;&gt;
+        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+            &lt;label class&#x3D;&quot;control-label&quot; for&#x3D;&quot;sel1&quot;&gt;Select list&lt;/label&gt;
+            &lt;select class&#x3D;&quot;form-control&quot; id&#x3D;&quot;sel1&quot;&gt;
+                &lt;option&gt;1&lt;/option&gt;
+                &lt;option&gt;2&lt;/option&gt;
+                &lt;option&gt;3&lt;/option&gt;
+                &lt;option&gt;4&lt;/option&gt;
+            &lt;/select&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-item" id="text-alert">
+                <h2>Text alert</h2>
+                
+                <div class="pl-example">
+                    <div class="pl-example__rendered pl-example__rendered--forms">
+                        <div class="pl-wrapper">
+                            
+<div class="col-wrap">
+     <div id="content" class="col col--fluid-offset-3 col--fluid-sm-12 col--fluid-10">
+         <div class="alert" role="alert">
+             <h5>There were some errors:</h5>
+             <p>Please enter some <a href="#txt1">text</a></p>
+             <p>Please select one <a href="#txt2">option</a></p>
+         </div>
+     </div>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="pl-example__code">
+                        <pre class="on-grid"><code class="language-html">
+&lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+     &lt;div id&#x3D;&quot;content&quot; class&#x3D;&quot;col col--fluid-offset-3 col--fluid-sm-12 col--fluid-10&quot;&gt;
+         &lt;div class&#x3D;&quot;alert&quot; role&#x3D;&quot;alert&quot;&gt;
+             &lt;h5&gt;There were some errors:&lt;/h5&gt;
+             &lt;p&gt;Please enter some &lt;a href&#x3D;&quot;#txt1&quot;&gt;text&lt;/a&gt;&lt;/p&gt;
+             &lt;p&gt;Please select one &lt;a href&#x3D;&quot;#txt2&quot;&gt;option&lt;/a&gt;&lt;/p&gt;
+         &lt;/div&gt;
+     &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../assets/js/prism.js"></script>
+		<!--<script type="text/javascript" src="https://beta.ons.gov.uk/node_modules/sixteens/dist/js/main.js"></script>-->
+		<!--<script type="text/javascript" src="../assets/js/jquery.js"></script>-->
+		<script type="text/javascript" src="../assets/js/main.js"></script>
+  </body>
+</html>

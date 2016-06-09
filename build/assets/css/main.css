@@ -71,15 +71,15 @@ body {
     height: 20px;
 }
 
-.pl-example__rendered--grid:after {
-    background: url(../img/grid.png) center 0 repeat-y;
-    content: "";
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-}
+/*.pl-example__rendered--grid:after {*/
+    /*background: url(../img/grid.png) center 0 repeat-y;*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*bottom: 0px;*/
+    /*left: 0px;*/
+    /*right: 0px;*/
+/*}*/
 
 .pl-page-content__main-content {
     border-top: 1px solid transparent;

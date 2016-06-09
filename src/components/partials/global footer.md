@@ -10,7 +10,7 @@ show-snippet: true
 <div class="wrapper footer">
     <div class="col-wrap">
         <!--button-->
-        <div class="col col--fluid-offset-5 col--fluid-5">
+        <div class="col col--fluid-offset-5 col--fluid-5 margin-top--6">
             <button class="btn btn--secondary margin-top--double margin-left" style="color: #53565A">
                 Anything wrong with this page?
             </button>
@@ -20,7 +20,8 @@ show-snippet: true
 <!--footer menu-->
 <div class="wrapper footer--menu">
     <div class="col-wrap">
-        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height"><h5><a href="">News and updates</a></h5>
+        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height"><h5><a href="">News and
+            updates</a></h5>
             <ul>
                 <li class="primary-nav__list"><a href="" class="text-colour">News centre</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Food alerts news</a></li>
@@ -30,7 +31,8 @@ show-snippet: true
                 <li class="primary-nav__list"><a href="" class="text-colour">Help shape our policies</a></li>
             </ul>
         </div>
-        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height"><h5><a href="">Business and industry</a></h5>
+        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height"><h5><a href="">Business and
+            industry</a></h5>
             <ul>
                 <li class="primary-nav__list"><a href="" class="text-colour">Starting a food business</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Safer food, better business</a></li>
@@ -51,13 +53,15 @@ show-snippet: true
         <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height">
             <h5><a href="">Enforcement and regulation</a></h5>
             <ul>
-                <li class="primary-nav__list"><a href="" class="text-colour">Approved premises and official controls</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Approved premises and official
+                    controls</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Audit of local authorities</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Codes of practice</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Report a food problem</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Find a food safety team</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Local authority tools</a></li>
-                <li class="primary-nav__list"><a href="" class="text-colour">Training for enforcement officers</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Training for enforcement officers</a>
+                </li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Food alerts</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Monitoring</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Regulation and legislation</a></li>
@@ -99,7 +103,8 @@ show-snippet: true
                 <li class="primary-nav__list"><a href="" class="text-colour">FSA Board</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Complains and comments</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Freedom of information</a></li>
-                <li class="primary-nav__list"><a href="" class="text-colour">FSA reports, transparency data and accounts</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">FSA reports, transparency data and
+                    accounts</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">All committees</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Publications</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">The FSA in Europe</a></li>
@@ -109,7 +114,7 @@ show-snippet: true
 </div>
 <div class="wrapper footer--menu">
     <div class="col-wrap">
-        <div class="col col--fluid-15">
+        <div class="col col--fluid-15 margin-bottom--2">
             <div class="separator-dotted"></div>
         </div>
     </div>
@@ -118,7 +123,7 @@ show-snippet: true
     <div class="col-wrap">
         <!--footer-->
         <!--sign up and subscribe-->
-        <div class="col col--fluid-10 padding-top-lg--4">
+        <div class="col col--fluid-10 padding-top--4">
             <div class="col-wrap sign-and-subscribe">
                 <h5>Sign up for news and alerts</h5>
                 <div class="col col--fluid-11">
@@ -131,19 +136,31 @@ show-snippet: true
                 </div>
             </div>
         </div>
-        <div class="col col--fluid-5 padding-top-lg--8">
+        <div class="col col--fluid-5 padding-top--8">
             <div class="margin-top margin-left--2" style="color: #303030; display: inline;">
-                Follow us on social media ( social media logos )
+                Follow us on social media
+            </div>
+            <div class="margin-top margin-left--2">
+                <span style="display: inline-block">
+                    <span class="icon icon-linkedin--black-small"></span>
+                    <span class="icon-separator--small"> | </span>
+                    <span class="icon icon-google--black-small"></span>
+                    <span class="icon-separator--small"> | </span>
+                    <span class="icon icon-twitter--black-small"></span>
+                    <span class="icon-separator--small"> | </span>
+                    <span class="icon icon-facebook--black-small"></span>
+                    <span class="icon-separator--small"> | </span>
+                    <span class="icon icon-share--black-small"></span>
+                </span>
             </div>
         </div>
     </div>
 </div>
-</div>
 <!--horizontal separator-->
-<div class="wrapper" style="background-color: #F2F2F2">
-    <div class="col-wrap" style="background-color: white">
+<div class="wrapper background--very-light-grey">
+    <div class="col-wrap background--white">
         <div class="col col--fluid-15">
-            <div class="separator-dotted"></div>
+            <div class="separator-dotted margin-bottom--2"></div>
         </div>
     </div>
 </div>
@@ -152,27 +169,27 @@ show-snippet: true
         <!--footer-->
         <div class="col col--fluid-15">
             <nav class="secondary-nav">
-                <ul class="primary-nav__list" style="margin: 0 10px;">
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Copyright</a>
+                <ul class="footer-no-style__list">
+                    <li class="font-size--small font-size--bold"><a>Copyright</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Get Alerts</a>
+                    <li class="font-size--small font-size--bold"><a>Get Alerts</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Help</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Site Map</a>
+                    <li class="font-size--small font-size--bold"><a>Help</a></li>
+                    <li class="font-size--small font-size--bold"><a>Site Map</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px">
+                    <li class="font-size--small font-size--bold">
                         <a>Accesibility</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Complaints and
+                    <li class="font-size--small font-size--bold"><a>Complaints and
                         Comments</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Feedback</a>
+                    <li class="font-size--small font-size--bold"><a>Feedback</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Freedom of
+                    <li class="font-size--small font-size--bold"><a>Freedom of
                         information</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Privacy</a>
+                    <li class="font-size--small font-size--bold"><a>Privacy</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Cookies</a>
+                    <li class="font-size--small font-size--bold"><a>Cookies</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Terms and
+                    <li class="font-size--small font-size--bold"><a>Terms and
                         conditions</a>
                     </li>
                 </ul>

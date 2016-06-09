@@ -19,7 +19,8 @@ show-snippet: true
 <div class="wrapper content--explanation">
     <div class="col-wrap">
         <div class="col col--fluid-offset-3 col--fluid-8">
-            <p class="font-size--h3">A survey by the FSA and Allergy UK has shown there have been improvements for those with allergies
+            <p class="font-size--h3">A survey by the FSA and Allergy UK has shown there have been improvements for those
+                with allergies
                 since
                 new labelling rules came in, but more needs to be done.
             </p>
@@ -32,10 +33,21 @@ show-snippet: true
         <div class="col col--fluid-3 padding-top--6" id="sidebar-width">
             <div class="content--tile-signup" id="sidebar">
                 <p>Last updated:</p>
-                <p class="bold">28/04/2016</p>
+                <p class="font-size--bold">28/04/2016</p>
                 <div class="share">
                     <p>Share</p>
-                    <p>Share icons</p></div>
+                    <div>
+                        <span class="icon icon-linkedin--black-small"></span>
+                        <span class="icon-separator--small"> | </span>
+                        <span class="icon icon-google--black-small"></span>
+                        <span class="icon-separator--small"> | </span>
+                        <span class="icon icon-twitter--black-small"></span>
+                        <span class="icon-separator--small"> | </span>
+                        <span class="icon icon-facebook--black-small"></span>
+                        <span class="icon-separator--small"> | </span>
+                        <span class="icon icon-share--black-small"></span>
+                    </div>
+                </div>
                 <div class="font-size--small">
                     <button class="btn btn--content">Sign up for
                         news and alerts
@@ -101,7 +113,8 @@ show-snippet: true
 <div class="wrapper content--quote">
     <div class="col-wrap">
         <div class="col col--fluid-offset-3 col--fluid-8">
-            <p class="font-size--h2" style="font-weight:100; font-style: italic;">'Allergies can be fatal, and this is why it is vital food businesses give their customers information
+            <p class="font-size--h2" style="font-weight:100; font-style: italic;">'Allergies can be fatal, and this is
+                why it is vital food businesses give their customers information
                 they can'</p>
         </div>
     </div>
@@ -138,31 +151,34 @@ show-snippet: true
                 can
                 be found on menus or in additional leaflets.
             </p>
-            <div class="style-pdf">
-                <div class="pdf-separator-dotted">
-                    <a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating out
-                        with a food allergy </a>(376.58 KB)
+            <div class="style-download">
+                <div class="separator-download pdf" style="margin-bottom: 0">
+                    <span><a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
+                        out
+                        with a food allergy </a>(376.58 KB)</span>
                 </div>
             </div>
-            <p class="font-size--h5">Last updated: 28 April 2016</p>
-            <div class="padding-bottom--4"></div>
-        </div>
-    </div>
-</div>
-<!--strong share-->
-<div class="wrapper background--black">
-    <div class="col-wrap background--dark-grey">
-        <div class="col col--fluid-offset-3 col--fluid-9 padding-top--4 padding-bottom--4">
-            <p style="font-size: 21px; font-weight: 100;">Share this page</p>
-            <div class="col-wrap background--dark-grey">
-                <div class="col col--fluid-offset-3 col--fluid-2 separator-right-solid">
-                    <img src="../assets/img/pinterest.png" alt="" class="img-responsive">
-                </div>
-                <div class="col col--fluid-2 separator-right-solid">
-                    <img src="../assets/img/twitter.png" alt="" class="img-responsive">
-                </div>
-                <div class="col col--fluid-2">
-                    <img src="../assets/img/facebook.png" alt="" class="img-responsive">
+            <!--share inline-->
+            <div class="separator-dotted" style="margin-top: 10px;"></div>
+            <div class="wrapper separator-dotted">
+                <div class="col-wrap">
+                    <div class="col col--fluid-6">
+                        <p class="font-size--small font-size--bold" style="font-style: italic; margin-top: 26px;">Last
+                            updated: 28
+                            April
+                            2016</p>
+                    </div>
+                    <div class="col col--fluid-offset-3 col--fluid-6">
+                        <p class="font-size--small font-size--bold">Share this:
+                        <span class="inline-share">
+                            <span class="icon icon-linkedin--white-small"></span>
+                            <span class="icon-separator--small"> | </span>
+                            <span class="icon icon-twitter--white-small"></span>
+                            <span class="icon-separator--small"> | </span>
+                            <span class="icon icon-facebook--white-small"></span>
+                        </span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -180,14 +196,16 @@ show-snippet: true
         </div>
         <div class="col col--fluid-8 padding-top--6">
             <div>
-                <a href="https://www.food.gov.uk/science/allergy-intolerance" class="font-size--h3">Allergy and intolerance</a>
+                <a href="https://www.food.gov.uk/science/allergy-intolerance" class="font-size--h3">Allergy and
+                    intolerance</a>
                 <p>Food allergies and intolerances are life changing. In the UK they affect around 8% of
                     children and 2% of adults. In December 2014, the law on how allergen information is provided
                     by food businesses changed, to make it easier when buying food or eating out with an allergy
                     or intolerance.</p>
             </div>
             <div>
-                <a href="https://www.food.gov.uk/science/allergy-intolerance" class="font-size--h3">Allergy and intolerance: guidance
+                <a href="https://www.food.gov.uk/science/allergy-intolerance" class="font-size--h3">Allergy and
+                    intolerance: guidance
                     for businesses</a>
                 <p>This guidance helps food businesses provide information to customers who need to avoid
                     certain ingredients because of a food allergy or intolerance. It includes allergen
@@ -210,11 +228,13 @@ show-snippet: true
         </div>
         <div class="col col--fluid-one-half padding-top--6">
             <div class="padding-bottom--4">
-                <a href="http://www.nhs.uk/conditions/food-allergy/Pages/Intro1.aspx" class="font-size--h3">NHS Choices: Food allergy
+                <a href="http://www.nhs.uk/conditions/food-allergy/Pages/Intro1.aspx" class="font-size--h3">NHS Choices:
+                    Food allergy
                     introduction</a>
             </div>
             <div class="padding-bottom--4">
-                <a href="https://www.allergyuk.org/food-allergy-or-food-intolerance/food-allergy-or-food-intolerance?gclid=Cj0KEQjwmKG5BRDv4YaE5t6oqf0BEiQAwqDNfO_nh2C5y9U2ZkLz-t-EXOyfIiu93n8BkVpmFDZ946caAr5A8P8HAQ" class="font-size--h3">Allergy
+                <a href="https://www.allergyuk.org/food-allergy-or-food-intolerance/food-allergy-or-food-intolerance?gclid=Cj0KEQjwmKG5BRDv4YaE5t6oqf0BEiQAwqDNfO_nh2C5y9U2ZkLz-t-EXOyfIiu93n8BkVpmFDZ946caAr5A8P8HAQ"
+                   class="font-size--h3">Allergy
                     UK</a>
             </div>
             <div class="padding-bottom--4">

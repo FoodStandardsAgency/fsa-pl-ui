@@ -85,9 +85,9 @@
 <!--logo-->
 <div class="wrapper wrapper--header">
     <nav class="header wrapper col-wrap">
-        <div class="col col--fluid-4">
+        <div class="col col--fluid-4 main-logo" >
             <a href="#">
-                <img class="main-logo" src="../assets/img/logo.png"
+                <img src="../assets/img/logo.png"
                      alt="Food Standards Agency">
             </a>
         </div>
@@ -119,7 +119,7 @@
     <nav class="primary-nav">
         <ul class="primary-nav__list">
             <li class="primary-nav__item">
-                <a class="primary-nav__link primary-nav__link--home" href="#">Home</a>
+                <a class="primary-nav__link primary-nav__link--home" href="#"><span class="icon icon-home--white-small"></span></a>
             </li>
             <li class="primary-nav__item mega-menu__l1">
                 <a class="primary-nav__link" href="#">News & Updates</a>
@@ -391,9 +391,9 @@
 &lt;!--logo--&gt;
 &lt;div class&#x3D;&quot;wrapper wrapper--header&quot;&gt;
     &lt;nav class&#x3D;&quot;header wrapper col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--fluid-4&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-4 main-logo&quot; &gt;
             &lt;a href&#x3D;&quot;#&quot;&gt;
-                &lt;img class&#x3D;&quot;main-logo&quot; src&#x3D;&quot;../assets/img/logo.png&quot;
+                &lt;img src&#x3D;&quot;../assets/img/logo.png&quot;
                      alt&#x3D;&quot;Food Standards Agency&quot;&gt;
             &lt;/a&gt;
         &lt;/div&gt;
@@ -425,7 +425,7 @@
     &lt;nav class&#x3D;&quot;primary-nav&quot;&gt;
         &lt;ul class&#x3D;&quot;primary-nav__list&quot;&gt;
             &lt;li class&#x3D;&quot;primary-nav__item&quot;&gt;
-                &lt;a class&#x3D;&quot;primary-nav__link primary-nav__link--home&quot; href&#x3D;&quot;#&quot;&gt;Home&lt;/a&gt;
+                &lt;a class&#x3D;&quot;primary-nav__link primary-nav__link--home&quot; href&#x3D;&quot;#&quot;&gt;&lt;span class&#x3D;&quot;icon icon-home--white-small&quot;&gt;&lt;/span&gt;&lt;/a&gt;
             &lt;/li&gt;
             &lt;li class&#x3D;&quot;primary-nav__item mega-menu__l1&quot;&gt;
                 &lt;a class&#x3D;&quot;primary-nav__link&quot; href&#x3D;&quot;#&quot;&gt;News &amp; Updates&lt;/a&gt;
@@ -708,9 +708,21 @@
         <div class="col col--fluid-5 background--white-transp padding-bottom--3 margin-bottom--2">
             <h2 class="campaign-separator-dotted">DON'T WASH RAW CHICKEN</h2>
             <button class="btn btn--action-alt">Read more</button>
+            <div class="jumbo-share">Share <span class="icon icon-share--black-small"></span></div>
         </div>
     </div>
 </div>
+<!--for mobile-->
+<div class="wrapper">
+    <div class="col-wrap hide--not-xs">
+        <div class="col col--fluid-1 background--white margin-bottom--1">
+            <h2 class="campaign-separator-dotted">DON'T WASH RAW CHICKEN</h2>
+            <button class="btn btn--action-alt">Read more</button>
+            <div class="jumbo-share">Share <span class="icon icon-share--black-small"></span></div>
+        </div>
+    </div>
+</div>
+<!--end for mobile-->
 
 							</div>
 							<div class="pl-example__code">
@@ -721,9 +733,21 @@
         &lt;div class&#x3D;&quot;col col--fluid-5 background--white-transp padding-bottom--3 margin-bottom--2&quot;&gt;
             &lt;h2 class&#x3D;&quot;campaign-separator-dotted&quot;&gt;DON&#x27;T WASH RAW CHICKEN&lt;/h2&gt;
             &lt;button class&#x3D;&quot;btn btn--action-alt&quot;&gt;Read more&lt;/button&gt;
+            &lt;div class&#x3D;&quot;jumbo-share&quot;&gt;Share &lt;span class&#x3D;&quot;icon icon-share--black-small&quot;&gt;&lt;/span&gt;&lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
+&lt;!--for mobile--&gt;
+&lt;div class&#x3D;&quot;wrapper&quot;&gt;
+    &lt;div class&#x3D;&quot;col-wrap hide--not-xs&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-1 background--white margin-bottom--1&quot;&gt;
+            &lt;h2 class&#x3D;&quot;campaign-separator-dotted&quot;&gt;DON&#x27;T WASH RAW CHICKEN&lt;/h2&gt;
+            &lt;button class&#x3D;&quot;btn btn--action-alt&quot;&gt;Read more&lt;/button&gt;
+            &lt;div class&#x3D;&quot;jumbo-share&quot;&gt;Share &lt;span class&#x3D;&quot;icon icon-share--black-small&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--end for mobile--&gt;
 </code></pre>
 							</div>
 						</div>
@@ -743,22 +767,28 @@
             <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-home-1of3.jpg" class="img-responsive">
-                    <h4 class="js-equal-height"><a class="text-colour" href="">Are you allergy aware?</a><span
-                            style="font-size:14px; padding-left: 60px;">Share me!</span></h4>
+                    <h4 class="js-equal-height">
+                        <a class="text-colour" href="">Are you allergy aware?</a>
+                    </h4>
+                    <a href="#"><span class="icon icon-share--black-small"></span></a>
                 </article>
             </div>
             <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid">
                 <article>
                     <img src="../assets/img/fsa-home-2of3.jpg" class="img-responsive">
-                    <h4 class="js-equal-height"><a class="text-colour" href="">Our Food Future</a><span style="font-size:14px; padding-left: 50px;">Share me!</span>
+                    <h4 class="js-equal-height">
+                        <a class="text-colour" href="">Our Food Future</a>
                     </h4>
+                    <a href="#"><span class="icon icon-share--black-small"></span></a>
                 </article>
             </div>
             <div class="col col--fluid-5 home-campaign-tile home-campaign-tile--img-first">
                 <article>
                     <img src="../assets/img/fsa-home-3of3.jpg" class="img-responsive">
-                    <h4 class="js-equal-height"><a class="text-colour" href="">Food hygiene for businesses</a><span
-                            style="font-size:14px; padding-left: 10px;">Share me!</span></h4>
+                    <h4 class="js-equal-height">
+                        <a class="text-colour" href="">Food hygiene for businesses</a>
+                    </h4>
+                    <a href="#"><span class="icon icon-share--black-small"></span></a>
                 </article>
             </div>
         </div>
@@ -777,22 +807,28 @@
             &lt;div class&#x3D;&quot;col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid&quot;&gt;
                 &lt;article&gt;
                     &lt;img src&#x3D;&quot;../assets/img/fsa-home-1of3.jpg&quot; class&#x3D;&quot;img-responsive&quot;&gt;
-                    &lt;h4 class&#x3D;&quot;js-equal-height&quot;&gt;&lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;&quot;&gt;Are you allergy aware?&lt;/a&gt;&lt;span
-                            style&#x3D;&quot;font-size:14px; padding-left: 60px;&quot;&gt;Share me!&lt;/span&gt;&lt;/h4&gt;
+                    &lt;h4 class&#x3D;&quot;js-equal-height&quot;&gt;
+                        &lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;&quot;&gt;Are you allergy aware?&lt;/a&gt;
+                    &lt;/h4&gt;
+                    &lt;a href&#x3D;&quot;#&quot;&gt;&lt;span class&#x3D;&quot;icon icon-share--black-small&quot;&gt;&lt;/span&gt;&lt;/a&gt;
                 &lt;/article&gt;
             &lt;/div&gt;
             &lt;div class&#x3D;&quot;col col--fluid-5 home-campaign-tile home-campaign-tile--img-first separator-right-solid&quot;&gt;
                 &lt;article&gt;
                     &lt;img src&#x3D;&quot;../assets/img/fsa-home-2of3.jpg&quot; class&#x3D;&quot;img-responsive&quot;&gt;
-                    &lt;h4 class&#x3D;&quot;js-equal-height&quot;&gt;&lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;&quot;&gt;Our Food Future&lt;/a&gt;&lt;span style&#x3D;&quot;font-size:14px; padding-left: 50px;&quot;&gt;Share me!&lt;/span&gt;
+                    &lt;h4 class&#x3D;&quot;js-equal-height&quot;&gt;
+                        &lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;&quot;&gt;Our Food Future&lt;/a&gt;
                     &lt;/h4&gt;
+                    &lt;a href&#x3D;&quot;#&quot;&gt;&lt;span class&#x3D;&quot;icon icon-share--black-small&quot;&gt;&lt;/span&gt;&lt;/a&gt;
                 &lt;/article&gt;
             &lt;/div&gt;
             &lt;div class&#x3D;&quot;col col--fluid-5 home-campaign-tile home-campaign-tile--img-first&quot;&gt;
                 &lt;article&gt;
                     &lt;img src&#x3D;&quot;../assets/img/fsa-home-3of3.jpg&quot; class&#x3D;&quot;img-responsive&quot;&gt;
-                    &lt;h4 class&#x3D;&quot;js-equal-height&quot;&gt;&lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;&quot;&gt;Food hygiene for businesses&lt;/a&gt;&lt;span
-                            style&#x3D;&quot;font-size:14px; padding-left: 10px;&quot;&gt;Share me!&lt;/span&gt;&lt;/h4&gt;
+                    &lt;h4 class&#x3D;&quot;js-equal-height&quot;&gt;
+                        &lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;&quot;&gt;Food hygiene for businesses&lt;/a&gt;
+                    &lt;/h4&gt;
+                    &lt;a href&#x3D;&quot;#&quot;&gt;&lt;span class&#x3D;&quot;icon icon-share--black-small&quot;&gt;&lt;/span&gt;&lt;/a&gt;
                 &lt;/article&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -819,56 +855,56 @@
             <h2 class="margin-top--0"><a class="text-colour" href="">Latest news & alerts</a></h2>
         </div>
         <div class="col col--fluid-3 home-news-tile home-news-tile--img-first separator-right-solid">
-            <article>
+            <article class="js-equal-height">
                 <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
-                <h4 class="js-equal-height"><a class="text-colour" href="https://www.food.gov.uk/news-updates/news/2016/15103/quarter-of-people-with-food-allergies-suffer-reactions-when-eating-out">
-                    Quarter of people with food allergies suffer reactions when eating out
-                </a></h4>
+                <h4>
+                    <a class="text-colour" href="https://www.food.gov.uk/news-updates/news/2016/15103/quarter-of-people-with-food-allergies-suffer-reactions-when-eating-out">
+                    Quarter of people with food allergies suffer reactions when eating out</a>
+                </h4>
                 <footer>
-                    <p class="font-size--small-bold">28 April 2016</p>
+                    <p class="font-size--small font-size--bold">28 April 2016</p>
                 </footer>
+                <a href="#"><span class="icon icon-share--black-small"></span></a>
             </article>
         </div>
         <div class="col col--fluid-3 home-news-tile home-news-tile--img-first separator-right-solid">
-            <article>
+            <article class="js-equal-height">
                 <img src="../assets/img/allergyallert.png" alt="" class="img-responsive">
-                <h4 class="js-equal-height"><a class="text-colour" href="http://www.food.gov.uk/news-updates/news/2016/15101/ginco-recalls-chocolate-coated-honeycomb">
-                    Ginco recalls its Chocolate Coated Honeycomb
-                </a></h4>
+                <h4>
+                    <a class="text-colour" href="http://www.food.gov.uk/news-updates/news/2016/15101/ginco-recalls-chocolate-coated-honeycomb">
+                    Ginco recalls its Chocolate Coated Honeycomb</a>
+                </h4>
                 <footer>
-                    <p class="font-size--small-bold">25 April 2016</p>
+                    <p class="font-size--small font-size--bold">25 April 2016 </p>
                 </footer>
+                <a href="#"><span class="icon icon-share--black-small"></span></a>
             </article>
         </div>
         <div class="col col--fluid-3 home-news-tile home-news-tile--img-first separator-right-solid">
-            <article>
+            <article class="js-equal-height">
                 <img src="../assets/img/productrecall.png" alt="" class="img-responsive">
-                <h4 class="js-equal-height"><a class="text-colour" href="http://www.food.gov.uk/news-updates/news/2016/15083/argo-poultry-recalls-whole-cooked-chickens">
-                    Argo Poultry recalls Whole Cooked Chickens
-                </a></h4>
+                <h4>
+                    <a class="text-colour" href="http://www.food.gov.uk/news-updates/news/2016/15083/argo-poultry-recalls-whole-cooked-chickens">
+                    Argo Poultry recalls Whole Cooked Chickens</a>
+                </h4>
                 <footer>
-                    <p class="font-size--small-bold">20 April 2016</p>
+                    <p class="font-size--small font-size--bold">20 April 2016</p>
                 </footer>
+                <a href="#"><span class="icon icon-share--black-small"></span></a>
             </article>
         </div>
         <div class="col col--fluid-3 home-news-tile home-news-tile--img-first">
-            <article>
+            <article class="js-equal-height">
                 <img src="../assets/img/fsa-news-hero1.png" alt="" class="img-responsive">
-                <h4 class="js-equal-height"><a class="text-colour" href="https://www.food.gov.uk/news-updates/news/2016/15103/quarter-of-people-with-food-allergies-suffer-reactions-when-eating-out">
-                    Quarter of people with food allergies suffer reactions when eating out
-                </a></h4>
+                <h4>
+                    <a class="text-colour" href="https://www.food.gov.uk/news-updates/news/2016/15103/quarter-of-people-with-food-allergies-suffer-reactions-when-eating-out">
+                    Quarter of people with food allergies suffer reactions when eating out</a>
+                </h4>
                 <footer>
-                    <p class="font-size--small-bold">28 April 2016</p>
+                    <p class="font-size--small font-size--bold">28 April 2016</p>
                 </footer>
+                <a href="#"><span class="icon icon-share--black-small"></span></a>
             </article>
-        </div>
-    </div>
-</div>
-<!--horizontal separator-->
-<div class="wrapper background--very-light-grey">
-    <div class="col-wrap background--white">
-        <div class="col col--fluid-15">
-            <div class="separator-dotted"></div>
         </div>
     </div>
 </div>
@@ -883,56 +919,56 @@
             &lt;h2 class&#x3D;&quot;margin-top--0&quot;&gt;&lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;&quot;&gt;Latest news &amp; alerts&lt;/a&gt;&lt;/h2&gt;
         &lt;/div&gt;
         &lt;div class&#x3D;&quot;col col--fluid-3 home-news-tile home-news-tile--img-first separator-right-solid&quot;&gt;
-            &lt;article&gt;
+            &lt;article class&#x3D;&quot;js-equal-height&quot;&gt;
                 &lt;img src&#x3D;&quot;../assets/img/fsa-news-hero1.png&quot; alt&#x3D;&quot;&quot; class&#x3D;&quot;img-responsive&quot;&gt;
-                &lt;h4 class&#x3D;&quot;js-equal-height&quot;&gt;&lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;https://www.food.gov.uk/news-updates/news/2016/15103/quarter-of-people-with-food-allergies-suffer-reactions-when-eating-out&quot;&gt;
-                    Quarter of people with food allergies suffer reactions when eating out
-                &lt;/a&gt;&lt;/h4&gt;
+                &lt;h4&gt;
+                    &lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;https://www.food.gov.uk/news-updates/news/2016/15103/quarter-of-people-with-food-allergies-suffer-reactions-when-eating-out&quot;&gt;
+                    Quarter of people with food allergies suffer reactions when eating out&lt;/a&gt;
+                &lt;/h4&gt;
                 &lt;footer&gt;
-                    &lt;p class&#x3D;&quot;font-size--small-bold&quot;&gt;28 April 2016&lt;/p&gt;
+                    &lt;p class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;28 April 2016&lt;/p&gt;
                 &lt;/footer&gt;
+                &lt;a href&#x3D;&quot;#&quot;&gt;&lt;span class&#x3D;&quot;icon icon-share--black-small&quot;&gt;&lt;/span&gt;&lt;/a&gt;
             &lt;/article&gt;
         &lt;/div&gt;
         &lt;div class&#x3D;&quot;col col--fluid-3 home-news-tile home-news-tile--img-first separator-right-solid&quot;&gt;
-            &lt;article&gt;
+            &lt;article class&#x3D;&quot;js-equal-height&quot;&gt;
                 &lt;img src&#x3D;&quot;../assets/img/allergyallert.png&quot; alt&#x3D;&quot;&quot; class&#x3D;&quot;img-responsive&quot;&gt;
-                &lt;h4 class&#x3D;&quot;js-equal-height&quot;&gt;&lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;http://www.food.gov.uk/news-updates/news/2016/15101/ginco-recalls-chocolate-coated-honeycomb&quot;&gt;
-                    Ginco recalls its Chocolate Coated Honeycomb
-                &lt;/a&gt;&lt;/h4&gt;
+                &lt;h4&gt;
+                    &lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;http://www.food.gov.uk/news-updates/news/2016/15101/ginco-recalls-chocolate-coated-honeycomb&quot;&gt;
+                    Ginco recalls its Chocolate Coated Honeycomb&lt;/a&gt;
+                &lt;/h4&gt;
                 &lt;footer&gt;
-                    &lt;p class&#x3D;&quot;font-size--small-bold&quot;&gt;25 April 2016&lt;/p&gt;
+                    &lt;p class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;25 April 2016 &lt;/p&gt;
                 &lt;/footer&gt;
+                &lt;a href&#x3D;&quot;#&quot;&gt;&lt;span class&#x3D;&quot;icon icon-share--black-small&quot;&gt;&lt;/span&gt;&lt;/a&gt;
             &lt;/article&gt;
         &lt;/div&gt;
         &lt;div class&#x3D;&quot;col col--fluid-3 home-news-tile home-news-tile--img-first separator-right-solid&quot;&gt;
-            &lt;article&gt;
+            &lt;article class&#x3D;&quot;js-equal-height&quot;&gt;
                 &lt;img src&#x3D;&quot;../assets/img/productrecall.png&quot; alt&#x3D;&quot;&quot; class&#x3D;&quot;img-responsive&quot;&gt;
-                &lt;h4 class&#x3D;&quot;js-equal-height&quot;&gt;&lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;http://www.food.gov.uk/news-updates/news/2016/15083/argo-poultry-recalls-whole-cooked-chickens&quot;&gt;
-                    Argo Poultry recalls Whole Cooked Chickens
-                &lt;/a&gt;&lt;/h4&gt;
+                &lt;h4&gt;
+                    &lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;http://www.food.gov.uk/news-updates/news/2016/15083/argo-poultry-recalls-whole-cooked-chickens&quot;&gt;
+                    Argo Poultry recalls Whole Cooked Chickens&lt;/a&gt;
+                &lt;/h4&gt;
                 &lt;footer&gt;
-                    &lt;p class&#x3D;&quot;font-size--small-bold&quot;&gt;20 April 2016&lt;/p&gt;
+                    &lt;p class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;20 April 2016&lt;/p&gt;
                 &lt;/footer&gt;
+                &lt;a href&#x3D;&quot;#&quot;&gt;&lt;span class&#x3D;&quot;icon icon-share--black-small&quot;&gt;&lt;/span&gt;&lt;/a&gt;
             &lt;/article&gt;
         &lt;/div&gt;
         &lt;div class&#x3D;&quot;col col--fluid-3 home-news-tile home-news-tile--img-first&quot;&gt;
-            &lt;article&gt;
+            &lt;article class&#x3D;&quot;js-equal-height&quot;&gt;
                 &lt;img src&#x3D;&quot;../assets/img/fsa-news-hero1.png&quot; alt&#x3D;&quot;&quot; class&#x3D;&quot;img-responsive&quot;&gt;
-                &lt;h4 class&#x3D;&quot;js-equal-height&quot;&gt;&lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;https://www.food.gov.uk/news-updates/news/2016/15103/quarter-of-people-with-food-allergies-suffer-reactions-when-eating-out&quot;&gt;
-                    Quarter of people with food allergies suffer reactions when eating out
-                &lt;/a&gt;&lt;/h4&gt;
+                &lt;h4&gt;
+                    &lt;a class&#x3D;&quot;text-colour&quot; href&#x3D;&quot;https://www.food.gov.uk/news-updates/news/2016/15103/quarter-of-people-with-food-allergies-suffer-reactions-when-eating-out&quot;&gt;
+                    Quarter of people with food allergies suffer reactions when eating out&lt;/a&gt;
+                &lt;/h4&gt;
                 &lt;footer&gt;
-                    &lt;p class&#x3D;&quot;font-size--small-bold&quot;&gt;28 April 2016&lt;/p&gt;
+                    &lt;p class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;28 April 2016&lt;/p&gt;
                 &lt;/footer&gt;
+                &lt;a href&#x3D;&quot;#&quot;&gt;&lt;span class&#x3D;&quot;icon icon-share--black-small&quot;&gt;&lt;/span&gt;&lt;/a&gt;
             &lt;/article&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;!--horizontal separator--&gt;
-&lt;div class&#x3D;&quot;wrapper background--very-light-grey&quot;&gt;
-    &lt;div class&#x3D;&quot;col-wrap background--white&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--fluid-15&quot;&gt;
-            &lt;div class&#x3D;&quot;separator-dotted&quot;&gt;&lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -1022,17 +1058,28 @@
 							<div class="pl-example__rendered">
 								
 <!--intro-->
-<div class="wrapper content--intro">
+<div class="wrapper content--intro" id="sidebar-start">
     <div class="col-wrap">
         <div class="wrapper">
             <!--fixed sidebar menu-->
             <div class="col col--fluid-3 padding-top--6" id="sidebar-width">
                 <div class="content--tile-signup" id="sidebar">
                     <p>Last updated:</p>
-                    <p class="bold">28/04/2016</p>
+                    <p class="font-size--bold">28/04/2016</p>
                     <div class="share">
                         <p>Share</p>
-                        <p>Share icons</p></div>
+                        <span style="display: inline-block">
+                            <span class="icon icon-linkedin--black-small"></span>
+                            <span style="font-size:20px; font-weight: 100; padding: 0 5px;"> | </span>
+                            <span class="icon icon-google--black-small"></span>
+                            <span style="font-size:20px; font-weight: 100; padding: 0 5px;"> | </span>
+                            <span class="icon icon-twitter--black-small"></span>
+                            <span style="font-size:20px; font-weight: 100; padding: 0 5px;"> | </span>
+                            <span class="icon icon-facebook--black-small"></span>
+                            <span style="font-size:20px; font-weight: 100; padding: 0 5px;"> | </span>
+                            <span class="icon icon-share--black-small"></span>
+                        </span>
+                    </div>
                     <div class="font-size--small">
                         <button class="btn btn--content">Sign up for
                             news and alerts
@@ -1051,17 +1098,28 @@
 							<div class="pl-example__code">
 								<pre><code class="language-html">
 &lt;!--intro--&gt;
-&lt;div class&#x3D;&quot;wrapper content--intro&quot;&gt;
+&lt;div class&#x3D;&quot;wrapper content--intro&quot; id&#x3D;&quot;sidebar-start&quot;&gt;
     &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
         &lt;div class&#x3D;&quot;wrapper&quot;&gt;
             &lt;!--fixed sidebar menu--&gt;
             &lt;div class&#x3D;&quot;col col--fluid-3 padding-top--6&quot; id&#x3D;&quot;sidebar-width&quot;&gt;
                 &lt;div class&#x3D;&quot;content--tile-signup&quot; id&#x3D;&quot;sidebar&quot;&gt;
                     &lt;p&gt;Last updated:&lt;/p&gt;
-                    &lt;p class&#x3D;&quot;bold&quot;&gt;28/04/2016&lt;/p&gt;
+                    &lt;p class&#x3D;&quot;font-size--bold&quot;&gt;28/04/2016&lt;/p&gt;
                     &lt;div class&#x3D;&quot;share&quot;&gt;
                         &lt;p&gt;Share&lt;/p&gt;
-                        &lt;p&gt;Share icons&lt;/p&gt;&lt;/div&gt;
+                        &lt;span style&#x3D;&quot;display: inline-block&quot;&gt;
+                            &lt;span class&#x3D;&quot;icon icon-linkedin--black-small&quot;&gt;&lt;/span&gt;
+                            &lt;span style&#x3D;&quot;font-size:20px; font-weight: 100; padding: 0 5px;&quot;&gt; | &lt;/span&gt;
+                            &lt;span class&#x3D;&quot;icon icon-google--black-small&quot;&gt;&lt;/span&gt;
+                            &lt;span style&#x3D;&quot;font-size:20px; font-weight: 100; padding: 0 5px;&quot;&gt; | &lt;/span&gt;
+                            &lt;span class&#x3D;&quot;icon icon-twitter--black-small&quot;&gt;&lt;/span&gt;
+                            &lt;span style&#x3D;&quot;font-size:20px; font-weight: 100; padding: 0 5px;&quot;&gt; | &lt;/span&gt;
+                            &lt;span class&#x3D;&quot;icon icon-facebook--black-small&quot;&gt;&lt;/span&gt;
+                            &lt;span style&#x3D;&quot;font-size:20px; font-weight: 100; padding: 0 5px;&quot;&gt; | &lt;/span&gt;
+                            &lt;span class&#x3D;&quot;icon icon-share--black-small&quot;&gt;&lt;/span&gt;
+                        &lt;/span&gt;
+                    &lt;/div&gt;
                     &lt;div class&#x3D;&quot;font-size--small&quot;&gt;
                         &lt;button class&#x3D;&quot;btn btn--content&quot;&gt;Sign up for
                             news and alerts
@@ -1354,19 +1412,18 @@
 								
 <!--strong share-->
 <div class="wrapper">
-    <div class="col-wrap padding-bottom--16">
-        <div class="col col--fluid-offset-3 col--fluid-sm-12 col--fluid-9 padding-top--4 padding-bottom--4">
-            <div></div>
-            <p style="font-size: 21px; font-weight: 100;">Share this page</p>
+    <div class="col-wrap">
+        <div class="col col--fluid-offset-3 col--fluid-9 padding-top--4 padding-bottom--4">
+            <p class="font-size--h4 font-size--thin">Share this page</p>
             <div class="col-wrap">
-                <div class="col col--fluid-1">
-                    <img src="../assets/img/pinterest-social-logo.svg" alt="" class="img-responsive">
+                <div class="col col--fluid-offset-3 col--fluid-2">
+                    <span class="icon icon-linkedin--black"></span>
                 </div>
-                <div class="col col--fluid-offset-5 col--fluid-1">
-                    <img src="../assets/img/twitter-logo-silhouette.svg" alt="" class="img-responsive">
+                <div class="col col--fluid-offset-3 col--fluid-2">
+                    <span class="icon icon-twitter--black"></span>
                 </div>
-                <div class="col col--fluid-offset-5 col--fluid-1">
-                    <img src="../assets/img/facebook-logo.svg" alt="" class="img-responsive">
+                <div class="col col--fluid-offset-3 col--fluid-2">
+                    <span class="icon icon-facebook--black"></span>
                 </div>
             </div>
         </div>
@@ -1378,19 +1435,18 @@
 								<pre><code class="language-html">
 &lt;!--strong share--&gt;
 &lt;div class&#x3D;&quot;wrapper&quot;&gt;
-    &lt;div class&#x3D;&quot;col-wrap padding-bottom--16&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-sm-12 col--fluid-9 padding-top--4 padding-bottom--4&quot;&gt;
-            &lt;div&gt;&lt;/div&gt;
-            &lt;p style&#x3D;&quot;font-size: 21px; font-weight: 100;&quot;&gt;Share this page&lt;/p&gt;
+    &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-9 padding-top--4 padding-bottom--4&quot;&gt;
+            &lt;p class&#x3D;&quot;font-size--h4 font-size--thin&quot;&gt;Share this page&lt;/p&gt;
             &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-                &lt;div class&#x3D;&quot;col col--fluid-1&quot;&gt;
-                    &lt;img src&#x3D;&quot;../assets/img/pinterest-social-logo.svg&quot; alt&#x3D;&quot;&quot; class&#x3D;&quot;img-responsive&quot;&gt;
+                &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-2&quot;&gt;
+                    &lt;span class&#x3D;&quot;icon icon-linkedin--black&quot;&gt;&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div class&#x3D;&quot;col col--fluid-offset-5 col--fluid-1&quot;&gt;
-                    &lt;img src&#x3D;&quot;../assets/img/twitter-logo-silhouette.svg&quot; alt&#x3D;&quot;&quot; class&#x3D;&quot;img-responsive&quot;&gt;
+                &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-2&quot;&gt;
+                    &lt;span class&#x3D;&quot;icon icon-twitter--black&quot;&gt;&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div class&#x3D;&quot;col col--fluid-offset-5 col--fluid-1&quot;&gt;
-                    &lt;img src&#x3D;&quot;../assets/img/facebook-logo.svg&quot; alt&#x3D;&quot;&quot; class&#x3D;&quot;img-responsive&quot;&gt;
+                &lt;div class&#x3D;&quot;col col--fluid-offset-3 col--fluid-2&quot;&gt;
+                    &lt;span class&#x3D;&quot;icon icon-facebook--black&quot;&gt;&lt;/span&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -1411,7 +1467,7 @@
 <div class="wrapper footer">
     <div class="col-wrap">
         <!--button-->
-        <div class="col col--fluid-offset-5 col--fluid-5">
+        <div class="col col--fluid-offset-5 col--fluid-5 margin-top--6">
             <button class="btn btn--secondary margin-top--double margin-left" style="color: #53565A">
                 Anything wrong with this page?
             </button>
@@ -1421,7 +1477,8 @@
 <!--footer menu-->
 <div class="wrapper footer--menu">
     <div class="col-wrap">
-        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height"><h5><a href="">News and updates</a></h5>
+        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height"><h5><a href="">News and
+            updates</a></h5>
             <ul>
                 <li class="primary-nav__list"><a href="" class="text-colour">News centre</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Food alerts news</a></li>
@@ -1431,7 +1488,8 @@
                 <li class="primary-nav__list"><a href="" class="text-colour">Help shape our policies</a></li>
             </ul>
         </div>
-        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height"><h5><a href="">Business and industry</a></h5>
+        <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height"><h5><a href="">Business and
+            industry</a></h5>
             <ul>
                 <li class="primary-nav__list"><a href="" class="text-colour">Starting a food business</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Safer food, better business</a></li>
@@ -1452,13 +1510,15 @@
         <div class="col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height">
             <h5><a href="">Enforcement and regulation</a></h5>
             <ul>
-                <li class="primary-nav__list"><a href="" class="text-colour">Approved premises and official controls</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Approved premises and official
+                    controls</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Audit of local authorities</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Codes of practice</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Report a food problem</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Find a food safety team</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Local authority tools</a></li>
-                <li class="primary-nav__list"><a href="" class="text-colour">Training for enforcement officers</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">Training for enforcement officers</a>
+                </li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Food alerts</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Monitoring</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Regulation and legislation</a></li>
@@ -1500,7 +1560,8 @@
                 <li class="primary-nav__list"><a href="" class="text-colour">FSA Board</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Complains and comments</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Freedom of information</a></li>
-                <li class="primary-nav__list"><a href="" class="text-colour">FSA reports, transparency data and accounts</a></li>
+                <li class="primary-nav__list"><a href="" class="text-colour">FSA reports, transparency data and
+                    accounts</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">All committees</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">Publications</a></li>
                 <li class="primary-nav__list"><a href="" class="text-colour">The FSA in Europe</a></li>
@@ -1510,7 +1571,7 @@
 </div>
 <div class="wrapper footer--menu">
     <div class="col-wrap">
-        <div class="col col--fluid-15">
+        <div class="col col--fluid-15 margin-bottom--2">
             <div class="separator-dotted"></div>
         </div>
     </div>
@@ -1519,7 +1580,7 @@
     <div class="col-wrap">
         <!--footer-->
         <!--sign up and subscribe-->
-        <div class="col col--fluid-10 padding-top-lg--4">
+        <div class="col col--fluid-10 padding-top--4">
             <div class="col-wrap sign-and-subscribe">
                 <h5>Sign up for news and alerts</h5>
                 <div class="col col--fluid-11">
@@ -1532,19 +1593,31 @@
                 </div>
             </div>
         </div>
-        <div class="col col--fluid-5 padding-top-lg--8">
+        <div class="col col--fluid-5 padding-top--8">
             <div class="margin-top margin-left--2" style="color: #303030; display: inline;">
-                Follow us on social media ( social media logos )
+                Follow us on social media
+            </div>
+            <div class="margin-top margin-left--2">
+                <span style="display: inline-block">
+                    <span class="icon icon-linkedin--black-small"></span>
+                    <span class="icon-separator--small"> | </span>
+                    <span class="icon icon-google--black-small"></span>
+                    <span class="icon-separator--small"> | </span>
+                    <span class="icon icon-twitter--black-small"></span>
+                    <span class="icon-separator--small"> | </span>
+                    <span class="icon icon-facebook--black-small"></span>
+                    <span class="icon-separator--small"> | </span>
+                    <span class="icon icon-share--black-small"></span>
+                </span>
             </div>
         </div>
     </div>
 </div>
-</div>
 <!--horizontal separator-->
-<div class="wrapper" style="background-color: #F2F2F2">
-    <div class="col-wrap" style="background-color: white">
+<div class="wrapper background--very-light-grey">
+    <div class="col-wrap background--white">
         <div class="col col--fluid-15">
-            <div class="separator-dotted"></div>
+            <div class="separator-dotted margin-bottom--2"></div>
         </div>
     </div>
 </div>
@@ -1553,27 +1626,27 @@
         <!--footer-->
         <div class="col col--fluid-15">
             <nav class="secondary-nav">
-                <ul class="primary-nav__list" style="margin: 0 10px;">
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Copyright</a>
+                <ul class="footer-no-style__list">
+                    <li class="font-size--small font-size--bold"><a>Copyright</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Get Alerts</a>
+                    <li class="font-size--small font-size--bold"><a>Get Alerts</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Help</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Site Map</a>
+                    <li class="font-size--small font-size--bold"><a>Help</a></li>
+                    <li class="font-size--small font-size--bold"><a>Site Map</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px">
+                    <li class="font-size--small font-size--bold">
                         <a>Accesibility</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Complaints and
+                    <li class="font-size--small font-size--bold"><a>Complaints and
                         Comments</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Feedback</a>
+                    <li class="font-size--small font-size--bold"><a>Feedback</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Freedom of
+                    <li class="font-size--small font-size--bold"><a>Freedom of
                         information</a></li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Privacy</a>
+                    <li class="font-size--small font-size--bold"><a>Privacy</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Cookies</a>
+                    <li class="font-size--small font-size--bold"><a>Cookies</a>
                     </li>
-                    <li class="primary-nav__list font-size--h6" style="display: inline; margin: 0 6px"><a>Terms and
+                    <li class="font-size--small font-size--bold"><a>Terms and
                         conditions</a>
                     </li>
                 </ul>
@@ -1589,7 +1662,7 @@
 &lt;div class&#x3D;&quot;wrapper footer&quot;&gt;
     &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
         &lt;!--button--&gt;
-        &lt;div class&#x3D;&quot;col col--fluid-offset-5 col--fluid-5&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-offset-5 col--fluid-5 margin-top--6&quot;&gt;
             &lt;button class&#x3D;&quot;btn btn--secondary margin-top--double margin-left&quot; style&#x3D;&quot;color: #53565A&quot;&gt;
                 Anything wrong with this page?
             &lt;/button&gt;
@@ -1599,7 +1672,8 @@
 &lt;!--footer menu--&gt;
 &lt;div class&#x3D;&quot;wrapper footer--menu&quot;&gt;
     &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height&quot;&gt;&lt;h5&gt;&lt;a href&#x3D;&quot;&quot;&gt;News and updates&lt;/a&gt;&lt;/h5&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height&quot;&gt;&lt;h5&gt;&lt;a href&#x3D;&quot;&quot;&gt;News and
+            updates&lt;/a&gt;&lt;/h5&gt;
             &lt;ul&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;News centre&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Food alerts news&lt;/a&gt;&lt;/li&gt;
@@ -1609,7 +1683,8 @@
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Help shape our policies&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
         &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height&quot;&gt;&lt;h5&gt;&lt;a href&#x3D;&quot;&quot;&gt;Business and industry&lt;/a&gt;&lt;/h5&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height&quot;&gt;&lt;h5&gt;&lt;a href&#x3D;&quot;&quot;&gt;Business and
+            industry&lt;/a&gt;&lt;/h5&gt;
             &lt;ul&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Starting a food business&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Safer food, better business&lt;/a&gt;&lt;/li&gt;
@@ -1630,13 +1705,15 @@
         &lt;div class&#x3D;&quot;col col--fluid-3 margin-top-lg--4 footer-tile js-equal-height&quot;&gt;
             &lt;h5&gt;&lt;a href&#x3D;&quot;&quot;&gt;Enforcement and regulation&lt;/a&gt;&lt;/h5&gt;
             &lt;ul&gt;
-                &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Approved premises and official controls&lt;/a&gt;&lt;/li&gt;
+                &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Approved premises and official
+                    controls&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Audit of local authorities&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Codes of practice&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Report a food problem&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Find a food safety team&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Local authority tools&lt;/a&gt;&lt;/li&gt;
-                &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Training for enforcement officers&lt;/a&gt;&lt;/li&gt;
+                &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Training for enforcement officers&lt;/a&gt;
+                &lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Food alerts&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Monitoring&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Regulation and legislation&lt;/a&gt;&lt;/li&gt;
@@ -1678,7 +1755,8 @@
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;FSA Board&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Complains and comments&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Freedom of information&lt;/a&gt;&lt;/li&gt;
-                &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;FSA reports, transparency data and accounts&lt;/a&gt;&lt;/li&gt;
+                &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;FSA reports, transparency data and
+                    accounts&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;All committees&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;Publications&lt;/a&gt;&lt;/li&gt;
                 &lt;li class&#x3D;&quot;primary-nav__list&quot;&gt;&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;text-colour&quot;&gt;The FSA in Europe&lt;/a&gt;&lt;/li&gt;
@@ -1688,7 +1766,7 @@
 &lt;/div&gt;
 &lt;div class&#x3D;&quot;wrapper footer--menu&quot;&gt;
     &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
-        &lt;div class&#x3D;&quot;col col--fluid-15&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-15 margin-bottom--2&quot;&gt;
             &lt;div class&#x3D;&quot;separator-dotted&quot;&gt;&lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -1697,7 +1775,7 @@
     &lt;div class&#x3D;&quot;col-wrap&quot;&gt;
         &lt;!--footer--&gt;
         &lt;!--sign up and subscribe--&gt;
-        &lt;div class&#x3D;&quot;col col--fluid-10 padding-top-lg--4&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-10 padding-top--4&quot;&gt;
             &lt;div class&#x3D;&quot;col-wrap sign-and-subscribe&quot;&gt;
                 &lt;h5&gt;Sign up for news and alerts&lt;/h5&gt;
                 &lt;div class&#x3D;&quot;col col--fluid-11&quot;&gt;
@@ -1710,19 +1788,31 @@
                 &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
-        &lt;div class&#x3D;&quot;col col--fluid-5 padding-top-lg--8&quot;&gt;
+        &lt;div class&#x3D;&quot;col col--fluid-5 padding-top--8&quot;&gt;
             &lt;div class&#x3D;&quot;margin-top margin-left--2&quot; style&#x3D;&quot;color: #303030; display: inline;&quot;&gt;
-                Follow us on social media ( social media logos )
+                Follow us on social media
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;margin-top margin-left--2&quot;&gt;
+                &lt;span style&#x3D;&quot;display: inline-block&quot;&gt;
+                    &lt;span class&#x3D;&quot;icon icon-linkedin--black-small&quot;&gt;&lt;/span&gt;
+                    &lt;span class&#x3D;&quot;icon-separator--small&quot;&gt; | &lt;/span&gt;
+                    &lt;span class&#x3D;&quot;icon icon-google--black-small&quot;&gt;&lt;/span&gt;
+                    &lt;span class&#x3D;&quot;icon-separator--small&quot;&gt; | &lt;/span&gt;
+                    &lt;span class&#x3D;&quot;icon icon-twitter--black-small&quot;&gt;&lt;/span&gt;
+                    &lt;span class&#x3D;&quot;icon-separator--small&quot;&gt; | &lt;/span&gt;
+                    &lt;span class&#x3D;&quot;icon icon-facebook--black-small&quot;&gt;&lt;/span&gt;
+                    &lt;span class&#x3D;&quot;icon-separator--small&quot;&gt; | &lt;/span&gt;
+                    &lt;span class&#x3D;&quot;icon icon-share--black-small&quot;&gt;&lt;/span&gt;
+                &lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
 &lt;!--horizontal separator--&gt;
-&lt;div class&#x3D;&quot;wrapper&quot; style&#x3D;&quot;background-color: #F2F2F2&quot;&gt;
-    &lt;div class&#x3D;&quot;col-wrap&quot; style&#x3D;&quot;background-color: white&quot;&gt;
+&lt;div class&#x3D;&quot;wrapper background--very-light-grey&quot;&gt;
+    &lt;div class&#x3D;&quot;col-wrap background--white&quot;&gt;
         &lt;div class&#x3D;&quot;col col--fluid-15&quot;&gt;
-            &lt;div class&#x3D;&quot;separator-dotted&quot;&gt;&lt;/div&gt;
+            &lt;div class&#x3D;&quot;separator-dotted margin-bottom--2&quot;&gt;&lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -1731,27 +1821,27 @@
         &lt;!--footer--&gt;
         &lt;div class&#x3D;&quot;col col--fluid-15&quot;&gt;
             &lt;nav class&#x3D;&quot;secondary-nav&quot;&gt;
-                &lt;ul class&#x3D;&quot;primary-nav__list&quot; style&#x3D;&quot;margin: 0 10px;&quot;&gt;
-                    &lt;li class&#x3D;&quot;primary-nav__list font-size--h6&quot; style&#x3D;&quot;display: inline; margin: 0 6px&quot;&gt;&lt;a&gt;Copyright&lt;/a&gt;
+                &lt;ul class&#x3D;&quot;footer-no-style__list&quot;&gt;
+                    &lt;li class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;&lt;a&gt;Copyright&lt;/a&gt;
                     &lt;/li&gt;
-                    &lt;li class&#x3D;&quot;primary-nav__list font-size--h6&quot; style&#x3D;&quot;display: inline; margin: 0 6px&quot;&gt;&lt;a&gt;Get Alerts&lt;/a&gt;
+                    &lt;li class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;&lt;a&gt;Get Alerts&lt;/a&gt;
                     &lt;/li&gt;
-                    &lt;li class&#x3D;&quot;primary-nav__list font-size--h6&quot; style&#x3D;&quot;display: inline; margin: 0 6px&quot;&gt;&lt;a&gt;Help&lt;/a&gt;&lt;/li&gt;
-                    &lt;li class&#x3D;&quot;primary-nav__list font-size--h6&quot; style&#x3D;&quot;display: inline; margin: 0 6px&quot;&gt;&lt;a&gt;Site Map&lt;/a&gt;
+                    &lt;li class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;&lt;a&gt;Help&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;&lt;a&gt;Site Map&lt;/a&gt;
                     &lt;/li&gt;
-                    &lt;li class&#x3D;&quot;primary-nav__list font-size--h6&quot; style&#x3D;&quot;display: inline; margin: 0 6px&quot;&gt;
+                    &lt;li class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;
                         &lt;a&gt;Accesibility&lt;/a&gt;&lt;/li&gt;
-                    &lt;li class&#x3D;&quot;primary-nav__list font-size--h6&quot; style&#x3D;&quot;display: inline; margin: 0 6px&quot;&gt;&lt;a&gt;Complaints and
+                    &lt;li class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;&lt;a&gt;Complaints and
                         Comments&lt;/a&gt;&lt;/li&gt;
-                    &lt;li class&#x3D;&quot;primary-nav__list font-size--h6&quot; style&#x3D;&quot;display: inline; margin: 0 6px&quot;&gt;&lt;a&gt;Feedback&lt;/a&gt;
+                    &lt;li class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;&lt;a&gt;Feedback&lt;/a&gt;
                     &lt;/li&gt;
-                    &lt;li class&#x3D;&quot;primary-nav__list font-size--h6&quot; style&#x3D;&quot;display: inline; margin: 0 6px&quot;&gt;&lt;a&gt;Freedom of
+                    &lt;li class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;&lt;a&gt;Freedom of
                         information&lt;/a&gt;&lt;/li&gt;
-                    &lt;li class&#x3D;&quot;primary-nav__list font-size--h6&quot; style&#x3D;&quot;display: inline; margin: 0 6px&quot;&gt;&lt;a&gt;Privacy&lt;/a&gt;
+                    &lt;li class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;&lt;a&gt;Privacy&lt;/a&gt;
                     &lt;/li&gt;
-                    &lt;li class&#x3D;&quot;primary-nav__list font-size--h6&quot; style&#x3D;&quot;display: inline; margin: 0 6px&quot;&gt;&lt;a&gt;Cookies&lt;/a&gt;
+                    &lt;li class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;&lt;a&gt;Cookies&lt;/a&gt;
                     &lt;/li&gt;
-                    &lt;li class&#x3D;&quot;primary-nav__list font-size--h6&quot; style&#x3D;&quot;display: inline; margin: 0 6px&quot;&gt;&lt;a&gt;Terms and
+                    &lt;li class&#x3D;&quot;font-size--small font-size--bold&quot;&gt;&lt;a&gt;Terms and
                         conditions&lt;/a&gt;
                     &lt;/li&gt;
                 &lt;/ul&gt;
