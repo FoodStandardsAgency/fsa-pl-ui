@@ -58,10 +58,10 @@ This guide shown how to make all FSA web sites look consistent with the food.gov
                 <a href="/elements/">Elements</a>
             </h3>
         </li>
-        <li class="col col--fluid-3 height-sm--20 height-md--20 height-lg--20">
-            <h3>
-                <a href="#"></a>Utilities
-            </h3>
-        </li>
+        <!--<li class="col col--fluid-3 height-sm--20 height-md--20 height-lg--20">-->
+            <!--<h3>-->
+                <!--<a href="#"></a>Utilities-->
+            <!--</h3>-->
+        <!--</li>-->
     </ul>
 </nav>
