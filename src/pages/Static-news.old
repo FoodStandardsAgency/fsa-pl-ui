@@ -18,8 +18,8 @@
 <div class="content">
 <img src="../assets/img/fsa-static-img--news-cs.png" alt="News Page" usemap="#newspage">
 <map name="newspage">
-  <area shape="rect" coords="43,18,269,133" href="Static-home.html" alt="homepage">
-  <area shape="rect" coords="53,294,354,512" href="Static-content.html" alt="newscontent">
+  <area shape="rect" coords="43,18,269,133" href="Static-home.old" alt="homepage">
+  <area shape="rect" coords="53,294,354,512" href="Static-content.old" alt="newscontent">
   <area shape="rect" coords="312,553,346,588" href="https://ws.sharethis.com/api/sharer.php?fpc=&sessionID=1461919004976.51145&hostname=www.food.gov.uk&location=%2Fnews-updates%2Fnews%2F2016%2F15103%2Fquarter-of-people-with-food-allergies-suffer-reactions-when-eating-out&publisher=71d39738-bec6-4edc-89d8-ff606eb479f7&shareHash=sthash.IwFnAmzj.uxfs&incomingHash=&product=Chicklet5x&ufa=4ff4538&ufc=2758940&ufd=392f634&url=https%3A%2F%2Fwww.food.gov.uk%2Fnews-updates%2Fnews%2F2016%2F15103%2Fquarter-of-people-with-food-allergies-suffer-reactions-when-eating-out%23sthash.IwFnAmzj.uxfs&sharURL=&buttonType=large&destination=twitter&source=chicklet5x&short_url=&shorten=true&title=Quarter%20of%20people%20with%20food%20allergies%20suffer%20reactions%20when%20eating%20out&description=A%20survey%20by%20the%20FSA%20and%20Allergy%20UK%20has%20shown%20there%20have%20been%20improvements%20for%20those%20with%20allergies%20since%20new%20labelling%20rules%20came%20in%2C%20but%20more%20needs%20to%20be%20done.&ts=1461931541955" target="_blank" alt="share">
   <area shape="rect" coords="224,138,423,179" href="https://www.food.gov.uk/business-industry" alt="businessindustry">
   <area shape="rect" coords="426,139,683,179" href="https://www.food.gov.uk/enforcement" alt="enforcementregulation">
@@ -34,7 +34,7 @@
 <area shape="rect" coords="229,180,390,214" href="http://www.food.gov.uk/news-updates/news/food-alerts" alt="foodalerts">
   <area shape="rect" coords="406,180,574,215" href="http://www.food.gov.uk/news-updates/news/allergy-alerts-news" alt="allergyalerts">
   <area shape="rect" coords="587,180,717,215" href="http://www.food.gov.uk/news-updates/consultations" alt="consultation">
-  <area shape="rect" coords="736,180,847,214" href="Static-campaign.html" alt="campaigns">
+  <area shape="rect" coords="736,180,847,214" href="Static-campaign.old" alt="campaigns">
   <area shape="rect" coords="869,180,1074,214" href="http://www.food.gov.uk/news-updates/help-shape-our-policies" alt="helppolicies">
 <area shape="rect" coords="474,878,507,912" href="https://twitter.com/intent/tweet?text=Argo%20Poultry%20recalls%20Whole%20Cooked%20Chickens%20due%20to%20lack%20of%20validation%20of%20shelf-life%20applied%20to%20products&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1e2OxD" target="_blank" alt="sharethis">
   <area shape="rect" coords="299,801,501,864" href="http://www.food.gov.uk/news-updates/news/2016/15083/argo-poultry-recalls-whole-cooked-chickens" alt="title">
@@ -59,7 +59,7 @@
 <area shape="rect" coords="54,263,100,288" href="https://www.food.gov.uk/news-updates/news" alt="news">
 <area shape="rect" coords="53,1122,230,1341" href="Static-news.html" alt="news">
 <area shape="rect" coords="58,180,215,214" href="https://www.food.gov.uk/news-updates/news" alt="news">
-<area shape="rect" coords="377,279,975,617" href="Static-content.html">
+<area shape="rect" coords="377,279,975,617" href="Static-content.old">
 </map>
 </div>
 </body>
