@@ -23,8 +23,7 @@ show-snippet: true
             </div>
             <div>
                 <a href="https://www.food.gov.uk/science/allergy-intolerance" class="font-size--h3">Allergy and
-                    intolerance: guidance
-                    for businesses</a>
+                    intolerance: guidance for businesses</a>
                 <p>This guidance helps food businesses provide information to customers who need to avoid
                     certain ingredients because of a food allergy or intolerance. It includes allergen
                     information rules (EU FIC), general advice and information on food allergy and intolerance,

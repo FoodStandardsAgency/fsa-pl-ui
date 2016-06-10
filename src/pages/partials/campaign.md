@@ -245,16 +245,13 @@ show-snippet: true
                 </div>
                 <div class="col col--fluid-5 background--white padding-top--4 js-equal-height">
                     <div class="separator-download pdf">
-                            <span><a
-                                    href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
-                                out
-                                with a food allergy  and a long list of other things like a deep understanding curve and a superficial knowledge of reality </a>(376.58 KB)</span>
+                        <span><a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">
+                        Eating out with a food allergy  and a long list of other things like a deep 
+                        understanding curve and a superficial knowledge of reality </a>(376.58 KB)</span>
                     </div>
                     <div class="separator-download doc">
-                            <span><a
-                                    href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
-                                out
-                                with a food allergy </a>(376.58 KB)</span>
+                            <span><a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">
+                            Eating out with a food allergy </a>(376.58 KB)</span>
                     </div>
                 </div>
                 <div class="col col--fluid-offset-1 col--fluid-9 background--white js-equal-height">
@@ -277,20 +274,15 @@ show-snippet: true
         <div class="col col--fluid-15 background--white padding-top--4 js-equal-height">
             <div>
                 <div class="separator-download pdf">
-                            <span>
-                            <a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
-                                out
-                                with a food allergy  and a long list of other things like a deep understanding curve and a superficial knowledge of reality</a>(376.58 KB)
-                            </span>
+                    <span><a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">
+                    Eating out with a food allergy  and a long list of other things like a deep understanding curve 
+                    and a superficial knowledge of reality</a>(376.58 KB)</span>
                 </div>
             </div>
             <div class="style-pdf padding-top--2">
                 <div class="separator-download pdf">
-                            <span>
-                            <a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">Eating
-                                out
-                                with a food allergy </a>(376.58 KB)
-                            </span>
+                    <span><a href="https://www.food.gov.uk/sites/default/files/eating-out-with-a-food-allergy.pdf">
+                    Eating out with a food allergy </a>(376.58 KB)</span>
                 </div>
             </div>
         </div>
