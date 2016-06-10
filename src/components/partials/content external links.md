@@ -14,18 +14,20 @@ show-snippet: true
         </div>
         <div class="col col--fluid-one-half padding-top--6">
             <div class="padding-bottom--4">
-                <a href="http://www.nhs.uk/conditions/food-allergy/Pages/Intro1.aspx" class="font-size--h3">NHS
+                <a href="http://www.nhs.uk/conditions/food-allergy/Pages/Intro1.aspx" target="_blank"
+                   class="font-size--h3">NHS
                     Choices:
                     Food allergy
                     introduction</a>
             </div>
             <div class="padding-bottom--4">
                 <a href="https://www.allergyuk.org/food-allergy-or-food-intolerance/food-allergy-or-food-intolerance?gclid=Cj0KEQjwmKG5BRDv4YaE5t6oqf0BEiQAwqDNfO_nh2C5y9U2ZkLz-t-EXOyfIiu93n8BkVpmFDZ946caAr5A8P8HAQ"
-                   class="font-size--h3">Allergy
+                   target="_blank" class="font-size--h3">Allergy
                     UK</a>
             </div>
             <div class="padding-bottom--4">
-                <a href="http://www.anaphylaxis.org.uk/" class="font-size--h3">Anaphylaxis Campaign</a>
+                <a href="http://www.anaphylaxis.org.uk/" target="_blank" class="font-size--h3">Anaphylaxis
+                    Campaign</a>
             </div>
         </div>
     </div>

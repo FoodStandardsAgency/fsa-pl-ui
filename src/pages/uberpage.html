@@ -436,7 +436,7 @@
                 adults and 8% of children.
             </p>
             <iframe width="100%" height="315" title="What's going on in your kitchen"
-                    src="http://www.youtube.com/embed/KsX1GWA3eFw" frameborder="0" allowfullscreen></iframe>
+                    src="//www.youtube.com/embed/KsX1GWA3eFw" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -537,8 +537,8 @@
                     src='//www.zeemaps.com/pub?group=1623069&search=1&list=1&track=UA-54078849-1'></iframe>
 
             <!--table-->
-            <caption><h5>This is the table caption (same as h5)</h5></caption>
-            <table class="table table-striped responsive">
+            <table class="table table-striped responsive margin-top--2">
+                <caption>This is the table caption (same as h5)</caption>
                 <thead>
                 <tr>
                     <th>Code</th>
@@ -719,7 +719,7 @@
                 </div>
             </div>
             <div class="col col--fluid-offset-3 col--fluid-sm-10 col--fluid-6">
-                <form role="form">
+                <form id="forms" role="form">
                     <div class="form-group">
                         <label class="control-label" for="txt">Text input &lt;label&gt;</label>
                         <input type="text" class="form-control" id="txt">
@@ -736,7 +736,7 @@
                     </div>
                     <div class="form-group">
                         <fieldset>
-                            <legend>Date of birth (same as h6)</legend>
+                            <legend>Date of birth (legend same as h6)</legend>
                             <div class="col-wrap">
                                 <div class="col col--fluid-3">
                                     <label class="control-label" for="dd">Day</label>
@@ -1132,9 +1132,7 @@
     </div>
 </div>
 <script type="text/javascript">
-    initMegamenu();
-
-    function initMegamenu() {
+    initMegamenu();function initMegamenu() {
         $(".mega-menu__l1").hover(
                 function () {
                     $(this).addClass("primary-nav__item--hover");
