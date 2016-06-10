@@ -3,8 +3,16 @@ title: Home
 template: homepage.html
 type: home
 ---
-# FOOD.GOV.UK pattern library
-
+<nav class="col-wrap">
+    <div class="col col--fluid-4 main-logo">
+        <img src="../assets/img/logo.png" alt="Food Standards Agency">
+    </div>
+    <div class="col col--fluid-11">
+        <div class="col-wrap">
+            <h1>FOOD.GOV.UK pattern library</h1>
+        </div>
+    </div>
+</nav>
 This guide shown how to make all FSA web sites look consistent with the food.gov.uk
 <nav>
     <ul class="col-wrap" style="padding: 0; margin: 0">
@@ -58,10 +66,5 @@ This guide shown how to make all FSA web sites look consistent with the food.gov
                 <a href="/elements/">Elements</a>
             </h3>
         </li>
-        <!--<li class="col col--fluid-3 height-sm--20 height-md--20 height-lg--20">-->
-            <!--<h3>-->
-                <!--<a href="#"></a>Utilities-->
-            <!--</h3>-->
-        <!--</li>-->
     </ul>
 </nav>
