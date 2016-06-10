@@ -3,7 +3,7 @@ title: Home
 template: homepage.html
 type: home
 ---
-<nav class="col-wrap">
+<nav class="col-wrap padding-bottom--6">
     <div class="col col--fluid-4 main-logo">
         <img src="../assets/img/logo.png" alt="Food Standards Agency">
     </div>
@@ -13,7 +13,7 @@ type: home
         </div>
     </div>
 </nav>
-This guide shown how to make all FSA web sites look consistent with the food.gov.uk
+<p class="padding-bottom--4">This guide shown how to make all FSA web sites look consistent with the food.gov.uk</p>
 <nav>
     <ul class="col-wrap" style="padding: 0; margin: 0">
         <li class="col col--fluid-3 height-sm--20 height-md--20 height-lg--20">
