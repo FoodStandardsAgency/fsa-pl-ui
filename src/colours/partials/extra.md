@@ -8,11 +8,11 @@ order: 4
     <p>These are colours that were added for accessibility or design reasons.</p>
     <div class="col-wrap">
         <div class="col col--fluid-3">
-            <h3 class="text-center margin-bottom-sm--1 margin-bottom-md--1">Light Red</h3>
+            <h3 class="text-center margin-bottom-sm--1 margin-bottom-md--1">Orange accessible</h3>
             <div class="background--orange-accessible pl-colour-circle padding-top--5 padding-left--2">$orange-accessible <br/>#AA3511</div>
         </div>
         <div class="col col--fluid-3">
-            <h3 class="text-center margin-bottom-sm--1 margin-bottom-md--1">Light Yellow</h3>
+            <h3 class="text-center margin-bottom-sm--1 margin-bottom-md--1">Teal accessible</h3>
             <div class="background--teal-accessible pl-colour-circle padding-top--5 padding-left--2">$teal-accessible <br/>#006671</div>
         </div>
         <div class="col col--fluid-3">
