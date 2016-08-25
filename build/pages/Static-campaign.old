@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campaign</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding-top: 0;
+        height: 3400px;
+    }
+    .container {
+        width: 1275px;
+        margin-left: auto;
+        margin-right: auto;
+
+        padding: 0;
+    }
+
+    .menu-hidden {
+        visibility: hidden;
+    }
+
+    #first-anchor, #second-anchor, #third-anchor {
+        position: absolute;
+    }
+
+    #first-anchor {
+        top: 460px;
+    }
+
+    #second-anchor {
+        top: 1810px;
+    }
+
+    #third-anchor {
+        top: 3130px;
+    }
+</style>
+<body>
+
+<div class="container">
+    <header>
+        <img src="../assets/img/fsa-static-img--campaign--header-cs.png" alt="header" usemap="#newspage">
+        <map name="newspage"><area shape="rect" coords="26,5492,205,5721" href="https://www.food.gov.uk/news-updates/news" alt="news">
+            <area shape="rect" coords="229,139,429,179" href="https://www.food.gov.uk/business-industry" alt="businessindustry">
+            <area shape="rect" coords="61,139,232,179" href="Static-news.html" alt="news">
+<area shape="rect" coords="46,22,281,121" href="Static-home.html" alt="home">
+<area shape="rect" coords="426,138,682,179" href="https://www.food.gov.uk/enforcement" alt="enforcementregulation">
+            <area shape="rect" coords="683,140,853,179" href="https://www.food.gov.uk/science" alt="sciencepolicy">
+            <area shape="rect" coords="854,139,956,179" href="https://www.food.gov.uk/about-us" alt="aboutus">
+            <area shape="rect" coords="81,500,343,542" href="#first-anchor" alt="firstanchor">
+            <area shape="rect" coords="463,499,748,542" href="#second-anchor" alt="secondanchor">
+            <area shape="rect" coords="860,500,1083,542" href="#third-anchor" alt="third-anchor">
+          <area shape="rect" coords="1126,351,1198,427" href="https://twitter.com/intent/tweet?text=Don%27t%20wash%20raw%20chicken&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1ehAsK" alt="share">
+        </map>
+        <div id="first-anchor"><a href="#1"></a></div>
+        <div id="second-anchor"><a href="#2"></a></div>
+        <div id="third-anchor"><a href="#3"></a></div>
+    </header>
+</div>
+
+<nav id="navbar-main" class="navbar menu-hidden">
+    <div class="container">
+        <img src="../assets/img/fsa-static-img--campaign--menu.png" alt="menu" usemap="#testPage">
+        <map name="testPage">
+          <area shape="rect" coords="53,65,320,111" href="#first-anchor" alt="firstanchor">
+          <area shape="rect" coords="456,64,751,110" href="#second-anchor" alt="secondanchor">
+          <area shape="rect" coords="879,64,1098,111" href="#third-anchor" alt="thirdanchor">
+          <area shape="rect" coords="1198,6,1250,56" href="https://twitter.com/intent/tweet?text=Don%27t%20wash%20raw%20chicken&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1ehAsK" alt="share">
+        </map>
+    </div>
+</nav>
+
+<main class="container" style="margin-top: -180px;">
+    <img src="../assets/img/fsa-static-img--campaign--body-cs.png" alt="body" usemap="#body">
+    <map name="body">
+      <area shape="rect" coords="51,4489,234,4713" href="Static-news.html">
+      <area shape="rect" coords="283,4489,496,4978" href="https://www.food.gov.uk/business-industry" alt="business">
+      <area shape="rect" coords="518,4489,742,5041" href="https://www.food.gov.uk/enforcement" alt="enforcement">
+      <area shape="rect" coords="759,4489,978,5046" href="https://www.food.gov.uk/science" alt="science">
+      <area shape="rect" coords="998,4489,1223,4909" href="https://www.food.gov.uk/about-us" alt="aboutus">
+      <area shape="rect" coords="43,5171,337,5233" href="https://www.food.gov.uk/about-us/subscribe" alt="subscribe">
+      <area shape="rect" coords="346,5169,495,5232" href="https://www.food.gov.uk/about-us/subscribe" alt="subscribenow">
+      <area shape="rect" coords="957,5184,987,5214" href="https://www.pinterest.com/foodgov" alt="pinterest">
+      <area shape="rect" coords="406,3343,465,3398" href="https://www.pinterest.com/foodgov" alt="pinterest">
+<area shape="rect" coords="1075,5183,1109,5215" href="https://twitter.com/foodgov" alt="twitter">
+<area shape="rect" coords="804,3341,872,3399" href="https://twitter.com/foodgov" alt="twitter">
+<area shape="rect" coords="1116,5181,1142,5216" href="http://www.facebook.com/FoodStandardsAgency" alt="facebook">
+<area shape="rect" coords="938,3338,987,3400" href="http://www.facebook.com/FoodStandardsAgency" alt="facebook">
+<area shape="rect" coords="624,1904,671,1955" href="https://twitter.com/intent/tweet?text=Don%27t%20wash%20raw%20chicken&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1ehAsK" alt="share">
+      <area shape="rect" coords="1020,1907,1064,1954" href="https://twitter.com/intent/tweet?text=Don%27t%20wash%20raw%20chicken&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1ehAsK" alt="share">
+      <area shape="rect" coords="626,2405,673,2446" href="https://twitter.com/intent/tweet?text=Don%27t%20wash%20raw%20chicken&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1ehAsK" alt="share">
+      <area shape="rect" coords="1018,2402,1064,2445" href="https://twitter.com/intent/tweet?text=Don%27t%20wash%20raw%20chicken&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1ehAsK" alt="share">
+      <area shape="rect" coords="923,738,966,783" href="https://twitter.com/intent/tweet?text=Don%27t%20wash%20raw%20chicken&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1ehAsK" alt="share">
+      <area shape="rect" coords="219,1056,275,1110" href="#" alt="twitter">
+      <area shape="rect" coords="609,1060,659,1110" href="#" alt="twitter">
+      <area shape="rect" coords="1008,1060,1056,1112" href="#" alt="twitter">
+    </map>
+</main>
+
+<div class="content">
+</div>
+<script>
+    /*! Main */
+    $(window).load(function() {
+
+        var navbar = $('#navbar-main'),
+                distance = navbar.offset().top,
+                $window = $(window);
+
+        $window.scroll(function () {
+            if ($window.scrollTop() > (distance -180)) {
+                navbar.removeClass('menu-hidden').addClass('navbar-fixed-top');
+                $("body").css("padding-top", "160px");
+            } else {
+                navbar.removeClass('navbar-fixed-top').addClass('menu-hidden');
+                $("body").css("padding-top", "0px");
+            }
+        });
+    });
+</script>
+</body>
+</html>

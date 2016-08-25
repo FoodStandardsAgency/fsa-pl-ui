@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<style>
+    body{
+        margin: 0;
+    }
+    .content {
+        width: 1275px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<body>
+<div class="content">
+    <img src="../assets/img/fsa-static-img--home-cs.png" alt="Home Page" usemap="#newspage">
+    <map name="newspage"><area shape="rect" coords="51,1603,230,1832" href="Static-news.html" alt="news">
+      <area shape="rect" coords="299,1034,501,1147" href="Static-content.old" alt="newscontent">
+        <area shape="rect" coords="472,1289,506,1324" href="https://ws.sharethis.com/api/sharer.php?fpc=&sessionID=1461919004976.51145&hostname=www.food.gov.uk&location=%2Fnews-updates%2Fnews%2F2016%2F15103%2Fquarter-of-people-with-food-allergies-suffer-reactions-when-eating-out&publisher=71d39738-bec6-4edc-89d8-ff606eb479f7&shareHash=sthash.IwFnAmzj.uxfs&incomingHash=&product=Chicklet5x&ufa=4ff4538&ufc=2758940&ufd=392f634&url=https%3A%2F%2Fwww.food.gov.uk%2Fnews-updates%2Fnews%2F2016%2F15103%2Fquarter-of-people-with-food-allergies-suffer-reactions-when-eating-out%23sthash.IwFnAmzj.uxfs&sharURL=&buttonType=large&destination=twitter&source=chicklet5x&short_url=&shorten=true&title=Quarter%20of%20people%20with%20food%20allergies%20suffer%20reactions%20when%20eating%20out&description=A%20survey%20by%20the%20FSA%20and%20Allergy%20UK%20has%20shown%20there%20have%20been%20improvements%20for%20those%20with%20allergies%20since%20new%20labelling%20rules%20came%20in%2C%20but%20more%20needs%20to%20be%20done.&ts=1461931541955" target="_blank" alt="share">
+        <area shape="rect" coords="230,139,426,179" href="https://www.food.gov.uk/business-industry" alt="businessindustry">
+        <area shape="rect" coords="431,139,686,178" href="https://www.food.gov.uk/enforcement" alt="enforcementregulation">
+        <area shape="rect" coords="686,139,857,178" href="https://www.food.gov.uk/science" alt="sciencepolicy">
+        <area shape="rect" coords="856,138,960,179" href="https://www.food.gov.uk/about-us" alt="aboutus">
+        <area shape="rect" coords="959,2308,988,2339" href="https://www.pinterest.com/foodgov" alt="pinterest">
+        <area shape="rect" coords="534,1164,634,1185" href="https://www.food.gov.uk/news-updates/news/allergy-alerts-news" alt="allergyallert">
+        <area shape="rect" coords="773,1163,886,1184" href="https://www.food.gov.uk/news-updates/news/food-alerts" alt="productrecalls">
+        <area shape="rect" coords="1011,1164,1055,1184" href="https://www.food.gov.uk/news-updates/news" alt="news">
+        <area shape="rect" coords="122,463,280,495" href="Static-campaign.old" alt="news">
+        <area shape="rect" coords="953,1293,986,1327" href="https://twitter.com/intent/tweet?text=Argo%20Poultry%20recalls%20Whole%20Cooked%20Chickens%20due%20to%20lack%20of%20validation%20of%20shelf-life%20applied%20to%20products&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1e2OxD" target="_blank" alt="sharethis">
+        <area shape="rect" coords="773,1183,963,1257" href="http://www.food.gov.uk/news-updates/news/2016/15083/argo-poultry-recalls-whole-cooked-chickens" alt="title">
+        <area shape="rect" coords="775,1035,978,1148" href="http://www.food.gov.uk/news-updates/news/2016/15083/argo-poultry-recalls-whole-cooked-chickens" alt="imgtitle">
+        <area shape="rect" coords="533,1184,710,1260" href="http://www.food.gov.uk/news-updates/news/2016/15101/ginco-recalls-chocolate-coated-honeycomb" alt="title">
+        <area shape="rect" coords="537,1035,739,1148" href="http://www.food.gov.uk/news-updates/news/2016/15101/ginco-recalls-chocolate-coated-honeycomb" alt="imgtitle">
+        <area shape="rect" coords="716,1293,744,1324" href="https://twitter.com/intent/tweet?text=Ginco%20recalls%20its%20Chocolate%20Coated%20Honeycomb%20100g%20due%20to%20undeclared%20allergens&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1e29bs" target="_blank" alt="sharethis">
+        <area shape="rect" coords="1011,1184,1212,1259" href="http://www.food.gov.uk/news-updates/news/2016/15076/update-on-fsa-campylobacter-retail-survey" alt="title">
+        <area shape="rect" coords="1013,1035,1215,1147" href="http://www.food.gov.uk/news-updates/news/2016/15076/update-on-fsa-campylobacter-retail-survey" alt="imgtitle">
+        <area shape="rect" coords="182,309,217,343" href="http://wd.sharethis.com/api/sharer.php?fpc=&sessionID=1461939466522.88139&hostname=www.food.gov.uk&location=%252Fnews-updates%252Fcampaigns%252Fcampylobacter%252Ffsw-2014&publisher=71d39738-bec6-4edc-89d8-ff606eb479f7&shareHash=sthash.wGXRrNp7.uxfs&incomingHash=&refDomain=&refQuery=&product=Chicklet5x&ufa=4ff4538&ufc=2758940&ufd=392f634&url=http%253A%252F%252Fwww.food.gov.uk%252Fnews-updates%252Fcampaigns%252Fcampylobacter%252Ffsw-2014%2523sthash.wGXRrNp7.uxfs&sharURL=&buttonType=large&destination=twitter&source=chicklet5x&short_url=&shorten=true&title=Don%27t%2520wash%2520raw%2520chicken&description=We%2520want%2520to%2520protect%2520you%2520and%2520your%2520family%2520from%2520food%2520poisoning%2520in%2520your%2520own%2520home%252C%2520particularly%2520when%2520handling%2520chicken.%2520So%2520we%27re%2520saying%253A%2520%27Don%25E2%2580%2599t%2520wash%2520raw%2520chicken%27.%2520This%2520is%2520because%2520of%2520a%2520food%2520bug%2520called%2520campylobacter%252C%2520the%2520most%2520common%2520cause%2520of%2520food%2520poisoning%2520in%2520the%2520UK.%2520It%2520can%2520be%2520fatal.&ts=1461939509105" target="_blank" alt="sharethis">
+        <area shape="rect" coords="84,349,320,457" href="Static-campaign.old" alt="imgtitle">
+        <area shape="rect" coords="1194,1296,1222,1327" href="http://wd.sharethis.com/api/sharer.php?fpc=&sessionID=1461930456428.35971&hostname=www.food.gov.uk&location=%252Fnews-updates%252Fnews%252F2016%252F15076%252Fupdate-on-fsa-campylobacter-retail-survey&publisher=71d39738-bec6-4edc-89d8-ff606eb479f7&shareHash=sthash.X5rPgRbF.uxfs&incomingHash=&refDomain=localhost%253A63343&refQuery=fsa-pl-ui%252Fsrc%252Fpages%252Fnews1.html&product=Chicklet5x&ufa=4ff4538&ufc=2758940&ufd=392f634&url=http%253A%252F%252Fwww.food.gov.uk%252Fnews-updates%252Fnews%252F2016%252F15076%252Fupdate-on-fsa-campylobacter-retail-survey%2523sthash.X5rPgRbF.uxfs&sharURL=&buttonType=large&destination=twitter&source=chicklet5x&short_url=&shorten=true&title=Update%2520on%2520FSA%2520campylobacter%2520retail%2520survey&description=We%2520have%2520been%2520running%2520a%2520year-long%2520survey%2520to%2520measure%2520the%2520amount%2520of%2520campylobacter%2520on%2520chickens%2520bought%2520from%2520shops%2520and%2520supermarkets.&ts=1461930532487" target="_blank" alt="sharethis">
+        <area shape="rect" coords="995,1604,1220,2021" href="https://www.food.gov.uk/about-us" alt="aboutus">
+        <area shape="rect" coords="764,1604,983,2183" href="https://www.food.gov.uk/science" alt="sciencepolicy">
+        <area shape="rect" coords="520,1604,747,2174" href="https://www.food.gov.uk/enforcement" alt="enforcementregulation">
+        <area shape="rect" coords="287,1603,503,2082" href="https://www.food.gov.uk/business-industry" alt="businessindustry">
+        <area shape="rect" coords="57,2293,337,2353" href="https://www.food.gov.uk/about-us/subscribe" alt="signup">
+        <area shape="rect" coords="347,2293,495,2354" href="https://www.food.gov.uk/about-us/subscribe" alt="subscribenow">
+        <area shape="rect" coords="1118,2308,1142,2338" href="http://www.facebook.com/FoodStandardsAgency" alt="facebook">
+        <area shape="rect" coords="1073,2308,1106,2340" href="https://twitter.com/foodgov" alt="twitter">
+        <area shape="rect" coords="298,1162,394,1186" href="https://www.food.gov.uk/news-updates/news/allergy-alerts-news" alt="news">
+        <area shape="rect" coords="64,139,229,178" href="Static-news.html" alt="news">
+      <area shape="rect" coords="299,1185,499,1273" href="Static-content.old" alt="title">
+      <area shape="poly" coords="450,710,450,962,603,965,603,907,825,906,825,711" href="https://www.food.gov.uk/news-updates/campaigns/ourfoodfuture" alt="ourfoodfuture">
+      <area shape="rect" coords="790,948,824,983" href="https://twitter.com/intent/tweet?text=Our%20Food%20Future&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1eq0na" target="_blank" alt="sharethis">
+      <area shape="poly" coords="51,708,49,961,48,961,253,962,253,904,426,904,426,710" href="https://www.food.gov.uk/science/allergy-intolerance" alt="allergyaware">
+      <area shape="rect" coords="395,948,427,982" href="https://twitter.com/intent/tweet?text=Allergy%20and%20intolerance&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1eq0Yk" target="_blank" alt="sharethis">
+      <area shape="poly" coords="844,710,843,965,1081,966,1081,906,1220,907,1220,709" href="https://www.food.gov.uk/business-industry/sfbb" alt="foodhygiene">
+      <area shape="rect" coords="1182,949,1219,986" href="https://twitter.com/intent/tweet?text=Safer%20food%2C%20better%20business&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/1eq0F9" target="_blank" alt="sharethis">
+      <area shape="rect" coords="49,1031,207,1154" href="Static-news.html" alt="news">
+    </map>
+</div>
+</body>
+</html>
