@@ -8,7 +8,10 @@ This application is written using the [Node.js](https://nodejs.org/en/) JavaScri
 
 ### The purpose
 
-The application provides a pattern library to ensure a consistent look and feel between FSA's visual components. 
+The application provides a pattern library to ensure a consistent look and feel between FSA's websites and food.gov.uk. 
+
+![screenshot](https://github.com/methods/fsa-pl-ui/blob/master/screenshot.png "Pattern Library Screenshot")
+
 
 ### Prerequisites
 
