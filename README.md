@@ -57,3 +57,13 @@ node server.js
 
 The application will then be running on [localhost:3000](http://localhost:3000), or another port if you have a env.PORT environment variable set.
 
+### Adding new patterns
+
+New patterns are added to the pattern library via the `src` folder.
+
+For example adding a new button to the library would require adding a new .md file to the `/src/buttons/partials/` folder. This file should include a template heading section and html snippet matching the format used in the other components.
+
+### Deployment
+
+The pattern library is currently hosted on heroku at [fsa-pl-ui.herokuapp.com](http://fsa-pl-ui.herokuapp.com).
+
