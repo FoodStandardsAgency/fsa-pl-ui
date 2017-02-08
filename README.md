@@ -19,6 +19,17 @@ In order to run the tool locally in development you'll need the following :
 - [Node.js](https://nodejs.org/en/)
 - [Git](https://git-scm.com/downloads) 
 
+### Key Dependencies
+
+This application serves pages from the `build` folder with rendering being delegated to the following [metalsmith](http://www.metalsmith.io/) plugins:
+
+- [metalsmith-markdown](https://github.com/segmentio/metalsmith-markdown)
+- [metalsmith-templates](https://github.com/segmentio/metalsmith-templates)
+- [metalsmith-collections](https://github.com/segmentio/metalsmith-collections)
+- [metalsmith-permalinks](https://github.com/segmentio/metalsmith-permalinks)
+
+[Handlebars]() is also used to render partials and provide in-page helpers.
+
 ### Getting Started
 
 Run the following from the command line to download the repository and change into the directory:
