@@ -30,7 +30,7 @@ This application serves pages from the `build` folder with rendering being deleg
 - [metalsmith-collections](https://github.com/segmentio/metalsmith-collections)
 - [metalsmith-permalinks](https://github.com/segmentio/metalsmith-permalinks)
 
-[Handlebars]() is also used to render partials and provide in-page helpers.
+[Handlebars](http://handlebarsjs.com/) is also used to render partials and provide in-page helpers.
 
 ### Getting Started
 
@@ -51,11 +51,14 @@ npm install
 
 ```
 
-To run the server type the following command in your terminal
+To run the application type the following command in your terminal
 
 ```bash
-node server.js
+npm run start
 ```
+
+The above command will trigger a script which pulls in and installs the required updated dependencies(if required), copies the required files into the `src` folder and triggers a new build.
+
 
 The application will then be running on [localhost:3000](http://localhost:3000), or another port if you have a env.PORT environment variable set.
 
