@@ -8,7 +8,7 @@ This application is written using the [Node.js](https://nodejs.org/en/) JavaScri
 
 ### The purpose
 
-The application provides a pattern library to ensure a consistent look and feel between the Food Standards Agency's websites and food.gov.uk. 
+The application is an implementation of the [FSA Pattern Library](https://github.com/methods/fsa-pl) and provides a user interface for facilitating a consistent look and feel between the Food Standards Agency's websites and food.gov.uk. 
 
 ![screenshot](https://github.com/methods/fsa-pl-ui/blob/master/screenshot.png "Pattern Library Screenshot")
 
@@ -20,6 +20,8 @@ In order to run the tool locally in development you'll need the following :
 - [Git](https://git-scm.com/downloads) 
 
 ### Key Dependencies
+
+This application is dependent on the [FSA Pattern Library](https://github.com/methods/fsa-pl) and pulls in assets from that repository as part of it's build process.
 
 This application serves pages from the `build` folder with rendering being delegated to the following [metalsmith](http://www.metalsmith.io/) plugins:
 
