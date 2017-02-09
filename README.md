@@ -54,7 +54,7 @@ npm install
 To run the application type the following command in your terminal
 
 ```bash
-npm run start
+npm run dev
 ```
 
 The above command will trigger a script which pulls in and installs the required updated dependencies(if required), copies the required files into the `src` folder and triggers a new build.

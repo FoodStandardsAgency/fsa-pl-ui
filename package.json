@@ -17,7 +17,8 @@
     "metalsmith-templates": "^0.7.0"
   },
   "scripts": {
-    "start": "npm run latest && npm run assets && npm run build && npm run server",
+    "start": "npm install express --save --save-exact",
+    "dev": "npm run latest && npm run assets && npm run build && npm run server",
     "latest": "npm install && cd node_modules/fsa-pl/ && git pull && cd .. ..",
     "server": "node server.js",
     "assets": "mkdir -p src/assets/ && cp -a node_modules/fsa-pl/dist/ src/assets/",
