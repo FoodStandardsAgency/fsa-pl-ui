@@ -17,6 +17,7 @@
     "metalsmith-templates": "^0.7.0"
   },
   "scripts": {
+    "heroku-prebuild": "git config --global url.'https://${GITHUB_TOKEN}@github.com'",
     "start": "npm install express --save --save-exact",
     "dev": "npm run latest && npm run assets && npm run build && npm run server",
     "latest": "npm install && cd node_modules/fsa-pl/ && git pull && cd .. ..",
