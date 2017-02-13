@@ -17,8 +17,8 @@
     "metalsmith-templates": "^0.7.0"
   },
   "scripts": {
-    "heroku-prebuild": "bootstrap.sh",
-    "start": "npm install express --save --save-exact",
+  "heroku-prebuild": "./bootstrap.sh",
+  "start": "npm install express --save --save-exact",
     "dev": "npm run latest && npm run assets && npm run build && npm run server",
     "latest": "npm install && cd node_modules/fsa-pl/ && git pull && cd .. ..",
     "server": "node server.js",
