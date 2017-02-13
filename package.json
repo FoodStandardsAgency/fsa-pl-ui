@@ -7,7 +7,7 @@
   "private": true,
   "dependencies": {
     "express": "4.13.4",
-    "fsa-pl": "git@github.com:methods/fsa-pl.git",
+    "fsa-pl": "git+ssh://git@github.com:methods/fsa-pl.git",
     "handlebars": "^4.0.5",
     "metalsmith": "^2.1.0",
     "metalsmith-collections": "^0.7.0",
