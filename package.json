@@ -17,7 +17,7 @@
     "metalsmith-templates": "^0.7.0"
   },
   "scripts": {
-    "heroku-postinstall": "npm run start",
+    "heroku-postbuild": "npm run start",
     "start": "npm run latest && npm run assets && npm run build",
     "dev": "npm run latest && npm run assets && npm run build && npm run server",
     "latest": "npm install && cd node_modules/fsa-pl/ && git pull && cd .. ..",
