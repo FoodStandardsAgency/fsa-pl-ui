@@ -7,7 +7,7 @@
   "private": true,
   "dependencies": {
     "express": "4.13.4",
-    "fsa-pl": "methods/fsa-pl",
+    "fsa-pl": "FoodStandardsAgency/fsa-pl",
     "handlebars": "^4.0.5",
     "metalsmith": "^2.1.0",
     "metalsmith-collections": "^0.7.0",
