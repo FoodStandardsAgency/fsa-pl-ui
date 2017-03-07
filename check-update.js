@@ -9,10 +9,12 @@ var options = {
 
 var fs = require('fs');
 var lastUpdate = 0;
-fs.readFile('timestamp', 'utf8', (err, data) => {
-  if (err) throw err;
-  lastUpdate = parseInt(data);
-});
+if (fs.existsSync('timestamp')) {
+  fs.readFile('timestamp', 'utf8', (err, data) => {
+    if (err) throw err;
+    lastUpdate = parseInt(data);
+  });
+}
 
 
 var req = https.request(options, (res) => {
