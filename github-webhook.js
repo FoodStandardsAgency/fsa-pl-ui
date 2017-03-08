@@ -37,5 +37,10 @@ http.createServer(function (req, res) {
 handler.on('push', function (event) {
   console.log('Received a push event for %s to %s',
     event.payload.repository.name,
-    event.payload.ref)
+    event.payload.ref);
+    var exec = require('child_process').exec;
+    var cmd = 'npm run rebuild';
+    exec(cmd, function(error, stdout, stderr) {
+      console.log(stdout);
+    });
 });
