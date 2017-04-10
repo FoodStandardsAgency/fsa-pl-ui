@@ -1,6 +1,6 @@
 ---
 title: Code snippets
-template: code.html
+template: test.html
 type: partial
 show-snippet: true
 ---
