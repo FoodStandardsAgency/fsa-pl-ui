@@ -5,9 +5,9 @@ type: partial
 show-snippet: true
 ---
 [snippet]
-<code>
+<pre><code>
 var x = 1;
 var y = 2;
 z = x*y;
-</code>
+</code><pre>
 [/snippet]
