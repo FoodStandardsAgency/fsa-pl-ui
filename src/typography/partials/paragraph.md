@@ -3,6 +3,7 @@ title: Paragraph and font sizes
 template: test.html
 type: partial
 show-snippet: true
+order: 2
 ---
 [snippet]
 <p>
