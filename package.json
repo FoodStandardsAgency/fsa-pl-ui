@@ -28,6 +28,7 @@
     "server": "node server.js",
     "assets": "cp -a node_modules/fsa-pl/dist/ src/assets/",
     "build": "node index.js",
-    "rebuild": "npm update fsa-pl --force && cp -a node_modules/fsa-pl/dist/. src/assets/ && npm run build"
+    "rebuild": "npm update fsa-pl --force && cp -a node_modules/fsa-pl/dist/. src/assets/ && npm run build",
+    "redeploy": "git pull origin && npm run rebuild"
   }
 }
