@@ -3,7 +3,6 @@ title: Heading
 template: test.html
 type: partial
 show-snippet: true
-order: 1
 ---
 [snippet]
 <h1 class="big">h1 (Used in the campaign title.Oscine 60px font and line size)</h1>
